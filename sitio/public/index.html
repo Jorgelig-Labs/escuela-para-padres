@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#203e38">
   <meta name="description" content="Videos, ideas y lecturas para escuchar mejor y crecer en familia. Un espacio para padres que también están aprendiendo.">
   <title>Entre nosotros · Crecer en familia</title>
@@ -29,8 +29,12 @@
       <div class="section-heading"><div><p class="eyebrow">ELIGE TU PRÓXIMO MOMENTO</p><h2 id="library-title">Ideas para la vida en familia.</h2><p>Empieza con un video. Sigue con una conversación.</p></div><span class="collection-count" id="collection-count"></span></div>
       <div class="library-tools"><div class="filters" role="group" aria-label="Tipo de contenido"><button class="filter active" data-filter="all" aria-pressed="true">Todo <span id="all-total"></span></button><button class="filter" data-filter="video" aria-pressed="false"><span data-icon="play"></span> Videos <span id="video-total"></span></button><button class="filter" data-filter="book" aria-pressed="false"><span data-icon="book"></span> Libros <span id="book-total"></span></button><button class="filter" data-filter="saved" aria-pressed="false"><span data-icon="bookmark"></span> Guardados</button></div><label class="search"><span data-icon="search"></span><input id="search" type="search" placeholder="¿Qué te gustaría explorar?" aria-label="Buscar por título, autor o tema" autocomplete="off"><kbd>/</kbd></label></div>
       <div id="video-groups" class="video-groups" role="group" aria-label="Colecciones de videos" hidden></div>
+      <div class="refinement-heading"><button id="toggle-refinements" class="refinement-toggle" aria-expanded="false" aria-controls="refinement-panel"><span data-icon="search"></span><span id="refinement-label">Filtrar por tema o libro</span><span class="refinement-chevron" aria-hidden="true">⌄</span></button></div>
+      <div id="refinement-panel" class="refinement-panel">
       <div class="topic-explorer"><p class="explorer-label">¿Qué tema te interesa?</p><div id="topic-filters" class="topic-filters" role="group" aria-label="Explorar por tema"></div><select id="topic" hidden aria-label="Tema"><option value="all">Todos los temas</option></select></div>
-      <div class="secondary-tools"><p id="results-count" role="status" aria-live="polite">Cargando contenido…</p><div><label class="sr-only" for="related-book">Libro de referencia</label><select id="related-book"><option value="all">Cualquier libro</option></select><label class="sr-only" for="access">Lectura disponible</label><select id="access"><option value="all">Todas las lecturas</option><option value="complete">Libro completo</option><option value="sample">Con muestra</option><option value="purchase">Referencia bibliográfica</option></select><button id="clear-selection" class="clear-selection" hidden>Limpiar filtros</button></div></div>
+      <div class="secondary-tools refinement-selects"><div><label class="sr-only" for="related-book">Libro de referencia</label><select id="related-book"><option value="all">Cualquier libro</option></select><label class="sr-only" for="access">Lectura disponible</label><select id="access"><option value="all">Todas las lecturas</option><option value="complete">Libro completo</option><option value="sample">Con muestra</option><option value="purchase">Referencia bibliográfica</option></select></div></div>
+      </div>
+      <div class="results-toolbar"><p id="results-count" role="status" aria-live="polite">Cargando contenido…</p><button id="clear-selection" class="clear-selection" hidden>Limpiar filtros</button></div>
       <div class="resource-grid" id="resource-grid" aria-busy="true"></div>
       <div class="empty-state" id="empty-state" hidden><span data-icon="search"></span><h3 id="empty-title">No encontramos coincidencias</h3><p id="empty-description">Prueba con otro título, autor o tema.</p><button class="button secondary" id="reset-filters">Ver todo</button></div>
       <div class="error-state" id="error-state" hidden><h3>No pudimos cargar el contenido.</h3><p>Revisa tu conexión e inténtalo de nuevo.</p><button class="button primary" id="retry">Volver a intentar</button></div>

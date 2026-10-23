@@ -14,11 +14,14 @@ catalog.videos = [{ id:'video-final', type:'video', status:'published', title:'C
 catalog.site.featuredVideo = 'video-final';
 const total = catalog.books.length + catalog.videos.length;
 
-async function app(t, { query='', fail=false, stored=null, data=catalog } = {}) {
+async function app(t, { query='', fail=false, stored=null, data=catalog, mobile=false } = {}) {
   // Prueba el JS real y el DOM; no sustituye la revisión visual o multimedia.
   const dom = new JSDOM(html, { url:`https://biblioteca.example/${query}`, runScripts:'outside-only', pretendToBeVisual:true });
   t.after(() => dom.window.close());
   const w = dom.window;
+  const mediaListeners = [];
+  const media = {matches:mobile,addEventListener:(_, listener) => mediaListeners.push(listener)};
+  w.matchMedia = () => media;
   w.fetch = async () => ({ ok:!fail, json:async () => structuredClone(data) });
   w.scrollTo = () => {};
   w.HTMLElement.prototype.scrollIntoView = () => {};
@@ -32,8 +35,46 @@ async function app(t, { query='', fail=false, stored=null, data=catalog } = {}) 
   const $ = selector => w.document.querySelector(selector);
   const count = () => w.document.querySelectorAll('.resource-card').length;
   function input(selector, value, event='input') { $(selector).value = value; $(selector).dispatchEvent(new w.Event(event, { bubbles:true })); }
-  return { w, $, count, input };
+  function setMobile(matches) { media.matches = matches; mediaListeners.forEach(listener => listener()); }
+  return { w, $, count, input, setMobile };
 }
+
+test('en móvil los filtros se pliegan sin perder la selección y se muestran al ampliar la pantalla', async t => {
+  const {w,$,input,setMobile} = await app(t, {mobile:true,data:seriesCatalog(),query:'?type=video&group=libros&topic=Comunicación'});
+  assert.equal($('#refinement-panel').hidden, true);
+  assert.equal($('#toggle-refinements').getAttribute('aria-expanded'), 'false');
+  assert.equal($('#refinement-label').textContent, 'Comunicación');
+  $('#toggle-refinements').click();
+  assert.equal($('#refinement-panel').hidden, false);
+  input('#related-book', 'el-hogar-cristiano', 'change');
+  $('#toggle-refinements').click();
+  assert.equal($('#refinement-panel').hidden, true);
+  assert.match($('#refinement-label').textContent, /Comunicación · 1 libro/);
+  assert.equal(new URL(w.location.href).searchParams.get('book'), 'el-hogar-cristiano');
+  setMobile(false);
+  assert.equal($('#refinement-panel').hidden, false);
+  setMobile(true);
+  assert.equal($('#refinement-panel').hidden, true);
+  $('#clear-selection').click();
+  assert.equal($('#refinement-label').textContent, 'Filtrar por tema o libro');
+});
+
+test('la portada ofrece colecciones breves, Ver más abre la colección completa y buscar encuentra videos no mostrados', async t => {
+  const data = structuredClone(catalog);
+  data.videos = Array.from({length:8},(_,i) => ({...data.videos[0],id:`capsula-${i}`,title:`Consejo ${i}`,group:'junta',orientation:'horizontal'}));
+  const {w,$,count,input} = await app(t, {data});
+  assert.equal(count(), data.books.length + 3);
+  assert.equal($('[data-id="capsula-7"]'), null);
+  assert.match($('[data-show-group="junta"]').textContent, /Ver 5 más/);
+  $('[data-show-group="junta"]').click();
+  assert.equal(count(), 8);
+  assert.equal(new URL(w.location.href).searchParams.get('group'), 'junta');
+  assert.equal(w.document.activeElement, $('#junta h3'));
+  $('#reset-filters').click();
+  input('#search', 'Consejo 7');
+  assert.equal(count(), 1);
+  assert.equal($('.resource-card').dataset.id, 'capsula-7');
+});
 
 test('front carga las tarjetas del catálogo y busca sin acentos y por títulos alternativos', async t => {
   const { $, count, input } = await app(t);

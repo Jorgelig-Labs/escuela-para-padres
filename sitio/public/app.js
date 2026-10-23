@@ -31,6 +31,8 @@ let catalog;
 let resources = [];
 let currentFilter = 'all';
 let currentGroup = 'all';
+let refinementsOpen = false;
+const mobileLayout = window.matchMedia?.('(max-width: 600px)');
 let showAllQuestions = false;
 let toastTimer;
 let activeResource = null;
@@ -103,9 +105,12 @@ function render() {
   renderGroupFilters();
   renderTopicFilters();
   const sections = [];
+  const overview = ['all', 'libros'].includes(currentGroup) && currentFilter !== 'saved' && !query && topic === 'all' && book === 'all';
   for (const group of videoGroups) {
     const items = visible.filter(item => item.type === 'video' && item.group === group.id);
-    if (items.length) sections.push(group.id === 'serie' ? seriesSection(items) : resourceSection(group.id, group.title, group.description, items));
+    if (items.length) {
+      sections.push(group.id === 'serie' ? seriesSection(items, overview) : resourceSection(group.id, group.title, group.description, items, overview));
+    }
   }
   const ungrouped = visible.filter(item => item.type === 'video' && !videoGroups.some(group => group.id === item.group));
   if (ungrouped.length) sections.push(resourceSection('videos', 'Más videos', 'Ideas para compartir en familia.', ungrouped));
@@ -131,7 +136,24 @@ function render() {
   $('#access').hidden = currentFilter === 'video';
   $('#related-book').hidden = currentGroup === 'junta' || currentFilter === 'book';
   $('#clear-selection').hidden = !query && topic === 'all' && access === 'all' && book === 'all' && currentGroup === 'all';
+  renderRefinements();
   updateURL();
+}
+
+function renderRefinements() {
+  const expanded = !mobileLayout?.matches || refinementsOpen;
+  $('#refinement-panel').hidden = !expanded;
+  $('#toggle-refinements').setAttribute('aria-expanded', String(expanded));
+  const selected = [];
+  if ($('#topic').value !== 'all') selected.push($('#topic').value);
+  if ($('#related-book').value !== 'all') selected.push('1 libro');
+  if ($('#access').value !== 'all') selected.push($('#access').selectedOptions[0].textContent);
+  $('#refinement-label').textContent = selected.join(' · ') || 'Filtrar por tema o libro';
+}
+
+function collectionMore(id, label, remaining) {
+  if (remaining <= 0) return '';
+  return `<button class="collection-more" data-show-group="${id}">Ver ${remaining} más · ${escape(label)} ${icon('arrow')}</button>`;
 }
 
 function groupedSeries(videos) {
@@ -156,9 +178,10 @@ function resultSummary(items) {
   return parts.join(' · ') || 'Sin resultados';
 }
 
-function seriesSection(videos) {
+function seriesSection(videos, overview = false) {
   const groups = groupedSeries(videos);
-  return `<section id="serie" class="resource-group video-group series-group" aria-label="Series"><div class="resource-group-heading"><h3>Series para seguir paso a paso <span>${groups.length}</span></h3><p>Elige un libro y descubre sus ideas en episodios cortos, en orden.</p></div><div class="group-grid">${groups.map(seriesCard).join('')}</div></section>`;
+  const shown = overview ? groups.slice(0, 2) : groups;
+  return `<section id="serie" class="resource-group video-group series-group" aria-label="Series"><div class="resource-group-heading"><h3>Series para seguir paso a paso <span>${groups.length}</span></h3><p>Elige un libro y descubre sus ideas en episodios cortos, en orden.</p></div><div class="group-grid">${shown.map(seriesCard).join('')}</div>${collectionMore('serie', 'Series', groups.length - shown.length)}</section>`;
 }
 
 function seriesCard(episodes) {
@@ -173,10 +196,11 @@ function seriesCard(episodes) {
   return `<article class="resource-card series-card" data-series="${escape(first.series || first.id)}"><div class="series-card-heading"><button class="series-poster" data-open="${first.id}" aria-label="Ver episodio ${first.episode}: ${escape(title)}"><img src="${escape(first.poster)}" alt="" loading="lazy" width="540" height="960"><span class="play-circle">${icon('play')}</span></button><div><p class="eyebrow">SERIE · ${escape(book?.topic || first.topic)}</p><h4 class="card-title">${escape(title)}</h4><p class="card-author">${escape(book?.author || first.author)}</p><p class="series-count">${count} · ${duration(episodes.reduce((sum, video) => sum + video.duration, 0))} min</p></div></div><p class="series-description">${escape(book?.description || first.description)}</p><button class="button primary series-start" data-open="${first.id}">${icon('play')} ${first.episode === 1 ? 'Empezar la serie' : `Ver episodio ${first.episode}`}</button><details class="series-episodes"><summary><span>${partial ? 'Ver episodios que coinciden' : 'Elegir episodio'}</span>${icon('plus')}</summary><ol>${episodes.map(video => `<li><button class="episode-open" data-open="${video.id}"><span class="episode-number">${video.episode}</span><span>Episodio ${video.episode}<small>${duration(video.duration)} min</small></span>${icon('play')}</button>${saveButton(video)}</li>`).join('')}</ol></details>${book ? `<button class="series-book" data-open="${book.id}">${icon('book')} Acerca del libro ${icon('arrow')}</button>` : ''}</article>`;
 }
 
-function resourceSection(id, title, description, items) {
+function resourceSection(id, title, description, items, overview = false) {
   const kind = items[0].type === 'book' ? 'book' : 'video';
   const vertical = kind === 'video' && items.every(item => item.orientation === 'vertical');
-  return `<section id="${id}" class="resource-group ${kind}-group ${vertical ? 'vertical-group' : ''}" aria-label="${escape(title)}"><div class="resource-group-heading"><h3>${escape(title)} <span>${items.length}</span></h3><p>${escape(description)}</p></div><div class="group-grid">${items.map(card).join('')}</div></section>`;
+  const shown = overview ? items.slice(0, 3) : items;
+  return `<section id="${id}" class="resource-group ${kind}-group ${vertical ? 'vertical-group' : ''}" aria-label="${escape(title)}"><div class="resource-group-heading"><h3>${escape(title)} <span>${items.length}</span></h3><p>${escape(description)}</p></div><div class="group-grid">${shown.map(card).join('')}</div>${collectionMore(id, title, items.length - shown.length)}</section>`;
 }
 
 function renderGroupFilters() {
@@ -184,14 +208,14 @@ function renderGroupFilters() {
   nav.hidden = currentFilter === 'book' || !catalog.videos.length;
   const fromBooks = ['libros', 'refuerzo', 'resumen'].includes(currentGroup);
   const collections = [
-    {id:'junta',title:'Cápsulas',icon:'chat',description:'Clips para reflexionar sobre la vida en familia.',items:catalog.videos.filter(video => video.group === 'junta')},
-    {id:'libros',title:'Ideas de los libros',icon:'book',description:'Ideas para hoy, resúmenes y series para profundizar.',items:catalog.videos.filter(video => bookVideoGroups.includes(video.group))},
-    {id:'serie',title:'Series por episodios',icon:'play',description:'Un libro, varias ideas. Elige una serie y síguela en orden.',items:catalog.videos.filter(video => video.group === 'serie')},
+    {id:'junta',title:'Cápsulas',shortTitle:'Cápsulas',icon:'chat',description:'Clips para reflexionar sobre la vida en familia.',items:catalog.videos.filter(video => video.group === 'junta')},
+    {id:'libros',title:'Ideas de los libros',shortTitle:'De libros',icon:'book',description:'Ideas para hoy, resúmenes y series para profundizar.',items:catalog.videos.filter(video => bookVideoGroups.includes(video.group))},
+    {id:'serie',title:'Series por episodios',shortTitle:'Series',icon:'play',description:'Un libro, varias ideas. Elige una serie y síguela en orden.',items:catalog.videos.filter(video => video.group === 'serie')},
   ];
   nav.innerHTML = `<div class="collection-heading"><p class="explorer-label">¿Cómo quieres explorar?</p><button class="group-filter ${currentGroup === 'all' ? 'active' : ''}" data-group="all" aria-pressed="${currentGroup === 'all'}">Todos los videos</button></div><div class="collection-options">${collections.map(collection => {
     const active = currentGroup === collection.id || (collection.id === 'libros' && fromBooks);
     const count = collection.id === 'serie' ? `${groupedSeries(collection.items).length} series · ${collection.items.length} episodios` : `${collection.items.length} videos`;
-    return `<button data-group="${collection.id}" class="collection-option ${active ? 'active' : ''}" aria-pressed="${active}" ${collection.items.length ? '' : 'disabled'}><span class="collection-icon">${icon(collection.icon)}</span><strong>${collection.title}</strong><span class="collection-description">${collection.description}</span><span class="collection-total">${count} ${icon('arrow')}</span></button>`;
+    return `<button data-group="${collection.id}" class="collection-option ${active ? 'active' : ''}" aria-pressed="${active}" ${collection.items.length ? '' : 'disabled'}><span class="collection-icon">${icon(collection.icon)}</span><strong><span class="collection-full">${collection.title}</span><span class="collection-short">${collection.shortTitle}</span></strong><span class="collection-description">${collection.description}</span><span class="collection-total">${count} ${icon('arrow')}</span></button>`;
   }).join('')}</div>${fromBooks ? `<div class="book-video-types" role="group" aria-label="Formato del video de libro"><span>Quiero ver</span>${[{id:'libros',title:'Todo del libro'}, ...videoGroups.filter(group => bookVideoGroups.includes(group.id))].map(group => `<button class="group-filter ${currentGroup === group.id ? 'active' : ''}" data-group="${group.id}" aria-pressed="${currentGroup === group.id}">${group.title}</button>`).join('')}</div>` : ''}`;
 }
 
@@ -284,7 +308,7 @@ function seriesNavigation(item) {
 }
 
 function videoDetails(item) {
-  return `<video class="dialog-video ${item.orientation === 'vertical' ? 'vertical' : ''}" controls playsinline preload="metadata" poster="${escape(item.poster)}" aria-label="${escape(item.title)}"><source src="/media/${videoPath(item)}" type="video/mp4">Tu navegador no puede reproducir este video.</video><p class="video-error" hidden>No se pudo cargar el video. Puedes <a href="/media/${videoPath(item)}" target="_blank" rel="noopener">abrir el archivo directamente</a> o volver a intentarlo más tarde.</p><div class="dialog-body"><span class="eyebrow">${escape(item.label || groupLabels[item.group] || 'Video')} · ${duration(item.duration)}</span><h2 id="dialog-title">${escape(item.title)}</h2><p>${escape(item.description)}</p><p class="dialog-note">${escape(item.author)}${item.note ? ` · ${escape(item.note)}` : ''}</p><button class="text-button" id="fullscreen-video">Ver a pantalla completa ${icon('play')}</button>${seriesNavigation(item)}${item.book ? `<button class="text-button" data-open="${item.book}">${icon('book')} Ver libro de referencia</button>` : ''}${dialogActions(item)}</div>`;
+  return `<video class="dialog-video ${item.orientation === 'vertical' ? 'vertical' : ''}" controls playsinline preload="metadata" poster="${escape(item.poster)}" aria-label="${escape(item.title)}"><source src="/media/${videoPath(item)}" type="video/mp4">Tu navegador no puede reproducir este video.</video><p class="video-error" hidden>No se pudo cargar el video. Puedes <a href="/media/${videoPath(item)}" target="_blank" rel="noopener">abrir el archivo directamente</a> o volver a intentarlo más tarde.</p><div class="dialog-body"><span class="eyebrow">${escape(item.label || groupLabels[item.group] || 'Video')} · ${duration(item.duration)}</span><h2 id="dialog-title">${escape(item.title)}</h2>${seriesNavigation(item)}<p>${escape(item.description)}</p><p class="dialog-note">${escape(item.author)}${item.note ? ` · ${escape(item.note)}` : ''}</p><button class="text-button" id="fullscreen-video">Ver a pantalla completa ${icon('play')}</button>${item.book ? `<button class="text-button" data-open="${item.book}">${icon('book')} Ver libro de referencia</button>` : ''}${dialogActions(item)}</div>`;
 }
 
 function stopDialogVideo() {
@@ -419,6 +443,11 @@ $('#search').addEventListener('input', render);
 $('#topic').addEventListener('change', render);
 $('#access').addEventListener('change', render);
 $('#related-book').addEventListener('change', render);
+$('#toggle-refinements').onclick = () => {
+  refinementsOpen = !refinementsOpen;
+  renderRefinements();
+};
+mobileLayout?.addEventListener('change', renderRefinements);
 $('#topic-filters').onclick = event => {
   const button = event.target.closest('[data-topic]');
   if (!button) return;
@@ -440,17 +469,28 @@ $('#more-questions').onclick = () => { if (catalog) { showAllQuestions = !showAl
 $('#resource-grid').onclick = event => {
   const save = event.target.closest('[data-save]');
   const open = event.target.closest('[data-open]');
+  const more = event.target.closest('[data-show-group]');
   if (save) toggleSaved(save.dataset.save);
   else if (open) openResource(open.dataset.open);
+  else if (more) {
+    selectGroup(more.dataset.showGroup);
+    const heading = $(`#${currentGroup} h3`);
+    heading?.setAttribute('tabindex', '-1');
+    heading?.focus({preventScroll:true});
+    heading?.scrollIntoView({block:'start'});
+  }
 };
-$('#video-groups').onclick = event => {
-  const button = event.target.closest('[data-group]');
-  if (!button) return;
-  currentGroup = button.dataset.group;
+function selectGroup(group) {
+  currentGroup = group;
   if (currentFilter !== 'saved') currentFilter = 'video';
   if (currentGroup === 'junta') $('#related-book').value = 'all';
   $('#access').value = 'all';
   render();
+}
+$('#video-groups').onclick = event => {
+  const button = event.target.closest('[data-group]');
+  if (!button) return;
+  selectGroup(button.dataset.group);
   $(`#video-groups [data-group="${currentGroup}"]`)?.focus({preventScroll:true});
 };
 $('#dialog-content').onclick = event => {

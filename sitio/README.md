@@ -44,6 +44,8 @@ El front ofrece tres accesos: **Cápsulas**, **Ideas de los libros** (Para hoy, 
 
 Los temas visibles se pueden combinar con la colección, el libro y la búsqueda. Cada serie ocupa una tarjeta con sus episodios publicados en orden, duración y guardado individual. Las búsquedas y Guardados muestran solo los episodios que coinciden e indican cuántos son. Los filtros se conservan en la URL (`group`, `topic`, `book`, `q`, `type`), por ejemplo `/?type=video&group=serie&book=el-hogar-cristiano#biblioteca`. No se necesitan entradas adicionales en el JSON para construir estas colecciones.
 
+En teléfonos, la portada es compacta, las colecciones aparecen como pestañas y los filtros se abren con «Filtrar por tema o libro». La selección se conserva al plegarlos o girar la pantalla. La vista general presenta tres videos por colección y dos series, con «Ver más» para entrar a la colección completa; las búsquedas, filtros específicos y Guardados conservan todos los resultados. Los videos verticales usan tarjetas en fila y el reproductor deja espacio para el título y los controles de episodios.
+
 ```json
 {
   "id": "una-idea-para-hoy",
@@ -83,7 +85,7 @@ Los metadatos incluyen `id`, `title`, `author`, `topic`, `description`, `publish
 
 `access` distingue `complete` (libro completo), `sample` (muestra parcial) y `purchase` (referencia sin lectura gratuita). Los enlaces comerciales aparecen como referencias secundarias, nunca como la acción principal.
 
-Para un PDF disponible, `documents` contiene `id`, `label`, `file` y `source`. La fuente debe pertenecer a uno de los proveedores oficiales admitidos por el generador. El botón **Leer libro** abre el lector con selector de tomo o edición; **Abrir PDF** permite usar el visor del dispositivo. Los originales de las lecturas disponibles se respaldan sin modificaciones.
+Para un PDF disponible, `documents` contiene `id`, `label`, `file` y `source`. La fuente debe pertenecer a uno de los proveedores oficiales admitidos por el generador. El botón **Leer libro** abre el lector con selector de tomo o edición. En móviles, dispositivos táctiles y navegadores sin visor PDF integrado, **Leer PDF a pantalla completa** abre el documento en la misma pestaña, sin incrustarlo; el botón Atrás permite regresar. También se puede descargar el tomo seleccionado. En escritorio se conserva el visor incrustado y **Abrir PDF** ofrece acceso directo. Los originales de las lecturas disponibles se respaldan sin modificaciones.
 
 ## Cloudflare
 

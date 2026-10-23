@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#163d37">
   <title>Leer una referencia · Entre nosotros</title>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -11,8 +11,13 @@
   <script type="module" src="/reader.js"></script>
 </head>
 <body class="reader-page">
-  <header class="reader-header"><a id="reader-back" class="reader-back" href="/#biblioteca">← Volver a los videos y referencias</a><div class="reader-heading"><div><p class="eyebrow">LECTURA · PDF ORIGINAL</p><h1 id="reader-title">Preparando tu lectura…</h1><p id="reader-author"></p></div><div class="reader-controls" id="reader-controls" hidden><label id="edition-label" for="edition">Tomo o edición</label><select id="edition"></select><a class="button primary" id="open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a><a class="button secondary" id="download-pdf" download>Descargar</a></div></div></header>
+  <header class="reader-header"><a id="reader-back" class="reader-back" href="/#biblioteca">← Volver a los videos y referencias</a><div class="reader-heading"><div><p class="eyebrow">LECTURA · PDF ORIGINAL</p><h1 id="reader-title">Preparando tu lectura…</h1><p id="reader-author"></p></div><div class="reader-controls" id="reader-controls" hidden><label id="edition-label" for="edition">Tomo o edición</label><select id="edition"></select></div></div></header>
   <main class="reader-main">
+    <section class="reader-launch" id="reader-launch" aria-label="Abrir el libro" hidden>
+      <div id="reader-mobile-note" hidden><h2>Tu libro, a pantalla completa.</h2><p>Abre el PDF para ampliar el texto y recorrer sus páginas con los controles de tu dispositivo.</p></div>
+      <div class="reader-actions"><a class="button primary" id="open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a><a class="button secondary" id="download-pdf" download>Descargar</a></div>
+      <p class="reader-return" id="reader-return" hidden>Para regresar a los libros, usa el botón Atrás de tu navegador. Si el PDF no abre en esta app, descárgalo o abre esta página en Safari o Chrome.</p>
+    </section>
     <p class="reader-hint" id="reader-hint" hidden>Lee con los controles del visor. Si en tu celular o tablet no se muestra bien, usa <a id="hint-open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF en otra pestaña</a>.</p>
     <div class="reader-status" id="reader-status" role="status" aria-live="polite">Cargando el libro…</div>
     <div class="reader-error" id="reader-error" hidden><h2>No pudimos abrir el PDF aquí.</h2><p id="reader-error-message">Puedes intentar otra vez o abrir el PDF desde la fuente oficial.</p><div><button class="button secondary" id="retry-pdf">Volver a intentar</button><a class="button primary" id="error-official" target="_blank" rel="noopener noreferrer" hidden>Abrir PDF oficial</a></div></div>
