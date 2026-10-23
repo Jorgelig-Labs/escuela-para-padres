@@ -1,0 +1,132 @@
+{
+ "id": "serie-manten-encendido-tu-amor-2de3",
+ "formato": "vertical",
+ "libro_id": "manten-encendido-tu-amor",
+ "serie": "manten-encendido-tu-amor",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Mantén encendido tu amor",
+ "autor": "Danny Silk",
+ "donde": "Loving on Purpose / Buena Semilla",
+ "derechos": true,
+ "titulo_corto": "Mantén encendido tu amor",
+ "etiqueta": "Mantén encendido tu amor · 2/3",
+ "tema": "Poder es dominio propio",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Controlar a tu hijo, o controlarte a ti?"
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, molesto, tajante] ¡Me vas a obedecer porque yo mando!"
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, cerrado, bajito] Cuando me gritan, me cierro más."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Según las reseñas, el libro redefine el poder: no es controlar a los demás, sino hacerte responsable de quién eres y de cómo respondes. Así que la pregunta cambia. Ya no es: ¿cómo lo hago obedecer? Es: ¿cómo respondo yo?"
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Aplicado a la casa, cuando tu hijo te enoja, lo único que puedes dirigir por completo es tu propia reacción. Lo demás, no depende de ti. Eso no significa dejar de poner límites. Significa ponerlos sin perder el control de ti."
+  ],
+  [
+   "papa2",
+   "mario",
+   "[papá, tranquilo, firme] Estoy enojado. Dame un momento y lo hablamos."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: cuando tu hijo te haga enojar, haz una pausa y pregúntate: ¿lo estoy tratando de controlar a él, o me estoy controlando a mí? Respira. Cuenta hasta cinco."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: límites que cuidan la relación."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "controlarte",
+   "texto": "¿Controlarlo a él o controlarte a ti?",
+   "visual": "Dos volantes: uno afuera, otro frente a una silueta, sin rostro"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "mando",
+   "texto": "¡Me vas a obedecer porque yo mando!",
+   "visual": "Burbuja de papá en mayúsculas"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "gritan",
+   "texto": "Cuando me gritan, me cierro más",
+   "visual": "Burbuja del adolescente, tenue"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "poder",
+   "texto": "Poder: dominio propio",
+   "visual": "«dominio propio» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "responsable",
+   "texto": "Responsable de quién eres y cómo respondes",
+   "visual": "Espejo y una flecha de respuesta"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "reacción",
+   "texto": "Lo único que diriges por completo: tu reacción",
+   "visual": "Una sola perilla que una mano gira"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa2",
+   "palabra": "momento",
+   "texto": "Estoy enojado. Dame un momento y lo hablamos.",
+   "visual": "Burbuja de papá, tono sereno"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "pausa",
+   "texto": "Para hoy: pausa y pregunta",
+   "visual": "Tarjeta «Para hoy» con símbolo de pausa"
+  },
+  {
+   "tipo": "titular",
+   "seg": "accion",
+   "palabra": "controlando",
+   "texto": "¿Lo controlo a él, o me controlo yo?",
+   "visual": "Dos flechas: una apunta afuera, otra hacia adentro"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "relación",
+   "texto": "Siguiente: límites que cuidan la relación",
+   "visual": "Cerco bajo con una puerta abierta"
+  }
+ ],
+ "fuentes": [
+  "Descripción de la editorial y reseñas (Heartspoken); sin vista previa en español, por eso no hay citas textuales"
+ ]
+}

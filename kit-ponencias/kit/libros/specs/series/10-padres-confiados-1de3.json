@@ -1,0 +1,125 @@
+{
+ "id": "serie-padres-confiados-1de3",
+ "formato": "vertical",
+ "libro_id": "padres-confiados",
+ "serie": "padres-confiados",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Padres confiados",
+ "autor": "Jim Burns",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Padres confiados",
+ "etiqueta": "Padres confiados · 1/3",
+ "tema": "Familia ocupada, familia conectada",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Mucha actividad en la familia. ¿Pero hay conexión?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Padres confiados, Jim Burns habla de ser una generación de transición: la que decide vencer los patrones familiares negativos. Es decir, no repetir sin pensar lo que tú viviste. Eso requiere decidirlo a propósito."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Así describe una persona a la familia en la que creció: «involucrados en muchas cosas, pero no conectados»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Desde afuera parecían estar bien, ocupados con el trabajo, la iglesia y la escuela. Pero por dentro les faltaba conexión. Todo en orden. Todo en marcha."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, cansado, a la defensiva] Es que no paramos: trabajo, escuela, iglesia..."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, bajito] Estamos juntos, pero cada quien en lo suyo."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: mira tu semana y busca un hueco que sea solo de tu familia. No para hacer cosas buenas. Solo para estar juntos. Una cena. Una caminata. Un helado. Lo que sea, pero juntos."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: un día de descanso para toda la familia."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "conexión",
+   "texto": "¿Actividad o conexión?",
+   "visual": "Dos palabras: «actividad» llena de engranes, «conexión» con un hilo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "transición",
+   "texto": "Generación de transición",
+   "visual": "Puente pequeño que une dos orillas"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "involucrados",
+   "texto": "«Involucrados en muchas cosas, pero no conectados»",
+   "visual": "Tarjeta de cita: Jim Burns, Padres confiados (relato de una persona sobre su familia)"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "giro",
+   "palabra": "afuera",
+   "texto": "Todo parecía estar bien",
+   "visual": "Casa iluminada por fuera; por dentro, cuartos separados con luces apagadas"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "paramos",
+   "texto": "Es que no paramos",
+   "visual": "Burbuja de papá con calendario lleno"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "cada",
+   "texto": "Juntos, pero cada quien en lo suyo",
+   "visual": "Burbuja del adolescente"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "hueco",
+   "texto": "Para hoy: un hueco solo de tu familia",
+   "visual": "Tarjeta «Para hoy»; un espacio vacío en el calendario brilla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "juntos",
+   "texto": "Solo para estar juntos",
+   "visual": "Mesa con cuatro sillas, sin personas, una luz cálida"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "descanso",
+   "texto": "Siguiente: un día de descanso",
+   "visual": "Hamaca que se mece"
+  }
+ ],
+ "fuentes": [
+  "Google Books IziaUz5Qa6kC (vista previa), Burns: «involucrados en muchas cosas, pero no conectados» (PT57); generación de transición"
+ ]
+}

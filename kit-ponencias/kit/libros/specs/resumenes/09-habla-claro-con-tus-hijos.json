@@ -1,0 +1,164 @@
+{
+ "id": "resumen-habla-claro-con-tus-hijos",
+ "formato": "horizontal",
+ "libro_id": "habla-claro-con-tus-hijos",
+ "titulo": "Habla claro con tus hijos sobre el sexo",
+ "autor": "Josh y Dottie McDowell",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "mario",
+   "[papá, bajito, dudoso] No sé ni cómo empezar esa plática."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Si te pasa, no estás solo. Hoy: Habla claro con tus hijos sobre el sexo, de Josh y Dottie McDowell. Es un libro delicado, así que este video es breve y práctico. Y un consejo: antes de dárselo a tu hijo, hojéalo tú."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Los McDowell escribieron esta guía desde su experiencia criando a cuatro hijos. La pensaron para los papás a quienes esta conversación les resulta incómoda. Si la plática te da pena, es normal. A muchos papás nos pasa. Pero tu hijo ya recibe mensajes, de todos lados. La pregunta es si también los recibirá de ti."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: ubica el tema dentro de tu fe. Según la editorial, el libro ayuda a ver el sexo dentro de una visión bíblica de la relación con Dios, y no como un tema aparte. Pregúntate: ¿mi hijo sabe qué pienso yo de este tema, o solo lo que ha visto en internet?"
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: conoce el momento de tu hijo. El libro te ayuda a juzgar su madurez emocional y espiritual, y a reconocer los momentos naturales para enseñar. No todos los hijos están listos al mismo tiempo. Observa, y aprovecha lo natural: una película, una noticia, una pregunta suya."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: habla con apertura, cuidando sus sentimientos. Es decir: decir las cosas claras, sin avergonzarlo. Una respuesta honesta y tranquila vale más que una plática perfecta."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: forma su visión del mundo. Vivimos rodeados de contenido sexual. El libro busca que tu hijo tenga una mirada formada en casa, y no solo en internet."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: tu fe como marco, su momento como guía, claridad con cuidado, y una mirada formada en casa. Empieza por hojear el libro."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana no hace falta la gran conversación. Hojea el libro tú primero. Después busca un momento natural, como un trayecto en el auto, y pregúntale qué ha escuchado sobre el tema. Y escucha sin reaccionar. Y si se pone incómodo, no pasa nada. Que se note que la puerta queda abierta."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Habla claro con tus hijos sobre el sexo, de Josh y Dottie McDowell, en español de Editorial Unilit. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "cómo empezar",
+   "texto": "«No sé ni cómo empezar esa plática.»",
+   "visual": "burbuja de diálogo en blanco"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Habla claro con tus hijos sobre el sexo",
+   "texto": "Habla claro con tus hijos sobre el sexo · Josh y Dottie McDowell",
+   "visual": "portada genérica de libro"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "intro",
+   "palabra": "hojéalo tú",
+   "texto": "Antes de dárselo a tu hijo, hojéalo tú",
+   "visual": "libro abierto con palomita"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "porque",
+   "palabra": "cuatro hijos",
+   "texto": "Una guía desde la experiencia de criar a 4 hijos",
+   "visual": "cuatro siluetas de sillas, sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "dentro de tu fe",
+   "texto": "1 · Dentro de tu fe",
+   "visual": "ícono de cruz sencilla sobre un libro"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "el momento de tu hijo",
+   "texto": "2 · Conoce su momento",
+   "visual": "ícono de reloj con hoja"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "madurez",
+   "texto": "Su madurez emocional y espiritual\nMomentos naturales para enseñar",
+   "visual": "reloj y hoja que crece"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "con apertura",
+   "texto": "3 · Hablar claro, cuidando sus sentimientos",
+   "visual": "burbuja de diálogo con corazón"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "visión del mundo",
+   "texto": "4 · Forma su visión del mundo",
+   "visual": "ícono de ventana a un paisaje"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i4",
+   "palabra": "formada en casa",
+   "texto": "Una mirada formada en casa, no solo en internet",
+   "visual": "casa con ventana luminosa"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "Hojea el libro",
+   "texto": "Hojea el libro tú primero",
+   "visual": "libro abierto"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "qué ha escuchado",
+   "texto": "Pregunta qué ha escuchado. Escucha sin reaccionar.",
+   "visual": "ícono de oído y auto en trayecto"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "tu fe como marco",
+   "texto": "Tu fe como marco\nSu momento como guía\nClaridad con cuidado\nMirada formada en casa",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Habla claro con tus hijos sobre el sexo",
+   "texto": "Habla claro con tus hijos sobre el sexo\nJosh y Dottie McDowell\nEditorial Unilit\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Harvest House Publishers (descripción del original) y reseñas: guía desde la experiencia de criar cuatro hijos, visión bíblica, madurez del hijo, momentos de enseñanza, visión del mundo."
+ ]
+}

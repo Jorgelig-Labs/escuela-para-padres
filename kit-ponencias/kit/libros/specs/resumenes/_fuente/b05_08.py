@@ -1,0 +1,133 @@
+# -*- coding: utf-8 -*-
+from lib import *
+
+ACC = "firme, cálido, práctico"
+CIE = "cálido, sereno, cierre"
+
+# ------------------------------------------------------------------ 5
+libro(5, "los-5-lenguajes-del-amor", "Los 5 lenguajes del amor de los jóvenes", "Gary Chapman", "Editorial Unilit", True,
+ segs=[
+  ("gancho", "rewe", ADO, "Sé que me quieres. Pero no lo siento."),
+  ("intro", "marisol", CAL, "Hoy: Los 5 lenguajes del amor de los jóvenes, de Gary Chapman. Adapta la famosa propuesta de los cinco lenguajes del amor a la vida de los adolescentes."),
+  ("porque", "marisol", CAL, "Muchos papás nos preguntamos: si amo a mi hijo, ¿por qué siente que no lo quiero? Según la editorial, los padres siguen teniendo la influencia más fuerte sobre sus adolescentes. Y el libro busca ayudarte a usarla bien."),
+  ("i1", "marisol", CAL, "Idea uno: entiende su momento. El libro empieza describiendo cómo son los adolescentes de hoy y las presiones sociales, mentales y espirituales que enfrentan. Antes de las técnicas, te pide ponerte en su lugar."),
+  ("i2", "marisol", CAL, "Idea dos: el amor se recibe en un idioma. Son cinco: palabras de afirmación, contacto físico, tiempo de calidad, actos de servicio y regalos. Tu hijo puede sentirse querido sobre todo en uno. Y por eso, a veces, lo que le das no le llega."),
+  ("teen", "rewe", "adolescente, bajito, sincero", "Es que a mí me hace falta tiempo contigo, no cosas."),
+  ("i3", "marisol", CAL, "Idea tres: descubre el suyo. Observa cuándo se ilumina: cuando le dedicas tiempo, cuando lo reconoces, cuando le echas una mano. El libro incluye una prueba para adolescentes. Y algo clave: no supongas que su lenguaje es el tuyo."),
+  ("i4", "marisol", CAL, "Idea cuatro: amar también cuando se complica. Chapman dedica capítulos al enojo, al deseo de independencia, a la responsabilidad y a cómo amar a tu hijo cuando falla."),
+  ("accion", "marisol", ACC, "Esta semana, observa durante dos días cuándo se ve más contento contigo, y anótalo. Después prueba un gesto en su lenguaje probable: una frase de reconocimiento específica, diez minutos juntos, o un favor sencillo."),
+  ("cierre", "marisol", CIE, "Los 5 lenguajes del amor de los jóvenes, de Gary Chapman, en español de Editorial Unilit. " + NOSUST),
+ ],
+ beats=[
+  ("titular", "gancho", "no lo siento", "Sé que me quieres. Pero no lo siento.", "corazón con señal débil, sin rostros"),
+  ("titular", "intro", "Los 5 lenguajes del amor de los jóvenes", "Los 5 lenguajes del amor de los jóvenes · Gary Chapman", "cinco burbujas de diálogo de colores"),
+  ("ilustracion", "porque", "por qué siente", "Si amo a mi hijo, ¿por qué siente que no lo quiero?", "dos burbujas que no se conectan"),
+  ("titular", "i1", "entiende su momento", "1 · Entiende su momento", "ícono de zapatos que se intercambian"),
+  ("ideas", "i1", "presiones", "Cómo viven hoy los adolescentes\nPresiones sociales, mentales y espirituales", "ícono de mochila pesada"),
+  ("titular", "i2", "el amor se recibe", "2 · El amor se recibe en un idioma", "ícono de burbuja con corazón"),
+  ("ideas", "i2", "palabras de afirmación", "Palabras de afirmación\nContacto físico\nTiempo de calidad\nActos de servicio\nRegalos", "cinco íconos: globo, mano, reloj, herramienta, regalo"),
+  ("reaccion", "teen", "tiempo contigo", "«Me hace falta tiempo contigo.»", "reloj con corazón"),
+  ("titular", "i3", "descubre el suyo", "3 · Descubre el suyo", "ícono de lupa sobre un corazón"),
+  ("ideas", "i3", "se ilumina", "Observa cuándo se ilumina\nIncluye una prueba para adolescentes\nEl suyo puede ser distinto al tuyo", "foco que se enciende"),
+  ("titular", "i4", "cuando se complica", "4 · Amar cuando se complica", "ícono de camino con curvas"),
+  ("ideas", "i4", "enojo", "El enojo\nLa independencia\nLa responsabilidad\nCuando falla", "cuatro íconos pequeños en fila"),
+  ("accion", "accion", "anótalo", "Observa 2 días cuándo se ve más contento contigo. Anótalo.", "libreta con lápiz"),
+  ("accion", "accion", "un gesto", "Un gesto en su lenguaje probable", "mano ofreciendo un corazón"),
+  ("tarjeta_libro", "cierre", "Los 5 lenguajes del amor de los jóvenes", "Los 5 lenguajes del amor de los jóvenes\nGary Chapman\nEditorial Unilit\nEste video no sustituye la lectura del libro.", "portada genérica de libro"),
+ ],
+ fuentes=["Moody Publishers (descripción y tabla de contenido del original en inglés).", "Google Books MX (descripción de la edición en español de Editorial Unilit).", "Resumen de un departamento de orientación escolar (lenguaje principal y los cinco lenguajes)."])
+
+# ------------------------------------------------------------------ 6
+libro(6, "edad-de-oportunidades", "Edad de oportunidades", "Paul David Tripp", "P&R Publishing (edición en español)", True,
+ segs=[
+  ("gancho", "rewe", ADO, "¿Soy un problema que hay que aguantar?"),
+  ("intro", "marisol", CAL, "Hoy: Edad de oportunidades, de Paul David Tripp, publicado en español por P y R. Un libro que cambia la mirada sobre la adolescencia."),
+  ("porque", "marisol", CAL, "Muchos papás vemos la adolescencia como una etapa que hay que sobrevivir. Tripp la ve distinto. La editorial la presenta como «una época de oportunidades sin precedentes». Y esa mirada cambia cómo entras al cuarto de tu hijo."),
+  ("i1", "marisol", CAL, "Idea uno: de sobrevivir a aprovechar. Un pastor que recomienda el libro dice que muchos pensamos que la adolescencia es solo una etapa por la que hay que pasar. El libro propone usarla para guiar a tu hijo y acercarte a él."),
+  ("i2", "marisol", CAL, "Idea dos: conectar. Según la editorial, el libro quiere mostrarte cómo conectar con tus hijos de maneras nuevas. Ese es el primer paso."),
+  ("i3", "marisol", CAL, "Idea tres: mira el corazón, no solo la conducta. Quienes lo reseñan coinciden en que no es una fórmula de pasos. Es una guía para aplicar el evangelio a las luchas del corazón de cada hijo. Por eso las preguntas de discusión de la edición nueva se centran en el corazón."),
+  ("i4", "marisol", CAL, "Idea cuatro: empieza por ti. El pastor Fernando Gómez escribe en la contraportada: «el mayor obstáculo en la crianza de nuestros adolescentes es, a menudo, nuestro propio pecado.» Es incómodo y honesto. Antes de cambiar a tu hijo, revisa cómo respondes tú."),
+  ("accion", "marisol", ACC, "Esta semana, dos cosas. Una: cambia un reclamo por una pregunta curiosa sobre su mundo. Dos: cuando te conteste mal, nota qué te pasa por dentro, y llévalo a la oración antes de responder."),
+  ("cierre", "marisol", CIE, "Edad de oportunidades, de Paul David Tripp, en español de P y R Publishing. " + NOSUST),
+ ],
+ beats=[
+  ("titular", "gancho", "problema", "¿Soy un problema que hay que aguantar?", "burbuja con signo de interrogación"),
+  ("titular", "intro", "Edad de oportunidades", "Edad de oportunidades · Paul David Tripp", "portada genérica de libro con puerta que se abre"),
+  ("cita", "porque", "una época de oportunidades", "«una época de oportunidades sin precedentes» — Descripción de P&R Publishing", "puerta entreabierta con luz"),
+  ("titular", "i1", "de sobrevivir a aprovechar", "1 · De sobrevivir a aprovechar", "salvavidas que se vuelve brújula"),
+  ("ideas", "i1", "etapa", "No es solo una etapa que hay que pasar\nEs tiempo para guiar y acercarte", "camino con una señal de oportunidad"),
+  ("titular", "i2", "conectar", "2 · Conectar de maneras nuevas", "ícono de dos cables que se conectan"),
+  ("titular", "i3", "mira el corazón", "3 · Mira el corazón, no solo la conducta", "ícono de corazón bajo una lupa"),
+  ("ideas", "i3", "fórmula de pasos", "No es una fórmula de pasos\nAplica el evangelio a las luchas de cada hijo\nPreguntas de discusión sobre el corazón", "lista tachada y corazón"),
+  ("titular", "i4", "empieza por ti", "4 · Empieza por ti", "espejo con una flecha que regresa"),
+  ("cita", "i4", "el mayor obstáculo", "«el mayor obstáculo en la crianza de nuestros adolescentes es, a menudo, nuestro propio pecado» — Fernando Gómez, pastor, contraportada de P&R", "ícono de piedra en el camino"),
+  ("accion", "accion", "pregunta curiosa", "Cambia un reclamo por una pregunta curiosa", "signo de interrogación que reemplaza un dedo señalando"),
+  ("accion", "accion", "oración", "Antes de responder, llévalo a la oración", "manos en oración, estilizadas, sin rostros"),
+  ("tarjeta_libro", "cierre", "Edad de oportunidades", "Edad de oportunidades\nPaul David Tripp\nP&R Publishing (edición en español)\nEste video no sustituye la lectura del libro.", "portada genérica de libro"),
+ ],
+ fuentes=["P&R Publishing (prpbooks.com/book/edad-de-oportunidades): descripción y recomendaciones de Nathan Díaz y Fernando Gómez.", "Evangelical Times (reseña) y descripción de P&R sobre el enfoque en el corazón."])
+
+# ------------------------------------------------------------------ 7
+libro(7, "limites-con-los-adolescentes", "Límites con los adolescentes", "John Townsend", "Editorial Vida", True,
+ segs=[
+  ("gancho", "rewe", ADO, "Dices que no, pero ni me escuchas."),
+  ("intro", "marisol", CAL, "Hoy: Límites con los adolescentes, de John Townsend. El subtítulo lo resume: cuándo decir sí, cómo decir no."),
+  ("porque", "marisol", CAL, "Entender a tu hijo no te quita el derecho de poner límites. Muchos papás sentimos que hay que escoger: o somos el amigo, o somos el que manda. Según su editorial, este libro propone las dos cosas a la vez: una guía para poner límites sanos, con consecuencias realistas."),
+  ("i1", "marisol", CAL, "Idea uno: sé cariñoso y firme al mismo tiempo. La editorial lo describe como una guía para mostrar afecto mientras haces cumplir las reglas. El límite y el cariño no se pelean."),
+  ("papa", "mario", "papá, firme, sin gritar", "Entiendo que te enoje. Aun así, la respuesta es no."),
+  ("i2", "marisol", CAL, "Idea dos: consecuencias realistas. No se trata de castigos exagerados ni de amenazas que no vas a cumplir. Se trata de consecuencias que tengan sentido, y que puedas sostener."),
+  ("i3", "marisol", CAL, "Idea tres: los límites buscan que tu hijo asuma su propia responsabilidad. Las fichas del libro hablan de ayudar al adolescente a hacerse dueño de su conducta, sus valores y su vida."),
+  ("i4", "marisol", CAL, "Idea cuatro: actitudes difíciles. El libro aborda cómo responder a la actitud irrespetuosa y a los problemas, pequeños y grandes, con estrategias concretas."),
+  ("accion", "marisol", ACC, "Esta semana, elige un solo límite que de verdad importe. Exprésalo con calma, con una razón y su consecuencia. Y antes de ponerlo, reconoce lo que siente: entiendo que te enoja, y aun así la respuesta es no."),
+  ("cierre", "marisol", CIE, "Límites con los adolescentes, de John Townsend, en español de Editorial Vida. " + NOSUST),
+ ],
+ beats=[
+  ("titular", "gancho", "ni me escuchas", "Dices que no, pero ni me escuchas.", "burbuja con signo de interrogación"),
+  ("titular", "intro", "Límites con los adolescentes", "Límites con los adolescentes · John Townsend", "portada genérica de libro con cerca"),
+  ("ilustracion", "porque", "límites sanos", "Límites sanos + consecuencias realistas", "cerca baja con puerta abierta"),
+  ("titular", "i1", "cariñoso y firme", "1 · Cariñoso y firme a la vez", "ícono de corazón dentro de un escudo"),
+  ("ideas", "i1", "afecto", "Afecto mientras haces cumplir las reglas\nLímite y cariño no se pelean", "balanza con un corazón y una regla"),
+  ("reaccion", "papa", "Entiendo", "«Entiendo que te enoje. Aun así, la respuesta es no.»", "ícono de palma abierta y signo de alto suave"),
+  ("titular", "i2", "consecuencias realistas", "2 · Consecuencias realistas", "ícono de reloj de arena"),
+  ("ideas", "i2", "amenazas", "Sin castigos exagerados\nSin amenazas que no cumplirás\nConsecuencias que puedas sostener", "tres palomitas"),
+  ("titular", "i3", "responsabilidad", "3 · Que asuma su responsabilidad", "ícono de mochila que él mismo carga"),
+  ("ideas", "i3", "dueño", "Dueño de su conducta\nDueño de sus valores\nDueño de su vida", "tres llaves"),
+  ("titular", "i4", "actitudes difíciles", "4 · Actitudes difíciles", "ícono de nube gris"),
+  ("accion", "accion", "un solo límite", "Un solo límite que importe: con razón y consecuencia", "ícono de cerca con un solo poste resaltado"),
+  ("accion", "accion", "reconoce lo que siente", "Primero valida: «entiendo que te enoja»", "burbuja con corazón"),
+  ("tarjeta_libro", "cierre", "Límites con los adolescentes", "Límites con los adolescentes\nJohn Townsend\nEditorial Vida\nEste video no sustituye la lectura del libro.", "portada genérica de libro"),
+ ],
+ fuentes=["Google Books MX (descripción de Editorial Vida).", "Fichas de Goodreads y librerías (responsabilidad del adolescente, consecuencias realistas)."])
+
+# ------------------------------------------------------------------ 8
+libro(8, "crianza-llena-de-gracia", "Crianza llena de gracia", "Tim Kimmel", "Grupo Nelson / Caribe-Betania", True,
+ segs=[
+  ("gancho", "rewe", ADO, "Si me equivoco, ¿me sigues queriendo?"),
+  ("intro", "marisol", CAL, "Hoy: Crianza llena de gracia, de Tim Kimmel. Una mirada distinta a la crianza, basada en la gracia."),
+  ("porque", "marisol", CAL, "Según la editorial, hoy hay papás comprometidos, pero también temerosos. Y muchos libros de crianza se apoyan en una disciplina de castigo que los padres que aman rechazan por instinto. Kimmel ofrece otra perspectiva."),
+  ("i1", "marisol", CAL, "Idea uno: tres necesidades. Los títulos de los capítulos las resumen: un amor seguro, un propósito significativo y una sólida esperanza. Antes de corregir una conducta, pregúntate cuál de las tres le está faltando."),
+  ("i2", "marisol", CAL, "Idea dos: libertad para ser diferentes. El libro dedica un capítulo a eso. Cada hijo es distinto, y la gracia empieza por dejarlo ser quien es."),
+  ("i3", "marisol", CAL, "Idea tres: libertad para ser vulnerables y sinceros. Dos capítulos más tocan ese tema. Para que un adolescente se sincere, necesita un hogar donde decir la verdad no sea peligroso."),
+  ("i4", "marisol", CAL, "Idea cuatro: libertad para cometer errores. Es el título de un capítulo, y toca el centro de la gracia: tu hijo puede equivocarse, y seguir sintiéndose amado."),
+  ("accion", "marisol", ACC, "Esta semana, dos cosas. Una: elige algo en lo que tu hijo es distinto a ti, y dile que lo valoras. Dos: cuando cometa un error y te lo cuente, cuida tu primera frase. Algo así:"),
+  ("teen", "rewe", "adolescente, nervioso, bajito", "Papá… me equivoqué."),
+  ("papa", "mario", "papá, sereno, cálido", "Gracias por contármelo. Vamos a ver cómo se arregla."),
+  ("cierre", "marisol", CIE, "Crianza llena de gracia, de Tim Kimmel, en español de Grupo Nelson y Caribe-Betania. " + NOSUST),
+ ],
+ beats=[
+  ("titular", "gancho", "equivoco", "Si me equivoco, ¿me sigues queriendo?", "corazón con curita"),
+  ("titular", "intro", "Crianza llena de gracia", "Crianza llena de gracia · Tim Kimmel", "portada genérica de libro con corazón abierto"),
+  ("ilustracion", "porque", "temerosos", "Papás comprometidos… y temerosos", "ícono de escudo con grieta"),
+  ("titular", "i1", "tres necesidades", "1 · Tres necesidades de tu hijo", "tres íconos: casa, brújula, estrella"),
+  ("ideas", "i1", "amor seguro", "Un amor seguro\nUn propósito significativo\nUna sólida esperanza", "casa, brújula y estrella"),
+  ("titular", "i2", "diferentes", "2 · Libertad para ser diferente", "ícono de pluma de color distinto entre plumas iguales"),
+  ("titular", "i3", "vulnerables y sinceros", "3 · Libertad para ser vulnerable y sincero", "ícono de puerta abierta"),
+  ("ideas", "i3", "decir la verdad", "Un hogar donde decir la verdad no es peligroso", "ícono de globo de diálogo seguro"),
+  ("titular", "i4", "cometer errores", "4 · Libertad para cometer errores", "ícono de lápiz con goma"),
+  ("ideas", "i4", "seguir sintiéndose amado", "Equivocarse sin perder tu cariño", "corazón con curita"),
+  ("accion", "accion", "algo en lo que tu hijo es distinto", "Dile algo en lo que es distinto a ti, y que lo valoras", "ícono de estrella entre círculos"),
+  ("reaccion", "teen", "me equivoqué", "«Papá… me equivoqué.»", "burbuja pequeña temblorosa"),
+  ("accion", "papa", "Gracias por contármelo", "«Gracias por contármelo. Vamos a ver cómo se arregla.»", "burbuja de diálogo cálida con corazón"),
+  ("tarjeta_libro", "cierre", "Crianza llena de gracia", "Crianza llena de gracia\nTim Kimmel\nGrupo Nelson / Caribe-Betania\nEste video no sustituye la lectura del libro.", "portada genérica de libro"),
+ ],
+ fuentes=["Google Books MX (descripción de Grupo Nelson y tabla de contenido con los títulos de los capítulos)."])

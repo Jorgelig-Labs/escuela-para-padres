@@ -1,0 +1,142 @@
+{
+ "id": "serie-mente-caracter-y-personalidad-3de3",
+ "formato": "vertical",
+ "libro_id": "mente-caracter-y-personalidad",
+ "serie": "mente-caracter-y-personalidad",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Mente, carácter y personalidad",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "Mente, carácter y personalidad",
+ "etiqueta": "Mente, carácter y personalidad · 3/3",
+ "tema": "Lo que haces a solas",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Qué hace tu hijo cuando nadie lo ve?"
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, directo] Si nadie me ve, ¿qué más da?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Piensa en eso un segundo. Un pasaje del capítulo sobre la autoestima habla de las personas de principios. Dice que no necesitan cerraduras ni vigilancia, porque actúan con honestidad lo mismo a solas que en público."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y agrega: «Aunque nadie lo llegara a saber, ellos mismos lo sabrían»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Señala también que quien no es fiel en las cosas pequeñas no se reforma solo con leyes, restricciones y castigos. Las reglas solas no alcanzan."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, sincero, pausado] Una vez devolví un dinero de más. Nadie lo habría notado. Pero yo sí."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: cuéntale una vez en que hiciste lo correcto sin que nadie te viera, y lo que te costó. Un ejemplo vale más que diez advertencias. Sin sermón. Solo tu historia."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Mente, carácter y personalidad, dos tomos, de Elena G. de White. Descarga gratuita en egwwritings.org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "nadie",
+   "texto": "¿Qué hace cuando nadie lo ve?",
+   "visual": "Habitación en penumbra con una puerta entreabierta"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "cerraduras",
+   "texto": "Sin cerraduras ni vigilancia",
+   "visual": "Candado abierto y una cámara apagada"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "nadie",
+   "texto": "Si nadie me ve, ¿qué más da?",
+   "visual": "Burbuja del adolescente en habitación en penumbra"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "honestidad",
+   "texto": "Honestidad a solas y en público",
+   "visual": "Dos escenas idénticas lado a lado: una vacía, otra con gente"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "sabrían",
+   "texto": "«Aunque nadie lo llegara a saber, ellos mismos lo sabrían»",
+   "visual": "Tarjeta de cita: Elena G. de White, Mente, carácter y personalidad, t. 1, cap. 28"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "pequeñas",
+   "texto": "Fieles en lo pequeño",
+   "visual": "Una moneda pequeña que brilla en amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "castigos",
+   "texto": "No basta con leyes y castigos",
+   "visual": "Martillo de juez tachado"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "notado",
+   "texto": "Nadie lo habría notado. Pero yo sí.",
+   "visual": "Burbuja de papá con billete doblado"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "cuéntale",
+   "texto": "Para hoy: cuéntale cuando hiciste lo correcto a solas",
+   "visual": "Tarjeta «Para hoy»"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "ejemplo",
+   "texto": "Un ejemplo vale más que diez advertencias",
+   "visual": "Una vela encendida junto a diez letreros apagados"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "gratuita",
+   "texto": "Mente, carácter y personalidad · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto"
+  }
+ ],
+ "fuentes": [
+  "Mente, carácter y personalidad, t. 1, cap. 28 (cita) · egwwritings.org/es/book/1770"
+ ],
+ "pronunciacion": {
+  "egwwritings.org": "E G W writings punto org"
+ }
+}

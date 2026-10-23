@@ -1,0 +1,130 @@
+{
+ "id": "serie-edad-de-oportunidades-3de3",
+ "formato": "vertical",
+ "libro_id": "edad-de-oportunidades",
+ "serie": "edad-de-oportunidades",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Edad de oportunidades",
+ "autor": "Paul David Tripp",
+ "donde": "P&R Publishing",
+ "derechos": true,
+ "titulo_corto": "Edad de oportunidades",
+ "etiqueta": "Edad de oportunidades · 3/3",
+ "tema": "El telón se abre",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] A veces la adolescencia de tu hijo te muestra algo de ti."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Tripp escribe que las dificultades de la adolescencia no tienen que ver solo con la biología y la rebeldía. También sacan a la luz pensamientos y deseos equivocados en el corazón de los propios padres. Incómodo, pero útil."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Lo resume así: «Estos años son difíciles porque retiran el telón y nos exponen»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Menciona nuestra impaciencia, nuestra justicia propia y nuestra falta de perdón. Y cuenta que, en su experiencia, cuando los padres lo reconocen con humildad, se nota una diferencia marcada en su relación con sus hijos."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, humilde, tranquilo] Hijo, perdóname. Me desesperé y no te escuché."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: piensa en la última vez que perdiste la paciencia con tu hijo. Si hace falta, ofrécele una disculpa sencilla. Sin discurso y sin excusas."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Edad de oportunidades, de Paul David Tripp, de P&R Publishing. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "ti",
+   "texto": "Te muestra algo de ti",
+   "visual": "Espejo con silueta, sin rostro"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "biología",
+   "texto": "No solo biología y rebeldía",
+   "visual": "Dos íconos (célula, rayo) con una tercera pieza que se suma: un corazón"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "telón",
+   "texto": "«Estos años son difíciles porque retiran el telón y nos exponen»",
+   "visual": "Tarjeta de cita: Paul David Tripp, Edad de oportunidades"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cita",
+   "palabra": "telón",
+   "texto": "El telón se abre",
+   "visual": "Telón de teatro que se abre y deja ver un escenario vacío"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "impaciencia",
+   "texto": "Impaciencia",
+   "visual": "Reloj con manecillas aceleradas"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "perdón",
+   "texto": "Falta de perdón",
+   "visual": "Puño cerrado que se abre"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "humildad",
+   "texto": "Con humildad, la relación cambia",
+   "visual": "«humildad» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "perdóname",
+   "texto": "Hijo, perdóname. Me desesperé y no te escuché.",
+   "visual": "Burbuja de papá, color cálido"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "disculpa",
+   "texto": "Para hoy: una disculpa sencilla, sin discurso",
+   "visual": "Tarjeta «Para hoy» con palomita"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Publishing",
+   "texto": "Edad de oportunidades · Paul David Tripp · P&R Publishing",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Muestra oficial P&R: storage.googleapis.com/prpbooks/documents/pdf/sample-chapters/9798887791036.pdf (cap. 1: «retiran el telón y nos exponen»)"
+ ],
+ "pronunciacion": {
+  "P&R": "P y R"
+ }
+}

@@ -1,0 +1,22 @@
+.reader-page { background:#e7e9e3; }
+.reader-header { background:var(--paper);padding:20px 28px;border-bottom:1px solid var(--line); }
+.reader-back { display:inline-block;font-size:12px;color:var(--muted);padding:6px 0;margin-bottom:14px; }
+.reader-heading { display:flex;align-items:center;justify-content:space-between;gap:24px; }
+.reader-heading h1 { font:400 28px/1.2 var(--serif);margin:6px 0; }
+#reader-author { font-size:12px;color:var(--muted); }
+.reader-controls { display:flex;gap:10px;align-items:center;flex-wrap:wrap; }
+.reader-controls label { font-size:11px; }
+.reader-controls select { max-width:200px;min-height:44px;background:white; }
+.reader-controls .button { min-height:44px; }
+.reader-main { max-width:none;padding:0 24px 16px; }
+.reader-hint { font-size:12px;line-height:1.6;padding:13px 0;color:#536459; }
+.reader-hint a,.reader-source a { text-decoration:underline;text-underline-offset:3px; }
+#pdf-frame { width:100%;height:calc(100dvh - 215px);min-height:480px;border:1px solid #c9cfc3;border-radius:7px;background:white; }
+.reader-status { padding:26px;text-align:center;font-size:14px; }
+.reader-error { margin:24px auto;padding:36px;max-width:650px;background:var(--paper);border:1px solid var(--line);border-radius:8px; }
+.reader-error h2 { font:28px var(--serif);margin-bottom:15px; }
+.reader-error p { font-size:14px;line-height:1.7;color:var(--muted); }
+.reader-error>div { display:flex;gap:12px;flex-wrap:wrap;margin-top:20px; }
+.reader-source { font-size:11px;color:var(--muted);padding:12px 0 0; }
+@media(max-width:850px) { .reader-heading { flex-direction:column;align-items:stretch;gap:16px; } .reader-heading h1 { font-size:25px; } .reader-controls { gap:8px; } #pdf-frame { height:calc(100dvh - 275px); } }
+@media(max-width:480px) { .reader-header { padding:15px; } .reader-main { padding:0 10px 12px; } .reader-heading h1 { font-size:23px; } .reader-controls label { width:100%; } .reader-controls select { flex:1;max-width:100%; } .reader-controls .button { flex:1;white-space:nowrap;padding:10px 12px; } .reader-error { padding:25px; } }

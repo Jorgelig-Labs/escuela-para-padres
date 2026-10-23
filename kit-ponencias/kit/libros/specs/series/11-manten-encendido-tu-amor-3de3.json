@@ -1,0 +1,120 @@
+{
+ "id": "serie-manten-encendido-tu-amor-3de3",
+ "formato": "vertical",
+ "libro_id": "manten-encendido-tu-amor",
+ "serie": "manten-encendido-tu-amor",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Mantén encendido tu amor",
+ "autor": "Danny Silk",
+ "donde": "Loving on Purpose / Buena Semilla",
+ "derechos": true,
+ "titulo_corto": "Mantén encendido tu amor",
+ "etiqueta": "Mantén encendido tu amor · 3/3",
+ "tema": "Límites que cuidan",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Un límite no es un muro."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Según las reseñas, el libro propone que quien tiene dominio propio pone límites sanos. Y que esos límites ayudan al otro a hacerse responsable también. Es decir, tú te haces cargo de ti, y él de lo suyo."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Detrás está una idea de libertad con responsabilidad. Los límites cuidan la relación, no la rompen. Puede sonar duro, pero un límite sano se dice con calma."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, tranquilo, firme] No te voy a gritar. Pero tampoco voy a permitir eso."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, bajito, sorprendido] Al menos me lo dijo sin explotar."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: piensa en un límite que quieres poner, y antes de decirlo, pregúntate: ¿esto cuida nuestra relación, o solo descarga mi enojo? Una frase. Un solo límite."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Mantén encendido tu amor, de Danny Silk, en ediciones de Loving on Purpose y Buena Semilla. Es un libro de relaciones en general, y vale la pena leerlo completo. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "muro",
+   "texto": "Un límite no es un muro",
+   "visual": "Muro de ladrillos que se transforma en una cerca baja con puerta"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "dominio",
+   "texto": "Dominio propio → límites sanos",
+   "visual": "Perilla que gira y una línea de cancha que se dibuja"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "responsable",
+   "texto": "El otro también se hace responsable",
+   "visual": "Dos manos que sostienen la misma cuerda"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "libertad",
+   "texto": "Libertad con responsabilidad",
+   "visual": "Dos palabras unidas por un hilo amarillo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "gritar",
+   "texto": "No te voy a gritar. Pero tampoco voy a permitir eso.",
+   "visual": "Burbuja de papá, tono firme"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "explotar",
+   "texto": "Al menos me lo dijo sin explotar",
+   "visual": "Burbuja del adolescente"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "límite",
+   "texto": "Para hoy: un límite que cuida",
+   "visual": "Tarjeta «Para hoy» con una palomita"
+  },
+  {
+   "tipo": "titular",
+   "seg": "accion",
+   "palabra": "enojo",
+   "texto": "¿Cuida la relación, o descarga mi enojo?",
+   "visual": "Balanza con un corazón y una chispa"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Buena Semilla",
+   "texto": "Mantén encendido tu amor · Danny Silk · Loving on Purpose / Buena Semilla · Libro de relaciones en general",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Descripción de la editorial y reseñas (Heartspoken); sin vista previa en español, por eso no hay citas textuales"
+ ]
+}

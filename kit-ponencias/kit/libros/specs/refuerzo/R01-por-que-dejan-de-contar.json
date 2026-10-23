@@ -1,0 +1,164 @@
+{
+ "id": "R01-por-que-dejan-de-contar",
+ "formato": "vertical",
+ "tema": "Por qué dejan de contarnos",
+ "libros": [
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "los-5-lenguajes-del-amor",
+   "titulo": "Los 5 lenguajes del amor de los jóvenes",
+   "autor": "Gary Chapman",
+   "donde": "Editorial Unilit",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] No todo lo que pienso tengo que contarlo."
+  ],
+  [
+   "privacidad",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] A veces es solo privacidad. Y eso es crecer. Pero otras veces, se está protegiendo. De una reacción que ya se imagina: un regaño, una crítica, una comparación, o una plática que termina mal."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, molesto, tajante] ¿Otra vez con lo mismo? ¡Te lo he dicho mil veces!"
+  ],
+  [
+   "cierra",
+   "rewe",
+   "[adolescente, apagado, bajito] Mejor no le cuento nada."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White lo dice en El hogar cristiano: los hijos no se animan a confiar cuando saben que enseguida vendrán severas reprensiones. Y Gary Chapman habla de cómo amar a tu hijo y apoyarlo cuando falla."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] No buscamos culpables. Buscamos qué hacer diferente. Para hoy: elige una reacción que no vas a repetir esta semana."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "contarlo",
+   "texto": "¿Por qué dejan de contarnos?",
+   "visual": "cuarto de adolescente visto de espaldas, ventana y cama, sin rostro"
+  },
+  {
+   "tipo": "icono",
+   "seg": "privacidad",
+   "palabra": "privacidad",
+   "texto": "PRIVACIDAD",
+   "visual": "candado grande que se cierra; chip «es parte de crecer»"
+  },
+  {
+   "tipo": "icono",
+   "seg": "privacidad",
+   "palabra": "protegiendo",
+   "texto": "SE PROTEGE",
+   "visual": "escudo que entra desde el costado"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "privacidad",
+   "palabra": "regaño",
+   "texto": "REGAÑO",
+   "visual": "panel azul marino, palabra amarilla que cruza en whip"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "privacidad",
+   "palabra": "crítica",
+   "texto": "CRÍTICA",
+   "visual": "misma palabra en whip, puntos de progreso 2 de 4"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "privacidad",
+   "palabra": "comparación",
+   "texto": "COMPARACIÓN",
+   "visual": "misma palabra en whip, puntos de progreso 3 de 4"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "privacidad",
+   "palabra": "termina",
+   "texto": "PLÁTICA QUE TERMINA MAL",
+   "visual": "dos líneas, puntos de progreso 4 de 4"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "mil",
+   "texto": "¡MIL VECES!",
+   "visual": "panel que se inunda de naranja, palabra con sacudida"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cierra",
+   "palabra": "nada",
+   "texto": "Mejor no le cuento nada.",
+   "visual": "puerta de recámara que se cierra, la luz se apaga"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Elena",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "severas",
+   "texto": "Severas reprensiones",
+   "visual": "palabras SEVERAS / REPRENSIONES en impacto sobre comillas amarillas"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Chapman",
+   "texto": "Los 5 lenguajes del amor de los jóvenes · Gary Chapman · Editorial Unilit",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "titular",
+   "seg": "accion",
+   "palabra": "culpables",
+   "texto": "No buscamos culpables",
+   "visual": "la palabra CULPABLES tachada con una raya naranja"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "reacción",
+   "texto": "Elige UNA reacción que no vas a repetir esta semana.",
+   "visual": "mesa con una taza y una nota; sin rostros"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "semana",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "HC cap. 71 «El don del habla», sección «Como perdió un padre la confianza de sus hijos» (PDF oficial egwwritings): «Estos no son estimulados a darle su confianza… porque saben que a continuación Vd. expresará severas reprensiones»",
+  "Los 5 lenguajes del amor de los jóvenes: descripción de editorial (temas «anger and independence» y «Supporting and loving your teen when he or she fails»)"
+ ]
+}

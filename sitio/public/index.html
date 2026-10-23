@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#203e38">
+  <meta name="description" content="Videos, ideas y lecturas para escuchar mejor y crecer en familia. Un espacio para padres que también están aprendiendo.">
+  <title>Entre nosotros · Crecer en familia</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#biblioteca">Ir al contenido</a>
+  <header class="header">
+    <a class="brand" href="/" aria-label="Entre nosotros, inicio"><span class="brand-mark" aria-hidden="true">en<span>·</span></span><span><strong>Entre nosotros</strong><small>CRECER EN FAMILIA</small></span></a>
+    <nav aria-label="Navegación principal"><a href="#biblioteca" data-jump="video">Ver videos</a><a href="#referencias" data-jump="book">Leer libros</a><a href="#conversaciones">Para conversar</a><button class="saved-nav" id="saved-nav" aria-label="Ver mis guardados"><span data-icon="bookmark"></span><span>Guardados</span><b id="saved-count">0</b></button></nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">PEQUEÑOS MOMENTOS. MÁS CONEXIÓN.</p><h1 id="hero-title">Escuchar mejor.<br>Crecer juntos.</h1><p id="hero-description">Videos e ideas para entendernos mejor con nuestros hijos. Dale espacio a una nueva conversación.</p><div class="hero-actions"><a class="button primary" href="#biblioteca" data-jump="video"><span data-icon="play"></span> Explorar videos</a><a class="hero-reading" href="#referencias" data-jump="book">Prefiero leer <span data-icon="arrow"></span></a></div><p class="hero-foot">Para padres que también están aprendiendo.</p></div>
+      <div class="hero-visual">
+        <button class="featured-video" id="featured-video" hidden aria-label="Reproducir video destacado"><div class="featured-image"><img src="/assets/favicon.svg" alt="" width="960" height="540"><span class="play-circle" data-icon="play"></span><span class="duration" id="featured-duration"></span></div><div class="featured-info"><span class="eyebrow">DALE UN MOMENTO</span><h2 id="featured-title">Video destacado</h2><span>Reproducir <span data-icon="arrow"></span></span></div></button>
+        <div class="hero-upcoming" id="hero-upcoming"><span class="coming-label"><span></span> NUEVOS VIDEOS EN PREPARACIÓN</span><div class="conversation-art" aria-hidden="true"><div class="speech speech-one"><i></i><i></i><i></i></div><div class="speech speech-two"><span>↗</span></div><span class="art-star">✳</span><span class="art-circle"></span></div><div class="upcoming-copy"><p>Un momento para escuchar.<br>Una idea para acercarnos.</p><span>Pronto encontrarás aquí nuestros nuevos clips.</span></div></div>
+      </div>
+    </section>
+    <div class="intro-line"><span>VER. REFLEXIONAR. CONVERSAR.</span><p>No hace falta tener todas las respuestas para dar el primer paso.</p></div>
+    <section class="library" id="biblioteca" aria-labelledby="library-title">
+      <div class="section-heading"><div><p class="eyebrow">ELIGE TU PRÓXIMO MOMENTO</p><h2 id="library-title">Ideas para la vida en familia.</h2><p>Empieza con un video. Sigue con una conversación.</p></div><span class="collection-count" id="collection-count"></span></div>
+      <div class="library-tools"><div class="filters" role="group" aria-label="Tipo de contenido"><button class="filter active" data-filter="all" aria-pressed="true">Todo <span id="all-total"></span></button><button class="filter" data-filter="video" aria-pressed="false"><span data-icon="play"></span> Videos <span id="video-total"></span></button><button class="filter" data-filter="book" aria-pressed="false"><span data-icon="book"></span> Libros <span id="book-total"></span></button><button class="filter" data-filter="saved" aria-pressed="false"><span data-icon="bookmark"></span> Guardados</button></div><label class="search"><span data-icon="search"></span><input id="search" type="search" placeholder="¿Qué te gustaría explorar?" aria-label="Buscar por título, autor o tema" autocomplete="off"><kbd>/</kbd></label></div>
+      <div id="video-groups" class="video-groups" role="group" aria-label="Colecciones de videos" hidden></div>
+      <div class="topic-explorer"><p class="explorer-label">¿Qué tema te interesa?</p><div id="topic-filters" class="topic-filters" role="group" aria-label="Explorar por tema"></div><select id="topic" hidden aria-label="Tema"><option value="all">Todos los temas</option></select></div>
+      <div class="secondary-tools"><p id="results-count" role="status" aria-live="polite">Cargando contenido…</p><div><label class="sr-only" for="related-book">Libro de referencia</label><select id="related-book"><option value="all">Cualquier libro</option></select><label class="sr-only" for="access">Lectura disponible</label><select id="access"><option value="all">Todas las lecturas</option><option value="complete">Libro completo</option><option value="sample">Con muestra</option><option value="purchase">Referencia bibliográfica</option></select><button id="clear-selection" class="clear-selection" hidden>Limpiar filtros</button></div></div>
+      <div class="resource-grid" id="resource-grid" aria-busy="true"></div>
+      <div class="empty-state" id="empty-state" hidden><span data-icon="search"></span><h3 id="empty-title">No encontramos coincidencias</h3><p id="empty-description">Prueba con otro título, autor o tema.</p><button class="button secondary" id="reset-filters">Ver todo</button></div>
+      <div class="error-state" id="error-state" hidden><h3>No pudimos cargar el contenido.</h3><p>Revisa tu conexión e inténtalo de nuevo.</p><button class="button primary" id="retry">Volver a intentar</button></div>
+    </section>
+    <section class="conversations" id="conversaciones" aria-labelledby="conversation-title"><div class="conversation-intro"><p class="eyebrow">LLEVÉMOSLO A CASA</p><h2 id="conversation-title">Una buena pregunta<br>puede acercarnos.</h2><p>Ideas para detenernos, escuchar y abrir una conversación en familia. Sin prisa y sin tener que resolverlo todo hoy.</p><span class="conversation-symbol" aria-hidden="true">“</span></div><div><div id="questions"></div><button class="text-button" id="more-questions" aria-expanded="false" aria-controls="questions">Más preguntas <span data-icon="arrow"></span></button></div></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true">en<span>·</span></span><strong>Entre nosotros</strong></a><p>Más cerca, una conversación a la vez.</p><span>Un espacio para crecer en familia.</span></footer>
+  <dialog id="resource-dialog" aria-labelledby="dialog-title"><button class="close-dialog" id="close-dialog" aria-label="Cerrar detalle"><span data-icon="close"></span></button><div id="dialog-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Activa JavaScript para explorar los videos y elegir un libro.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,181 @@
+{
+ "id": "resumen-crianza-llena-de-gracia",
+ "formato": "horizontal",
+ "libro_id": "crianza-llena-de-gracia",
+ "titulo": "Crianza llena de gracia",
+ "autor": "Tim Kimmel",
+ "donde": "Grupo Nelson / Caribe-Betania",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Si me equivoco, ¿me sigues queriendo?"
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Crianza llena de gracia, de Tim Kimmel. Una mirada distinta a la crianza, basada en la gracia. Pensado para papás que quieren criar sin vivir con miedo."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Según la editorial, hoy hay papás comprometidos, pero también temerosos. Y muchos libros de crianza se apoyan en una disciplina de castigo que los padres que aman rechazan por instinto. Kimmel ofrece otra perspectiva. Pregúntate: ¿mi hijo sabe que puede equivocarse conmigo y seguir seguro?"
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: tres necesidades. Los títulos de los capítulos las resumen: un amor seguro, un propósito significativo y una sólida esperanza. Antes de corregir una conducta, pregúntate cuál de las tres le está faltando. Por ejemplo: si tu hijo se aísla, quizá no le falta disciplina. Quizá le falta sentirse seguro."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: libertad para ser diferentes. El libro dedica un capítulo a eso. Cada hijo es distinto, y la gracia empieza por dejarlo ser quien es. Tal vez tu hijo es callado y tú eres el que habla. O es intenso y tú eres tranquilo. No tiene que ser tu copia."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: libertad para ser vulnerables y sinceros. Dos capítulos más tocan ese tema. Para que un adolescente se sincere, necesita un hogar donde decir la verdad no sea peligroso. ¿Qué pasa en tu casa cuando alguien dice una verdad incómoda?"
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: libertad para cometer errores. Es el título de un capítulo, y toca el centro de la gracia: tu hijo puede equivocarse, y seguir sintiéndose amado. Equivocarse no es el final de la conversación. Es el inicio."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: un amor seguro, y libertad para ser diferente, para ser sincero y para equivocarse. Esos son los capítulos que vale la pena recorrer."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, dos cosas. Una: elige algo en lo que tu hijo es distinto a ti, y dile que lo valoras. Dos: cuando cometa un error y te lo cuente, cuida tu primera frase. Algo así:"
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, nervioso, bajito] Papá… me equivoqué."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, sereno, cálido] Gracias por contármelo. Vamos a ver cómo se arregla."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Crianza llena de gracia, de Tim Kimmel, en español de Grupo Nelson y Caribe-Betania. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "equivoco",
+   "texto": "Si me equivoco, ¿me sigues queriendo?",
+   "visual": "corazón con curita"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Crianza llena de gracia",
+   "texto": "Crianza llena de gracia · Tim Kimmel",
+   "visual": "portada genérica de libro con corazón abierto"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "porque",
+   "palabra": "temerosos",
+   "texto": "Papás comprometidos… y temerosos",
+   "visual": "ícono de escudo con grieta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "tres necesidades",
+   "texto": "1 · Tres necesidades de tu hijo",
+   "visual": "tres íconos: casa, brújula, estrella"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "amor seguro",
+   "texto": "Un amor seguro\nUn propósito significativo\nUna sólida esperanza",
+   "visual": "casa, brújula y estrella"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "diferentes",
+   "texto": "2 · Libertad para ser diferente",
+   "visual": "ícono de pluma de color distinto entre plumas iguales"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "vulnerables y sinceros",
+   "texto": "3 · Libertad para ser vulnerable y sincero",
+   "visual": "ícono de puerta abierta"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "decir la verdad",
+   "texto": "Un hogar donde decir la verdad no es peligroso",
+   "visual": "ícono de globo de diálogo seguro"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "cometer errores",
+   "texto": "4 · Libertad para cometer errores",
+   "visual": "ícono de lápiz con goma"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i4",
+   "palabra": "seguir sintiéndose amado",
+   "texto": "Equivocarse sin perder tu cariño",
+   "visual": "corazón con curita"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "algo en lo que tu hijo es distinto",
+   "texto": "Dile algo en lo que es distinto a ti, y que lo valoras",
+   "visual": "ícono de estrella entre círculos"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "me equivoqué",
+   "texto": "«Papá… me equivoqué.»",
+   "visual": "burbuja pequeña temblorosa"
+  },
+  {
+   "tipo": "accion",
+   "seg": "papa",
+   "palabra": "Gracias por contármelo",
+   "texto": "«Gracias por contármelo. Vamos a ver cómo se arregla.»",
+   "visual": "burbuja de diálogo cálida con corazón"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "un amor seguro",
+   "texto": "Amor seguro\nLibertad para ser diferente\nLibertad para ser sincero\nLibertad para equivocarse",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Crianza llena de gracia",
+   "texto": "Crianza llena de gracia\nTim Kimmel\nGrupo Nelson / Caribe-Betania\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Google Books MX (descripción de Grupo Nelson y tabla de contenido con los títulos de los capítulos)."
+ ]
+}

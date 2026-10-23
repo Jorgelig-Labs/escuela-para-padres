@@ -1,0 +1,127 @@
+{
+ "id": "serie-habla-claro-con-tus-hijos-1de3",
+ "formato": "vertical",
+ "libro_id": "habla-claro-con-tus-hijos",
+ "serie": "habla-claro-con-tus-hijos",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Habla claro con tus hijos sobre el sexo",
+ "autor": "Josh y Dottie McDowell",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "titulo_corto": "Habla claro con tus hijos",
+ "etiqueta": "Habla claro con tus hijos · 1/3",
+ "tema": "¿Con eso basta?",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Colegio cristiano, iglesia, actividades vigiladas. ¿Con eso basta?"
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, tranquilo, confiado] Va a un colegio cristiano. Está bien."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Habla claro con tus hijos sobre el sexo, Josh y Dottie McDowell, padres de cuatro hijos, observan que muchos padres cristianos han buscado escuelas cristianas, campamentos e iglesias con buenos programas para jóvenes. Y advierten que esos pasos, aunque son buenos, pueden hacer que los papás bajen la guardia."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Su razón: hoy las influencias de la cultura pueden llegar a los hijos a través de una pantalla, incluso dentro de la casa. Ya no basta con cuidar con quién se juntan."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, directo] Todo lo que me da curiosidad lo busco en el celular."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: pregúntate con sinceridad qué estás dando por hecho que tu hijo ya sabe, o que alguien más le está enseñando. Y piensa en un momento tranquilo de esta semana para empezar a hablar."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: qué pasa si tú no hablas primero."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "basta",
+   "texto": "¿Con eso basta?",
+   "visual": "Tres íconos (escuela, iglesia, campamento) con una palomita y un signo de pregunta"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "bien",
+   "texto": "Va a un colegio cristiano. Está bien.",
+   "visual": "Burbuja de papá tranquilo"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "guardia",
+   "texto": "Bajar la guardia",
+   "visual": "Escudo que baja unos centímetros"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "programas",
+   "texto": "Buenos pasos, sí",
+   "visual": "Tres palomitas amarillas que aparecen"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "giro",
+   "palabra": "pantalla",
+   "texto": "La cultura, a un clic",
+   "visual": "Celular sobre la mesa de la sala; ventana que se abre en la pantalla; sin personas"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "juntan",
+   "texto": "No basta con cuidar con quién se juntan",
+   "visual": "Dos siluetas con una pantalla en medio"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "celular",
+   "texto": "Lo busco en el celular",
+   "visual": "Burbuja del adolescente junto a un celular"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "sinceridad",
+   "texto": "Para hoy: ¿qué estoy dando por hecho?",
+   "visual": "Tarjeta «Para hoy» con signo de pregunta"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "tranquilo",
+   "texto": "Un momento tranquilo esta semana",
+   "visual": "Calendario con un día marcado en amarillo"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "hablas",
+   "texto": "Siguiente: si tú no hablas primero",
+   "visual": "Globo de diálogo vacío que espera"
+  }
+ ],
+ "fuentes": [
+  "Extracto oficial Harvest House (Straight Talk with Your Kids About Sex, intro. al cap. 1, en inglés; parafraseado, sin citas)"
+ ]
+}

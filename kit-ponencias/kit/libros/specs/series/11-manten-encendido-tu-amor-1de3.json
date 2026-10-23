@@ -1,0 +1,120 @@
+{
+ "id": "serie-manten-encendido-tu-amor-1de3",
+ "formato": "vertical",
+ "libro_id": "manten-encendido-tu-amor",
+ "serie": "manten-encendido-tu-amor",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Mantén encendido tu amor",
+ "autor": "Danny Silk",
+ "donde": "Loving on Purpose / Buena Semilla",
+ "derechos": true,
+ "titulo_corto": "Mantén encendido tu amor",
+ "etiqueta": "Mantén encendido tu amor · 1/3",
+ "tema": "Conexión, comunicación y límites",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Este libro no es solo de adolescentes. Pero sus ideas caben en tu casa."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Mantén encendido tu amor, de Danny Silk, es un libro de relaciones en general, no un manual de crianza. Su subtítulo resume la propuesta: conexión, comunicación y límites. Sus ideas se aplican a la pareja y a la familia. Por eso conviene leerlo completo y con ese contexto."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Según reseñas del libro, plantea que fuimos diseñados para la conexión, pero que muchas personas mantienen distancia por miedo a que las lastimen. Suena conocido, ¿verdad? Eso también le pasa a tu hijo. Y quizá a ti."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, bajito, cerrado] Mejor no digo nada. Así nadie me lastima."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, cansado, honesto] Yo también me alejo cuando sé que va a haber pleito."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: fíjate si en algún momento te alejas de tu hijo para evitar un pleito o un dolor. Y acércate un poco más, solo por hoy. Un paso, no diez."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: qué significa realmente tener poder."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "adolescentes",
+   "texto": "No es solo de adolescentes",
+   "visual": "Palabra «adolescentes» con una puerta que se abre a «familia»"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "relaciones",
+   "texto": "Un libro de relaciones en general",
+   "visual": "«relaciones en general» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "subtítulo",
+   "texto": "Conexión · Comunicación · Límites",
+   "visual": "Tres íconos: hilo, globo de diálogo, línea de cancha"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "conexión",
+   "texto": "Diseñados para conectar",
+   "visual": "Dos clavijas que encajan"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "distancia",
+   "texto": "Distancia por miedo",
+   "visual": "Dos siluetas con una pared de cristal en medio"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "nadie",
+   "texto": "Mejor no digo nada. Así nadie me lastima.",
+   "visual": "Burbuja del adolescente, tenue"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "alejo",
+   "texto": "Yo también me alejo cuando sé que va a haber pleito",
+   "visual": "Burbuja de papá"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "acércate",
+   "texto": "Para hoy: acércate un poco más",
+   "visual": "Tarjeta «Para hoy» con dos siluetas que se acercan un paso"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "poder",
+   "texto": "Siguiente: qué es tener poder",
+   "visual": "Palabra «poder» con interrogación"
+  }
+ ],
+ "fuentes": [
+  "Descripción de la editorial y reseñas (Heartspoken); sin vista previa en español, por eso no hay citas textuales"
+ ]
+}

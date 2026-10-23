@@ -1,0 +1,158 @@
+{
+ "id": "resumen-como-criar-jovenes-de-fe-solida",
+ "formato": "horizontal",
+ "libro_id": "como-criar-jovenes-de-fe-solida",
+ "titulo": "Cómo criar jóvenes de fe sólida",
+ "autor": "Kara Powell y Chap Clark",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] ¿Puedo dudar sin que se enojen?"
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Cómo criar jóvenes de fe sólida, de Kara Powell y Chap Clark. En inglés se llama Sticky Faith."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] La editorial lo dice así: «Casi la mitad de los jóvenes que se gradúan de secundaria tienen fuertes luchas con su fe.» El libro se apoya en un estudio del Instituto Fuller sobre la transición a la universidad, y busca darle a los papás una estrategia sencilla para que la fe de sus hijos dure."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: conversaciones. Uno de los capítulos se llama conversaciones sobre la fe sólida. La fe se transmite hablando, no solo asistiendo a la iglesia. Para conversar, ayudan las preguntas abiertas: ¿qué piensas tú? ¿qué te preocupa?"
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: una red de relaciones. Otro capítulo habla de una red de relaciones consolidada. Tu hijo necesita, además de ti, otros adultos y amigos que lo acompañen en su camino de fe. Piensa: ¿qué otros adultos de confianza conoce tu hijo? ¿A quién admira? Quizá puedes invitarlos a comer."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: identidad. El libro dedica un capítulo a una identidad inalterable. Un joven que sabe quién es, tiene dónde apoyarse cuando llegan las dudas. Pregúntate: ¿mi hijo sabe quién es, más allá de sus notas o su equipo?"
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: un puente para salir de casa. Con ese título, otro capítulo trata la transición a la universidad y a la vida adulta. Justo donde el estudio vio más luchas. Si tu hijo tiene catorce, la universidad parece lejana. Pero los puentes se construyen antes de cruzar."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: conversa, rodéalo de otros adultos, ayúdalo a saber quién es, y prepara el puente. No es una sola plática. Es un camino."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, dos cosas. Una: pregúntale qué piensa sobre algo de la fe, y no lo corrijas. Solo di: cuéntame más. Dos: comparte tú una duda, o un momento difícil de tu propia fe. Los jóvenes escuchan distinto cuando es de adulto a persona."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Cómo criar jóvenes de fe sólida, de Kara Powell y Chap Clark, en español de Editorial Vida. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "dudar",
+   "texto": "¿Puedo dudar sin que se enojen?",
+   "visual": "burbuja con signo de interrogación"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Cómo criar jóvenes de fe sólida",
+   "texto": "Cómo criar jóvenes de fe sólida · Kara Powell y Chap Clark",
+   "visual": "portada genérica de libro con raíces"
+  },
+  {
+   "tipo": "cita",
+   "seg": "porque",
+   "palabra": "Casi la mitad",
+   "texto": "«Casi la mitad de los jóvenes que se gradúan de secundaria tienen fuertes luchas con su fe.» — Descripción de Editorial Vida",
+   "visual": "ícono de círculo dividido a la mitad"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "conversaciones",
+   "texto": "1 · Conversaciones sobre la fe",
+   "visual": "dos burbujas de diálogo"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "red de relaciones",
+   "texto": "2 · Una red de relaciones",
+   "visual": "red de puntos conectados"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "otros adultos",
+   "texto": "Otros adultos que lo acompañen\nAmistades que sostienen",
+   "visual": "círculo de siluetas, sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "identidad",
+   "texto": "3 · Una identidad firme",
+   "visual": "árbol con raíces profundas"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "dónde apoyarse",
+   "texto": "Una identidad que no se mueve\nDónde apoyarse cuando llegan las dudas",
+   "visual": "ancla"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "un puente",
+   "texto": "4 · Un puente para salir de casa",
+   "visual": "puente entre una casa y un campus"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "cuéntame más",
+   "texto": "Pregunta qué piensa. No corrijas: «cuéntame más»",
+   "visual": "burbuja de diálogo abierta"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "una duda",
+   "texto": "Comparte una duda tuya",
+   "visual": "ícono de signo de interrogación compartido"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "conversa",
+   "texto": "Conversa\nOtros adultos\nIdentidad\nUn puente",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Cómo criar jóvenes de fe sólida",
+   "texto": "Cómo criar jóvenes de fe sólida\nKara Powell y Chap Clark\nEditorial Vida\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Google Books MX (descripción y capítulos de la edición en español de Editorial Vida).",
+  "Fuller Youth Institute (College Transition Project, 'casi la mitad')."
+ ]
+}

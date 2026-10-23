@@ -1,0 +1,190 @@
+{
+ "id": "R04-mi-primera-reaccion",
+ "formato": "vertical",
+ "tema": "La pregunta incómoda: mi primera reacción",
+ "libros": [
+  {
+   "libro_id": "la-educacion",
+   "titulo": "La educación",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "manten-encendido-tu-amor",
+   "titulo": "Mantén encendido tu amor",
+   "autor": "Danny Silk",
+   "donde": "Loving on Purpose (ed. en español)",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[directo, cercano, ritmo ágil] Tu hijo te cuenta algo que no te gusta. ¿Cuál es tu primera reacción?"
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hay cuatro muy comunes. La del soberbio, que siempre tiene la razón."
+  ],
+  [
+   "m1",
+   "mario",
+   "[papá, soberbio, tajante] Yo sé lo que te conviene. Y no se discute."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] La del dramático, que vive todo como una crisis."
+  ],
+  [
+   "m2",
+   "mario",
+   "[papá, dramático, exagerado] ¡Ay, no! ¡Esto es un desastre! ¿Qué va a ser de ti?"
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] La del alarmista, que anticipa lo peor."
+  ],
+  [
+   "m3",
+   "mario",
+   "[papá, alarmista, angustiado] Así empiezan los que acaban mal."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Y la del negligente, que lo deja para después."
+  ],
+  [
+   "m4",
+   "mario",
+   "[papá, negligente, distraído, sin mirar] Ahorita no. Luego lo vemos."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White, en La educación: cuando un padre se impacienta y corre peligro de hablar imprudentemente, es mejor que guarde silencio. Y Danny Silk, en Mantén encendido tu amor, habla de mantener el amor aun frente a los errores, el dolor y el miedo."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: respira, cuenta hasta cinco y di solo esto: «Gracias por contármelo. Déjame pensarlo.»"
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "reacción",
+   "texto": "¿Cuál es tu primera reacción?",
+   "visual": "signo de interrogación enorme sobre una mesa de cocina vacía, sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "i1",
+   "palabra": "soberbio",
+   "texto": "EL SOBERBIO · siempre tengo la razón",
+   "visual": "tarjeta azul marino con corona torcida"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "m1",
+   "palabra": "discute",
+   "texto": "NO SE DISCUTE",
+   "visual": "palabras en impacto con sacudida"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "i2",
+   "palabra": "dramático",
+   "texto": "EL DRAMÁTICO · todo es una crisis",
+   "visual": "tarjeta con rayo y máscara de teatro"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "m2",
+   "palabra": "desastre",
+   "texto": "¡UN DESASTRE!",
+   "visual": "palabra que tiembla y crece"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "i3",
+   "palabra": "alarmista",
+   "texto": "EL ALARMISTA · anticipa lo peor",
+   "visual": "tarjeta con sirena de alarma"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "m3",
+   "palabra": "acaban",
+   "texto": "¿ASÍ ACABAN?",
+   "visual": "nubes oscuras que cubren la tarjeta"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "i4",
+   "palabra": "negligente",
+   "texto": "EL NEGLIGENTE · lo deja para después",
+   "visual": "tarjeta con reloj de arena"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "m4",
+   "palabra": "Luego",
+   "texto": "LUEGO LO VEMOS",
+   "visual": "la palabra se desvanece a la derecha"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Elena",
+   "texto": "La educación · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "silencio",
+   "texto": "Es mejor que guarde silencio",
+   "visual": "comillas amarillas, SILENCIO grande en morado"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Silk",
+   "texto": "Mantén encendido tu amor · Danny Silk · Loving on Purpose (ed. en español)",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "encendido",
+   "texto": "Mantener el amor encendido",
+   "visual": "vela o llama pequeña que resiste el viento"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "cinco",
+   "texto": "Respira. Cuenta hasta cinco. «Gracias por contármelo.»",
+   "visual": "cuenta regresiva 1-5 sobre un círculo; luego la frase"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "pensarlo",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "ED cap. 34 «La disciplina», sección «Los frutos del dominio propio» (PDF oficial): «Cuando un padre o un maestro se impacienta, y corre peligro de hablar imprudentemente, es mejor que guarde silencio. En este hay un poder maravilloso»",
+  "Mantén encendido tu amor: descripción de editorial (christianbook.com): amor que se mantiene «in the face of mistakes, pain, and fear»",
+  "Las frases de Mario son ejemplos ilustrativos de cada estilo, no citas de libros."
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "id": "resumen-el-hogar-cristiano",
+ "formato": "horizontal",
+ "libro_id": "el-hogar-cristiano",
+ "titulo": "El hogar cristiano",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Si me van a regañar, mejor me callo."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Eso le pasa a muchos adolescentes. Hoy te presento El hogar cristiano, de Elena G. de White. Consejos para la vida en familia, con ideas muy prácticas para papás de adolescentes."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Una frase sorprende. Elena de White escribe: «Entre la infancia y la edad adulta, los hijos no reciben generalmente la atención que debiera concedérseles.» Justo la edad que más fácil se descuida. Es cuando más cambian, y cuando más fácil es dar por hecho que ya se las arreglan solos."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: sé su confidente. El libro pide animar a tus hijos a contarte sus penas y sus molestias del día. Y da una razón práctica: si no encuentran simpatía en casa, la buscarán afuera. La confianza no se exige. Se cultiva todos los días."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, molesto, tajante] ¿Y eso qué tiene de importante? ¡No es para tanto!"
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, apagado, bajito] Para mí sí lo es."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: toma en serio lo pequeño. Elena de White pide paciencia con las pruebas de los hijos. A ti pueden parecerte pequeñas, pero para ellos son grandes. Tu reacción le enseña si volverá a contarte algo."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: firmeza sin dureza. El libro no pide padres blandos. Pide unir la autoridad con el afecto. Y avisa de algo real: si eres firme, tu hijo puede pensar que no lo quieres. La respuesta no es soltar la regla. Es mostrar más cariño justo cuando es más difícil."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: tu voz marca el clima de la casa. El libro dedica un capítulo al don del habla. Pide hablar con amabilidad, no elevar la voz hasta que sea áspera, y conservar la calma."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: confidente, paciente, firme con ternura, y con una voz que da calma. Cosas pequeñas que, en casa, pesan mucho."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, dos cosas. Una: diez minutos con tu hijo, sin pantallas, solo escuchando. Dos: si te cuenta algo que te parece pequeño, responde primero con calma. Después, opinas."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Consejos de hace más de un siglo, y siguen funcionando. El hogar cristiano, de Elena G. de White. Descarga gratuita en e ge doble u writings punto org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "callo",
+   "texto": "Si me van a regañar, mejor me callo",
+   "visual": "burbuja de diálogo con candado, sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "regañar",
+   "texto": "«Mejor me callo»",
+   "visual": "burbuja de chat que se apaga"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "El hogar cristiano",
+   "texto": "El hogar cristiano · Elena G. de White",
+   "visual": "portada genérica de libro con casa estilizada"
+  },
+  {
+   "tipo": "cita",
+   "seg": "porque",
+   "palabra": "Entre la infancia",
+   "texto": "«Entre la infancia y la edad adulta, los hijos no reciben generalmente la atención que debiera concedérseles.» — El hogar cristiano, cap. 31",
+   "visual": "línea de tiempo con un tramo resaltado"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "sé su confidente",
+   "texto": "1 · Sé su confidente",
+   "visual": "ícono de dos globos de diálogo"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "penas",
+   "texto": "Que te cuenten sus penas del día\nSin simpatía en casa, la buscarán afuera",
+   "visual": "ícono de oído atento"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i1",
+   "palabra": "confianza",
+   "texto": "«Enseñadles a hacer de vosotros sus confidentes.» — El hogar cristiano, cap. 30",
+   "visual": "ícono de llave"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "importante",
+   "texto": "«¡No es para tanto!»",
+   "visual": "ícono de signo de exclamación grande"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "Para mí",
+   "texto": "«Para mí sí lo es.»",
+   "visual": "burbuja pequeña que se encoge"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "toma en serio",
+   "texto": "2 · Toma en serio lo pequeño",
+   "visual": "ícono de lupa sobre una piedrita"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "pequeñas",
+   "texto": "A ti: pequeño\nPara él: grande\nTu reacción decide si vuelve a contarte",
+   "visual": "balanza con una piedra y una montaña"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "firmeza sin dureza",
+   "texto": "3 · Firmeza sin dureza",
+   "visual": "ícono de escudo con corazón"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "autoridad",
+   "texto": "Autoridad + afecto\nNo soltar la regla\nMás cariño cuando es más difícil",
+   "visual": "regla y corazón unidos"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "tu voz",
+   "texto": "4 · Tu voz marca el clima",
+   "visual": "ícono de termómetro con onda de sonido"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i4",
+   "palabra": "amabilidad",
+   "texto": "Hablar con amabilidad\nSin voz áspera\nConservar la calma",
+   "visual": "onda de voz que se suaviza"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "diez minutos",
+   "texto": "Esta semana: 10 minutos sin pantallas. Solo escuchar.",
+   "visual": "reloj de 10 min con teléfono boca abajo"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "calma",
+   "texto": "Algo pequeño: primero calma, luego opinión",
+   "visual": "ícono de pausa"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "confidente",
+   "texto": "Confidente\nPaciente\nFirme con ternura\nVoz que da calma",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "El hogar cristiano",
+   "texto": "El hogar cristiano\nElena G. de White\nDescarga gratuita: egwwritings.org",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Texto del PDF oficial de egwwritings.org (ed. 2007): cap. 30 (pp. 153-156), cap. 31 (pp. 157-160), cap. 36 (pp. 177-179) y cap. 71 (pp. 353-357)."
+ ]
+}

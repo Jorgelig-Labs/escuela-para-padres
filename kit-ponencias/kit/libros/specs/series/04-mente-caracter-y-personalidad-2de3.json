@@ -1,0 +1,139 @@
+{
+ "id": "serie-mente-caracter-y-personalidad-2de3",
+ "formato": "vertical",
+ "libro_id": "mente-caracter-y-personalidad",
+ "serie": "mente-caracter-y-personalidad",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Mente, carácter y personalidad",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "Mente, carácter y personalidad",
+ "etiqueta": "Mente, carácter y personalidad · 2/3",
+ "tema": "Enfrentar con valentía",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Quieres protegerlo de todo sufrimiento. Es natural. ¿Pero eso lo ayuda?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Mente, carácter y personalidad reúne un texto de La educación, donde Elena G. de White escribe sobre cómo ayudar a los jóvenes ante las penas y las preocupaciones de la vida."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y ahí está su propuesta. Dice que podemos hacerles «un bien duradero si les enseñamos a enfrentar con valentía esas penas y preocupaciones»."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, preocupado, protector] Pobrecito. Mejor yo se lo resuelvo."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Y añade un matiz. Nuestra bondad no debe llevarlos a compadecerse de sí mismos. Necesitan algo que los estimule y los fortalezca, no que los debilite."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, apagado, bajito] A veces solo quiero que me oigan, no que me lo arreglen."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: cuando te cuente algo que le duele, primero consuélalo de verdad. Después pregúntale: ¿qué crees que sí puedes hacer tú con esto? Y acompáñalo, sin resolverlo por él."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: lo que hace una persona cuando nadie la ve."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "protegerlo",
+   "texto": "¿Protegerlo de todo sufrimiento?",
+   "visual": "Paraguas gigante sobre una silueta pequeña, sin rostro"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "penas",
+   "texto": "Penas y preocupaciones",
+   "visual": "Nubes pequeñas sobre un camino"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "duradero",
+   "texto": "«Un bien duradero si les enseñamos a enfrentar con valentía esas penas y preocupaciones»",
+   "visual": "Tarjeta de cita: Elena G. de White, Mente, carácter y personalidad, t. 1, cap. 31"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "resuelvo",
+   "texto": "Pobrecito. Mejor yo se lo resuelvo.",
+   "visual": "Burbuja de papá preocupado"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "compadecerse",
+   "texto": "Bondad sin lástima de sí mismos",
+   "visual": "Corazón que sostiene a una silueta de pie, sin cargarla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "fortalezca",
+   "texto": "Que lo fortalezca, no que lo debilite",
+   "visual": "Un músculo y un resorte que se estira"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "arreglen",
+   "texto": "Solo quiero que me oigan, no que me lo arreglen",
+   "visual": "Burbuja del adolescente"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "consuélalo",
+   "texto": "Para hoy: primero consuela",
+   "visual": "Tarjeta «Para hoy» con corazón"
+  },
+  {
+   "tipo": "titular",
+   "seg": "accion",
+   "palabra": "pregúntale",
+   "texto": "¿Qué crees que sí puedes hacer tú con esto?",
+   "visual": "Burbuja de pregunta que aparece palabra por palabra"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "acompáñalo",
+   "texto": "Acompáñalo, sin resolverlo por él",
+   "visual": "Dos pares de zapatos caminando juntos"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "nadie",
+   "texto": "Siguiente: cuando nadie la ve",
+   "visual": "Una habitación vacía con una luz que se enciende"
+  }
+ ],
+ "fuentes": [
+  "Mente, carácter y personalidad, t. 1, cap. 31 (cita) · egwwritings.org/es/book/1770"
+ ]
+}

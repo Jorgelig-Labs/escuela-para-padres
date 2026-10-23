@@ -1,0 +1,120 @@
+{
+ "id": "serie-el-hogar-cristiano-1de3",
+ "formato": "vertical",
+ "libro_id": "el-hogar-cristiano",
+ "serie": "el-hogar-cristiano",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "El hogar cristiano",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "El hogar cristiano",
+ "etiqueta": "El hogar cristiano · 1/3",
+ "tema": "Un hogar atractivo",
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Llego a casa y me encierro en mi cuarto."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] A veces no es contra ti. Es que la casa no se siente como un lugar donde quiera estar. En El hogar cristiano, Elena G. de White escribe que a los padres les toca hacer el hogar tan atractivo como sea posible. Y agrega algo que sorprende: eso importa mucho más que ganar dinero o acumular cosas."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Lo resume así: «El hogar debe ser para los niños el sitio más agradable del mundo»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Ojo con un error común. La limpieza y el orden son necesarios. Pero una casa impecable no sustituye atender el ánimo y el desarrollo de tus hijos."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, cansado, sincero] Todo está limpio, todo en su lugar... ¿y por qué nadie se queda en la sala?"
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: haz una cosa pequeña que vuelva tu casa más agradable. Su comida favorita. Música de fondo. Una risa a la hora de cenar. Que hoy, llegar a casa se sienta bien."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: cómo ganarte su confianza, entrando en su mundo."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "encierro",
+   "texto": "Llego a casa y me encierro en mi cuarto",
+   "visual": "Burbuja de mensaje sobre una puerta de cuarto entreabierta con luz de pantalla; sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "atractivo",
+   "texto": "Un hogar atractivo",
+   "visual": "Palabra «atractivo» en morado con pincelada amarilla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "dinero",
+   "texto": "Importa más que el dinero",
+   "visual": "Balanza: una casa pesa más que un fajo de billetes"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "sitio",
+   "texto": "«El hogar debe ser para los niños el sitio más agradable del mundo»",
+   "visual": "Tarjeta de cita con la atribución: Elena G. de White, El hogar cristiano"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "giro",
+   "palabra": "impecable",
+   "texto": "Impecable no es suficiente",
+   "visual": "Sala perfectamente ordenada y vacía, un sofá y una lámpara"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "nadie",
+   "texto": "¿Por qué nadie se queda en la sala?",
+   "visual": "Burbuja de papá sobre la sala vacía"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "cosa",
+   "texto": "Para hoy: una cosa pequeña que haga tu casa más agradable",
+   "visual": "Tarjeta «Para hoy» con palomita amarilla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "música",
+   "texto": "Su comida favorita · Música · Una risa",
+   "visual": "Tres iconos (plato, nota musical, risa) que entran uno a uno"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "confianza",
+   "texto": "Siguiente: ganarte su confianza",
+   "visual": "Titular con flecha hacia la derecha"
+  }
+ ],
+ "fuentes": [
+  "El hogar cristiano, E. G. de White, cap. 2 (cita) · egwwritings.org/es/book/177"
+ ]
+}

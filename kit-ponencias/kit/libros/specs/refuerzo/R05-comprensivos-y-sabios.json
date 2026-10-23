@@ -1,0 +1,144 @@
+{
+ "id": "R05-comprensivos-y-sabios",
+ "formato": "vertical",
+ "tema": "Los padres comprensivos y los sabios",
+ "libros": [
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "limites-con-los-adolescentes",
+   "titulo": "Límites con los adolescentes",
+   "autor": "John Townsend",
+   "donde": "Editorial Vida",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "mario",
+   "[papá, sereno, cálido] Te escucho. Te acompaño. Y te ayudo a encontrar soluciones."
+  ],
+  [
+   "comp",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Dos estilos de papá que sí abren la puerta. El comprensivo escucha, trata de entender lo que siente su hijo y se pone en su lugar. Y también corrige cuando hace falta."
+  ],
+  [
+   "m1",
+   "mario",
+   "[papá, comprensivo, tranquilo] Entiendo que estás molesto. Cuéntame qué pasó."
+  ],
+  [
+   "sabio",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] El sabio piensa antes de actuar, mira el panorama completo y decide con calma."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White, en El hogar cristiano: los padres no deben olvidar cuánto anhelaban, de niños, simpatía y amor, ni lo mal que se sentían cuando los reprendían con irritación. Y John Townsend, en Límites con los adolescentes, habla de límites sanos y consecuencias realistas, con cariño."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: antes de corregir, di una frase que empiece con «Entiendo que». Después sí, hablas del límite."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "soluciones",
+   "texto": "Te escucho · Te acompaño · Te ayudo",
+   "visual": "tres frases que entran una tras otra sobre fondo crema"
+  },
+  {
+   "tipo": "icono",
+   "seg": "comp",
+   "palabra": "comprensivo",
+   "texto": "EL COMPRENSIVO",
+   "visual": "dos sillas juntas, una frente a otra; sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "comp",
+   "palabra": "lugar",
+   "texto": "SE PONE EN SU LUGAR",
+   "visual": "dos pares de zapatos que se intercambian"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "m1",
+   "palabra": "Entiendo",
+   "texto": "ENTIENDO QUE…",
+   "visual": "palabra morada con subrayado amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "sabio",
+   "palabra": "sabio",
+   "texto": "EL SABIO",
+   "visual": "reloj de arena y un horizonte amplio"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "sabio",
+   "palabra": "calma",
+   "texto": "PIENSA · MIRA TODO · DECIDE CON CALMA",
+   "visual": "tres pasos en cadena"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Elena",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "simpatía",
+   "texto": "Simpatía y amor",
+   "visual": "foto-álbum infantil ilustrado (dibujo, sin rostros) que se abre"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Townsend",
+   "texto": "Límites con los adolescentes · John Townsend · Editorial Vida",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "límites",
+   "texto": "Límites sanos · consecuencias realistas",
+   "visual": "una cerca baja con una puerta abierta y un corazón encima"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "Entiendo",
+   "texto": "«Entiendo que…» y después el límite",
+   "visual": "dos globos de diálogo: primero uno morado y luego uno azul"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "límite",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "HC cap. 31 «La seguridad mediante el amor», sección «Recordemos nuestra propia infancia» (PDF oficial): «Los padres no deben olvidar cuánto anhelaban en su niñez la manifestación de simpatía y amor, y cuán desgraciados se sentían cuando se les censuraba y reprendía con irritación»",
+  "Límites con los adolescentes: descripción de editorial Vida (Google Books id VtQchQUz2N4C): «Establecer límites saludables y consecuencias realistas. Ser amorosos y afectuosos mientras se establecen reglas»",
+  "Las frases de Mario son ejemplos ilustrativos, no citas."
+ ]
+}

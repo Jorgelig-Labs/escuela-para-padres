@@ -1,0 +1,127 @@
+{
+ "id": "serie-conduccion-del-nino-2de3",
+ "formato": "vertical",
+ "libro_id": "conduccion-del-nino",
+ "serie": "conduccion-del-nino",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Conducción del niño",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "Conducción del niño",
+ "etiqueta": "Conducción del niño · 2/3",
+ "tema": "Cada hijo es distinto",
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] A mi hermano lo regañan y se ríe. A mí me aplasta."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Conducción del niño tiene un capítulo sobre estudiar la edad, el carácter y el temperamento de cada hijo. Elena G. de White escribe que Dios permite temperamentos distintos en una misma familia, y que cada uno debe respetar los sentimientos de los demás."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y lo dice sin rodeos: «Todos los niños no pueden ser tratados de la misma manera». Porque una restricción que a uno le hace bien, a otro puede aplastarlo."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Por eso pide estudiar el temperamento, las tendencias y los rasgos de carácter de cada hijo. Sin dureza y sin violencia."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, pensativo, sincero] Con uno basta una mirada. Con el otro, hay que sentarse a hablar."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: elige a uno de tus hijos y anota tres cosas que lo distinguen de sus hermanos. Luego pregúntate: ¿qué tipo de corrección le funciona a él, y cuál lo cierra?"
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: la corrección que aturde, pero no reforma."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "aplasta",
+   "texto": "A mi hermano lo regañan y se ríe. A mí me aplasta.",
+   "visual": "Dos burbujas de chat lado a lado; una ligera, otra pesada"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "temperamento",
+   "texto": "Temperamentos distintos",
+   "visual": "Cuatro círculos de colores distintos en una misma mesa"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "Dios",
+   "texto": "Distintos por diseño",
+   "visual": "Huellas dactilares todas diferentes"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "rodeos",
+   "texto": "«Todos los niños no pueden ser tratados de la misma manera»",
+   "visual": "Tarjeta de cita: Elena G. de White, Conducción del niño"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cita",
+   "palabra": "aplastarlo",
+   "texto": "Lo que ayuda a uno, aplasta a otro",
+   "visual": "Una misma piedra: a un lado sostiene una planta, al otro la aplasta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "dureza",
+   "texto": "Sin dureza y sin violencia",
+   "visual": "Palabra «dureza» tachada con trazo amarillo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "mirada",
+   "texto": "Con uno basta una mirada. Con el otro, hay que sentarse a hablar.",
+   "visual": "Burbuja de papá con dos íconos: ojo y silla"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "tres",
+   "texto": "Para hoy: tres cosas que lo distinguen",
+   "visual": "Tarjeta «Para hoy» con lista de tres puntos que aparecen"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "corrección",
+   "texto": "¿Qué corrección le funciona? ¿Cuál lo cierra?",
+   "visual": "Una puerta que se abre y otra que se cierra"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "aturde",
+   "texto": "Siguiente: la corrección que aturde",
+   "visual": "Palabra «aturde» con efecto de vibración"
+  }
+ ],
+ "fuentes": [
+  "Conducción del niño, E. G. de White, cap. 38 (cita) · egwwritings.org/es/book/157"
+ ]
+}

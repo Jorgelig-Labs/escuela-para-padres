@@ -1,0 +1,5 @@
+# Dependencias de Python del kit (se instalan solas con instalar.command)
+obsws-python==1.8.0
+websocket-client==1.9.2
+pillow==13.0.0
+numpy==2.5.4

@@ -1,0 +1,137 @@
+{
+ "id": "R09-diez-minutos-de-conexion",
+ "formato": "vertical",
+ "tema": "Clave 4: los diez minutos de conexión",
+ "libros": [
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "los-5-lenguajes-del-amor",
+   "titulo": "Los 5 lenguajes del amor de los jóvenes",
+   "autor": "Gary Chapman",
+   "donde": "Editorial Unilit",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] No necesito un sermón. Solo diez minutos contigo."
+  ],
+  [
+   "clave",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Clave cuatro: diez minutos de conexión. Un espacio corto, a propósito. No para revisar tareas. No para corregir. Para estar juntos."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, relajado, cercano] Oye, ¿qué fue lo mejor de tu día? ¿Y lo más difícil?"
+  ],
+  [
+   "const",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] No tiene que ser perfecto. Tiene que ser constante."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White, en El hogar cristiano, invita a dedicar parte de las horas libres a los hijos y a asociarse con ellos en sus trabajos y deportes: «Conquistad su confianza.» Y Gary Chapman, en Los 5 lenguajes del amor de los jóvenes, incluye el tiempo de calidad entre los cinco lenguajes del amor."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: separa diez minutos, sin celular, y haz esas dos preguntas."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "contigo",
+   "texto": "Clave 4 · Diez minutos de conexión",
+   "visual": "reloj de diez minutos que arranca la cuenta, fondo crema"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "propósito",
+   "texto": "UN ESPACIO CORTO · A PROPÓSITO",
+   "visual": "reloj de arena que se llena"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "tareas",
+   "texto": "NO TAREAS · NO CORREGIR",
+   "visual": "dos palabras tachadas; luego JUNTOS en amarillo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "mejor",
+   "texto": "¿LO MEJOR Y LO MÁS DIFÍCIL?",
+   "visual": "dos globos de diálogo, uno por pregunta"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "const",
+   "palabra": "constante",
+   "texto": "CONSTANTE",
+   "visual": "palabra que se repite siete veces como siete días"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Elena",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "Conquistad",
+   "texto": "«Conquistad su confianza.»",
+   "visual": "comillas amarillas y la frase en morado"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Chapman",
+   "texto": "Los 5 lenguajes del amor de los jóvenes · Gary Chapman · Editorial Unilit",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "calidad",
+   "texto": "Tiempo de calidad",
+   "visual": "reloj con corazón en el centro"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "celular",
+   "texto": "10 minutos, sin celular, dos preguntas",
+   "visual": "celular boca abajo sobre la mesa y un contador de 10:00"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "preguntas",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "HC cap. 30 «El compañerismo en la familia», sección «Con los hijos en trabajos y juegos» (PDF oficial): «Dedicad parte de vuestras horas libres a vuestros hijos; asociaos con ellos en sus trabajos y deportes, y conquistad su confianza»",
+  "Los 5 lenguajes del amor de los jóvenes: los cinco lenguajes (tiempo de calidad, palabras de afirmación, regalos, contacto físico, actos de servicio) en reseña de editorial (careforthefamily.org.uk) y bibliografia.md",
+  "Las dos preguntas de Mario son una sugerencia práctica propia del canal, no una cita."
+ ]
+}

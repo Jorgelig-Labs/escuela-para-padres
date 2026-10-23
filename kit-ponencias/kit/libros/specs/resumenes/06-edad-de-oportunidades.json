@@ -1,0 +1,177 @@
+{
+ "id": "resumen-edad-de-oportunidades",
+ "formato": "horizontal",
+ "libro_id": "edad-de-oportunidades",
+ "titulo": "Edad de oportunidades",
+ "autor": "Paul David Tripp",
+ "donde": "P&R Publishing (edición en español)",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] ¿Soy un problema que hay que aguantar?"
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Edad de oportunidades, de Paul David Tripp, publicado en español por P y R. Un libro que cambia la mirada sobre la adolescencia."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Muchos papás vemos la adolescencia como una etapa que hay que sobrevivir. Tripp la ve distinto. La editorial la presenta como «una época de oportunidades sin precedentes». Y esa mirada cambia cómo entras al cuarto de tu hijo."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: de sobrevivir a aprovechar. Un pastor que recomienda el libro dice que muchos pensamos que la adolescencia es solo una etapa por la que hay que pasar. El libro propone usarla para guiar a tu hijo y acercarte a él. Cuando lo ves así, un portazo deja de ser el final de la plática. Se vuelve una pista."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: conectar. Según la editorial, el libro quiere mostrarte cómo conectar con tus hijos de maneras nuevas. Ese es el primer paso. Por ejemplo: preguntar por su música, sus amigos, lo que le preocupa. Sin sermón. Solo curiosidad."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: mira el corazón, no solo la conducta. Quienes lo reseñan coinciden en que no es una fórmula de pasos. Es una guía para aplicar el evangelio a las luchas del corazón de cada hijo. Por eso las preguntas de discusión de la edición nueva se centran en el corazón. Por eso, ante un mal gesto, pregúntate qué hay detrás."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: empieza por ti. El pastor Fernando Gómez escribe en la contraportada: «el mayor obstáculo en la crianza de nuestros adolescentes es, a menudo, nuestro propio pecado.» Es incómodo y honesto. Antes de cambiar a tu hijo, revisa cómo respondes tú."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, honesto, bajito] Hijo… creo que me pasé. Perdóname."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: aprovecha en vez de sobrevivir, conecta, mira el corazón, y empieza por ti."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, dos cosas. Una: cambia un reclamo por una pregunta curiosa sobre su mundo. Dos: cuando te conteste mal, nota qué te pasa por dentro, y llévalo a la oración antes de responder. Pequeño y constante."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Edad de oportunidades, de Paul David Tripp, en español de P y R Publishing. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "problema",
+   "texto": "¿Soy un problema que hay que aguantar?",
+   "visual": "burbuja con signo de interrogación"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Edad de oportunidades",
+   "texto": "Edad de oportunidades · Paul David Tripp",
+   "visual": "portada genérica de libro con puerta que se abre"
+  },
+  {
+   "tipo": "cita",
+   "seg": "porque",
+   "palabra": "una época de oportunidades",
+   "texto": "«una época de oportunidades sin precedentes» — Descripción de P&R Publishing",
+   "visual": "puerta entreabierta con luz"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "de sobrevivir a aprovechar",
+   "texto": "1 · De sobrevivir a aprovechar",
+   "visual": "salvavidas que se vuelve brújula"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "etapa",
+   "texto": "No es solo una etapa que hay que pasar\nEs tiempo para guiar y acercarte",
+   "visual": "camino con una señal de oportunidad"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "conectar",
+   "texto": "2 · Conectar de maneras nuevas",
+   "visual": "ícono de dos cables que se conectan"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "mira el corazón",
+   "texto": "3 · Mira el corazón, no solo la conducta",
+   "visual": "ícono de corazón bajo una lupa"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "fórmula de pasos",
+   "texto": "No es una fórmula de pasos\nAplica el evangelio a las luchas de cada hijo\nPreguntas de discusión sobre el corazón",
+   "visual": "lista tachada y corazón"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "empieza por ti",
+   "texto": "4 · Empieza por ti",
+   "visual": "espejo con una flecha que regresa"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i4",
+   "palabra": "el mayor obstáculo",
+   "texto": "«el mayor obstáculo en la crianza de nuestros adolescentes es, a menudo, nuestro propio pecado» — Fernando Gómez, pastor, contraportada de P&R",
+   "visual": "ícono de piedra en el camino"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "pregunta curiosa",
+   "texto": "Cambia un reclamo por una pregunta curiosa",
+   "visual": "signo de interrogación que reemplaza un dedo señalando"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "oración",
+   "texto": "Antes de responder, llévalo a la oración",
+   "visual": "manos en oración, estilizadas, sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "me pasé",
+   "texto": "«Hijo… creo que me pasé. Perdóname.»",
+   "visual": "burbuja cálida con corazón"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "aprovecha",
+   "texto": "Aprovecha, no sobrevivas\nConecta\nMira el corazón\nEmpieza por ti",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Edad de oportunidades",
+   "texto": "Edad de oportunidades\nPaul David Tripp\nP&R Publishing (edición en español)\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "P&R Publishing (prpbooks.com/book/edad-de-oportunidades): descripción y recomendaciones de Nathan Díaz y Fernando Gómez.",
+  "Evangelical Times (reseña) y descripción de P&R sobre el enfoque en el corazón."
+ ]
+}

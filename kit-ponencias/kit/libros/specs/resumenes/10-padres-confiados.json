@@ -1,0 +1,177 @@
+{
+ "id": "resumen-padres-confiados",
+ "formato": "horizontal",
+ "libro_id": "padres-confiados",
+ "titulo": "Padres confiados",
+ "autor": "Jim Burns",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Siempre reaccionas igual."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, exasperado, a la defensiva] ¡Es que no sé de dónde me sale!"
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Buena pregunta. Hoy: Padres confiados, de Jim Burns. Un libro para papás con buenas intenciones, pero con frustraciones diarias."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Según la editorial, los conflictos constantes nos desgastan. Y a veces nadie nos enseñó lo básico de ser papás. Burns, que ha acompañado familias por más de veinte años, lo cuenta con la historia de una pareja, Mark y Becky, que intenta criar hijos normales. Si te suena familiar, este libro es para ti."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: cuida tu propia vida. El libro habla de reabastecer vidas demasiado ocupadas, y de equilibrar el cuidado de ti con el de tu familia. Un papá agotado reacciona peor. Cuidar de ti también es cuidar de ellos."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: vence los patrones familiares negativos. Es parte del subtítulo del libro. Mira lo que repites de tu propia familia, y decide qué cambias. Quizá gritas como gritaban en tu casa. O callas como callaban. Verlo es el primer paso para elegir otra cosa."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: crea un hogar lleno de gracia. El libro trata la disciplina y la calidez en casa como cosas que van juntas. Gracia sin reglas se vuelve caos. Reglas sin gracia, se vuelven guerra. El libro busca las dos."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: comunica tus valores. Con ejercicios y preguntas al final de cada tema, te ayuda a armar un plan familiar en vez de improvisar. Cuando no hay plan, cada conflicto se resuelve con el humor del día. Con valores claros, tú y tu pareja responden parecido."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: cuídate, mira tus patrones, une gracia con disciplina, y ponle palabras a tus valores. No tienes que ser perfecto. Solo ir un paso adelante de tu última reacción."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, dos cosas. Una: anota una reacción que repites aunque no te gusta, y pregúntate de dónde la aprendiste. Dos: escribe con tu pareja dos valores que quieren que se vean en casa. Sin culpa. Solo curiosidad. Ver el patrón ya es cambiarlo un poco."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Padres confiados, de Jim Burns, en español de Editorial Vida. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "igual",
+   "texto": "Siempre reaccionas igual.",
+   "visual": "ícono de flecha circular que se repite"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "no sé de dónde",
+   "texto": "«¡Es que no sé de dónde me sale!»",
+   "visual": "ícono de signo de interrogación sobre un pecho"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Padres confiados",
+   "texto": "Padres confiados · Jim Burns",
+   "visual": "portada genérica de libro"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "porque",
+   "palabra": "Mark y Becky",
+   "texto": "La historia de Mark y Becky",
+   "visual": "dos siluetas de pareja con maletín y mochila, sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "cuida tu propia vida",
+   "texto": "1 · Cuida tu propia vida",
+   "visual": "batería que se recarga"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "reabastecer",
+   "texto": "Reabastecer vidas demasiado ocupadas\nEquilibrar tu cuidado y el de tu familia",
+   "visual": "agenda llena y una pausa"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "patrones familiares",
+   "texto": "2 · Rompe patrones negativos",
+   "visual": "cadena con un eslabón roto"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "decide qué cambias",
+   "texto": "Mira lo que repites\nDecide qué cambias",
+   "visual": "árbol genealógico estilizado"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "hogar lleno de gracia",
+   "texto": "3 · Un hogar lleno de gracia",
+   "visual": "casa con corazón"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "calidez",
+   "texto": "Disciplina y calidez, juntas",
+   "visual": "dos manos entrelazadas"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "comunica tus valores",
+   "texto": "4 · Comunica tus valores",
+   "visual": "ícono de lista con estrella"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "anota una reacción",
+   "texto": "Anota una reacción que repites: ¿de dónde la aprendí?",
+   "visual": "libreta con lápiz"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "dos valores",
+   "texto": "Dos valores para tu casa, con tu pareja",
+   "visual": "dos íconos de valor: corazón y estrella"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "cuídate",
+   "texto": "Cuídate\nMira tus patrones\nGracia + disciplina\nPon palabras a tus valores",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Padres confiados",
+   "texto": "Padres confiados\nJim Burns\nEditorial Vida\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Google Books MX (descripción de Editorial Vida y subtítulo en español).",
+  "HomeWord (descripción, historia de Mark y Becky, más de veinte años de consejería)."
+ ]
+}

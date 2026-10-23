@@ -1,0 +1,116 @@
+{
+ "id": "serie-habla-claro-con-tus-hijos-3de3",
+ "formato": "vertical",
+ "libro_id": "habla-claro-con-tus-hijos",
+ "serie": "habla-claro-con-tus-hijos",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Habla claro con tus hijos sobre el sexo",
+ "autor": "Josh y Dottie McDowell",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "titulo_corto": "Habla claro con tus hijos",
+ "etiqueta": "Habla claro con tus hijos · 3/3",
+ "tema": "Prepárate tú primero",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Antes de hablar con tu hijo, prepárate tú."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] El libro propone tres pasos. Primero, ver el problema como realmente es, sin negarlo. Segundo, entender tú mismo el propósito de Dios para la sexualidad, antes de enseñarlo. Y tercero, guiar a tus hijos de forma activa."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Y hay una frase de alivio: los autores dicen que ellos no lo hicieron perfecto, porque los padres perfectos no existen. Y animan a los papás: los valores sobre el amor y la sexualidad sí se pueden transmitir a la siguiente generación."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, aliviado, sincero] No tengo que ser perfecto. Solo tengo que empezar."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: si decides leer el libro, hojéalo primero tú solo, a tu ritmo, antes de decidir cómo y cuándo hablar con tu hijo. Es un tema sensible, y conviene ir preparado."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Habla claro con tus hijos sobre el sexo, de Josh y Dottie McDowell, de Editorial Unilit. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "prepárate",
+   "texto": "Prepárate tú primero",
+   "visual": "Persona de espaldas frente a un libro cerrado; sin rostro"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "Primero",
+   "texto": "1. Ver el problema como es",
+   "visual": "Lupa sobre un horizonte"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "Segundo",
+   "texto": "2. Entender el propósito antes de enseñarlo",
+   "visual": "Brújula que apunta arriba"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "tercero",
+   "texto": "3. Guiar de forma activa",
+   "visual": "Mano que señala un camino"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "perfectos",
+   "texto": "Los padres perfectos no existen",
+   "visual": "Palabra «perfectos» tachada con trazo amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "generación",
+   "texto": "Los valores sí se transmiten",
+   "visual": "Antorcha que pasa de una mano a otra"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "perfecto",
+   "texto": "No tengo que ser perfecto. Solo tengo que empezar.",
+   "visual": "Burbuja de papá, tono aliviado"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "hojéalo",
+   "texto": "Para hoy: hojéalo tú primero, a tu ritmo",
+   "visual": "Tarjeta «Para hoy» con libro que se abre"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Unilit",
+   "texto": "Habla claro con tus hijos sobre el sexo · Josh y Dottie McDowell · Editorial Unilit",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Extracto oficial Harvest House (Straight Talk with Your Kids About Sex, intro. al cap. 1, en inglés; parafraseado, sin citas)",
+  "Ficha oficial de la editorial (Unilit) y de Harvest House"
+ ]
+}

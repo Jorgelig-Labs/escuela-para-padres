@@ -1,0 +1,170 @@
+{
+ "id": "resumen-manten-encendido-tu-amor",
+ "formato": "horizontal",
+ "libro_id": "manten-encendido-tu-amor",
+ "titulo": "Mantén encendido tu amor",
+ "autor": "Danny Silk",
+ "donde": "Loving on Purpose / Buena Semilla",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Si me controlas, me alejo."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Mantén encendido tu amor, de Danny Silk. Una aclaración: no es un libro solo de adolescentes. Habla de relaciones en general, pero sus ideas de conexión y límites aplican muy bien en casa. Por eso lo traemos hoy."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] El subtítulo resume su propuesta: conexión, comunicación y límites. Las reseñas lo describen como un enfoque distinto. En lugar de controlar al otro, cada quien se hace responsable de sí mismo. Esa idea cabe perfecto en la crianza de un adolescente."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: conexión. Según una reseña, el autor sostiene que fuimos diseñados para conectar, pero muchas personas mantienen distancia para evitar que las lastimen. Y esa distancia nos quita poder para cambiar las cosas. Piensa en un adolescente que se encierra en su cuarto. ¿Será que pone distancia para no salir lastimado?"
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: poder no es controlar al otro. Es hacerte responsable de quién eres y de cómo respondes. Para un papá, significa que lo único que puedes dirigir del todo, eres tú. Tú no puedes controlar su cuarto, sus amigos ni su estado de ánimo. Sí puedes controlar tu tono, tu pausa y tu siguiente frase."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: los límites. Según las reseñas, la persona con dominio propio pone límites sanos, y esos límites ayudan al otro a hacerse responsable también. No son un muro. Cuidan la relación. Por ejemplo: «Así no puedo hablar contigo. Cuando estemos tranquilos, seguimos.» No es un castigo. Es un límite."
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, bajando la guardia] Ok… luego hablamos."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: conecta aunque cueste, hazte cargo de ti, y pon límites que cuiden, no que alejen."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, cuando tu hijo te haga enojar, haz una pausa y pregúntate: ¿qué necesito controlar, a él o a mí? Y busca un momento en que, aunque estés molesto, tu tono diga: Una sola vez basta para empezar."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, molesto pero sereno, cálido] Estoy molesto. Pero sigo aquí."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Mantén encendido tu amor, de Danny Silk, en ediciones en español de Loving on Purpose y Buena Semilla. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "controlas",
+   "texto": "Si me controlas, me alejo.",
+   "visual": "ícono de hilo tenso que se suelta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Mantén encendido tu amor",
+   "texto": "Mantén encendido tu amor · Danny Silk",
+   "visual": "portada genérica de libro con llama"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "porque",
+   "palabra": "conexión, comunicación y límites",
+   "texto": "Conexión\nComunicación\nLímites",
+   "visual": "tres íconos: cable, burbuja, cerca"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "conexión",
+   "texto": "1 · Diseñados para conectar",
+   "visual": "dos cables que encajan"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "distancia",
+   "texto": "Distancia por miedo a que nos lastimen\nNos quita poder para cambiar las cosas",
+   "visual": "muro bajo entre dos casas"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "poder no es controlar",
+   "texto": "2 · Poder ≠ controlar al otro",
+   "visual": "ícono de volante en la mano propia"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "quién eres",
+   "texto": "Responsable de quién eres y de cómo respondes",
+   "visual": "espejo"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "los límites",
+   "texto": "3 · Límites que cuidan la relación",
+   "visual": "cerca con puerta"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "ayudan al otro",
+   "texto": "Límites sanos, no muros\nAyudan al otro a hacerse responsable",
+   "visual": "puerta abierta con cerca baja"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "pausa",
+   "texto": "Pausa: ¿lo controlo a él o me controlo a mí?",
+   "visual": "ícono de pausa"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "sigo aquí",
+   "texto": "«Estoy molesto. Pero sigo aquí.»",
+   "visual": "ícono de corazón encendido"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "luego hablamos",
+   "texto": "«Ok… luego hablamos.»",
+   "visual": "burbuja que se suaviza"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "conecta aunque cueste",
+   "texto": "Conecta aunque cueste\nHazte cargo de ti\nLímites que cuidan",
+   "visual": "tres íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Mantén encendido tu amor",
+   "texto": "Mantén encendido tu amor\nDanny Silk\nLoving on Purpose / Buena Semilla\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Reseña de Craig Owens (craigtowens.com, 2015) para conexión, poder y límites.",
+  "Subtítulo y descripción de la edición en español (conexión, comunicación, límites)."
+ ]
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163d37">
+  <title>Leer una referencia · Entre nosotros</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/reader.css">
+  <script type="module" src="/reader.js"></script>
+</head>
+<body class="reader-page">
+  <header class="reader-header"><a id="reader-back" class="reader-back" href="/#biblioteca">← Volver a los videos y referencias</a><div class="reader-heading"><div><p class="eyebrow">LECTURA · PDF ORIGINAL</p><h1 id="reader-title">Preparando tu lectura…</h1><p id="reader-author"></p></div><div class="reader-controls" id="reader-controls" hidden><label id="edition-label" for="edition">Tomo o edición</label><select id="edition"></select><a class="button primary" id="open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a><a class="button secondary" id="download-pdf" download>Descargar</a></div></div></header>
+  <main class="reader-main">
+    <p class="reader-hint" id="reader-hint" hidden>Lee con los controles del visor. Si en tu celular o tablet no se muestra bien, usa <a id="hint-open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF en otra pestaña</a>.</p>
+    <div class="reader-status" id="reader-status" role="status" aria-live="polite">Cargando el libro…</div>
+    <div class="reader-error" id="reader-error" hidden><h2>No pudimos abrir el PDF aquí.</h2><p id="reader-error-message">Puedes intentar otra vez o abrir el PDF desde la fuente oficial.</p><div><button class="button secondary" id="retry-pdf">Volver a intentar</button><a class="button primary" id="error-official" target="_blank" rel="noopener noreferrer" hidden>Abrir PDF oficial</a></div></div>
+    <iframe id="pdf-frame" title="Lector del PDF original" hidden></iframe>
+    <p class="reader-source" id="reader-source" hidden><a id="official-source" target="_blank" rel="noopener noreferrer">PDF en la fuente oficial</a><span> · Documento original, sin modificaciones.</span></p>
+  </main>
+  <noscript>Necesitas JavaScript para seleccionar el libro. <a href="/">Volver al catálogo</a>.</noscript>
+</body>
+</html>

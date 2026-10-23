@@ -1,0 +1,132 @@
+{
+ "id": "serie-los-5-lenguajes-del-amor-3de3",
+ "formato": "vertical",
+ "libro_id": "los-5-lenguajes-del-amor",
+ "serie": "los-5-lenguajes-del-amor",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Los 5 lenguajes del amor de los jóvenes",
+ "autor": "Gary Chapman",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "titulo_corto": "Los 5 lenguajes del amor",
+ "etiqueta": "Los 5 lenguajes del amor · 3/3",
+ "tema": "El césped sin cortar",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Tu hijo cortó el césped, pero dejó partes sin cortar. ¿Qué le dices?"
+  ],
+  [
+   "papa1",
+   "mario",
+   "[papá, molesto, tajante] ¡Mira nomás! ¡Esto no es cortar el pasto! ¡Aquí se te quedó todo sin cortar!"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Chapman cuenta un ejemplo cotidiano: el de un joven que corta el césped y deja zonas sin cortar. Y le aconseja al papá algo difícil: aguantarse."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] El consejo es: «Refrénate, no señales el césped sin cortar». Esa parte se puede corregir la semana siguiente. Primero, lo que sí hizo. En cambio, propone decirle algo como esto."
+  ],
+  [
+   "papa2",
+   "mario",
+   "[papá, cálido, sincero] «Aprecio mucho tu gran esfuerzo»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Así, explica Chapman, el trabajo empieza a parecerle valioso, y su tanque de amor se va llenando."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: la próxima vez que haga algo a medias, reconoce primero su esfuerzo. La corrección puede esperar a otro momento."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Los cinco lenguajes del amor de los jóvenes, de Gary Chapman, de Editorial Unilit. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "césped",
+   "texto": "¿Qué le dices?",
+   "visual": "Césped recién cortado con franjas sin cortar; sin personas"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa1",
+   "palabra": "sin",
+   "texto": "¡Aquí se te quedó todo sin cortar!",
+   "visual": "Burbuja de papá sobre las franjas de pasto"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "aguantarse",
+   "texto": "Primero: aguantarse",
+   "visual": "Palabra «aguantarse» con una pausa (dos barras) en amarillo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "Refrénate",
+   "texto": "«Refrénate, no señales el césped sin cortar»",
+   "visual": "Tarjeta de cita: Gary Chapman, Los 5 lenguajes del amor de los jóvenes"
+  },
+  {
+   "tipo": "icono",
+   "seg": "cita",
+   "palabra": "semana",
+   "texto": "Se corrige la semana siguiente",
+   "visual": "Calendario con una hoja que pasa"
+  },
+  {
+   "tipo": "cita",
+   "seg": "papa2",
+   "palabra": "Aprecio",
+   "texto": "«Aprecio mucho tu gran esfuerzo»",
+   "visual": "Tarjeta de cita corta con atribución a Chapman (frase de ejemplo del libro)"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "tanque",
+   "texto": "El tanque se va llenando",
+   "visual": "Tanque que sube de nivel con gotas amarillas"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "esfuerzo",
+   "texto": "Para hoy: primero reconoce su esfuerzo",
+   "visual": "Tarjeta «Para hoy» con palomita"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "corrección",
+   "texto": "La corrección puede esperar",
+   "visual": "Un reloj de arena que se voltea"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Unilit",
+   "texto": "Los 5 lenguajes del amor de los jóvenes · Gary Chapman · Editorial Unilit",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Google Books GFqGDwAAQBAJ (vista previa), Chapman: ejemplo del césped y «Aprecio mucho tu gran esfuerzo» (PT41)"
+ ]
+}

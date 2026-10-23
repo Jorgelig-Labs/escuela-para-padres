@@ -1,0 +1,146 @@
+{
+ "id": "serie-conduccion-del-nino-1de3",
+ "formato": "vertical",
+ "libro_id": "conduccion-del-nino",
+ "serie": "conduccion-del-nino",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Conducción del niño",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "Conducción del niño",
+ "etiqueta": "Conducción del niño · 1/3",
+ "tema": "Amor y deber, juntos",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Eres un papá muy cariñoso, o muy firme?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Conducción del niño, Elena G. de White describe dos errores opuestos. Amor sin deber, que hace hijos testarudos y egoístas. Y deber sin amor, que da un resultado parecido. Y los dos suenan así."
+  ],
+  [
+   "papa1",
+   "mario",
+   "[papá, blando, evasivo] Ay, ya, déjalo. Para qué pelear."
+  ],
+  [
+   "papa2",
+   "mario",
+   "[papá, molesto, tajante] ¡Porque yo lo digo y punto!"
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Su frase es esta: «El amor tiene un hermano gemelo que es el deber»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] O sea, las dos cosas van juntas. No son rivales. Poner un límite es parte de amar, y amar define cómo lo pones. Ella lo dice así: «sed firmes, pero también bondadosos»."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: piensa en un límite que has dejado pasar por evitar el pleito. Elige solo uno, y dilo con calma y con cariño. Una regla clara, no diez. Lo demás puede esperar."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: por qué lo que funciona con un hijo, aplasta a otro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "cariñoso",
+   "texto": "¿Cariñoso o firme?",
+   "visual": "Dos palabras en dos mitades de pantalla que se empujan"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "Amor",
+   "texto": "Amor sin deber",
+   "visual": "Corazón sin columna vertebral; cae hacia un lado"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "deber",
+   "texto": "Deber sin amor",
+   "visual": "Regla de metal sin corazón; cae hacia el otro lado"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa1",
+   "palabra": "pelear",
+   "texto": "Ay, ya, déjalo. Para qué pelear.",
+   "visual": "Burbuja de papá, color tenue"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa2",
+   "palabra": "punto",
+   "texto": "¡Porque yo lo digo y punto!",
+   "visual": "Burbuja de papá, en mayúsculas, vibra"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "gemelo",
+   "texto": "«El amor tiene un hermano gemelo que es el deber»",
+   "visual": "Tarjeta de cita: Elena G. de White, Conducción del niño"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cita",
+   "palabra": "hermano",
+   "texto": "Amor + deber",
+   "visual": "Dos siluetas de manos entrelazadas, sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "límite",
+   "texto": "Un límite es parte de amar",
+   "visual": "«límite» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "giro",
+   "palabra": "firmes",
+   "texto": "«Sed firmes, pero también bondadosos»",
+   "visual": "Frase corta en tipografía cinética"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "límite",
+   "texto": "Para hoy: un límite, con calma y con cariño",
+   "visual": "Tarjeta «Para hoy» con palomita amarilla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "diez",
+   "texto": "Una regla clara, no diez",
+   "visual": "Una sola tarjeta de regla frente a una pila de diez"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "aplasta",
+   "texto": "Siguiente: lo que funciona con uno, aplasta a otro",
+   "visual": "Dos plantas distintas; una florece y otra se dobla"
+  }
+ ],
+ "fuentes": [
+  "Conducción del niño, E. G. de White, cap. 45 (cita) · egwwritings.org/es/book/157"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "_ayuda": "Ajustes del kit (no son secretos; los secretos van en .env). Cambia los valores entre comillas.",
+  "carpeta_trabajo": "~/Movies/Kit-Ponencias",
+  "whisper_modelo": "small",
+  "_whisper_modelo": "tiny = rápido pero con muchos errores · small = recomendado (Mac de 16 GB) · medium = mejor, necesita ~6 GB libres",
+  "whisper_hilos": 5,
+  "contexto_transcripcion": "Conferencia en español.",
+  "_contexto_transcripcion": "Una o dos frases con el tema y los nombres propios que se van a mencionar: ayuda mucho a que la transcripción escriba bien los nombres.",
+  "obs": {"lienzo": [1920, 1080], "escena": "Kit Ponencias"}
+}

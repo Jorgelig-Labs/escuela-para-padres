@@ -1,0 +1,139 @@
+{
+ "id": "serie-padres-confiados-2de3",
+ "formato": "vertical",
+ "libro_id": "padres-confiados",
+ "serie": "padres-confiados",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Padres confiados",
+ "autor": "Jim Burns",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Padres confiados",
+ "etiqueta": "Padres confiados · 2/3",
+ "tema": "El día de descanso en familia",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Cuándo fue la última vez que tu familia descansó de verdad, en familia?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Burns dedica una de sus lecciones al día de reposo. Dice que muchas familias tienen una gran necesidad de descanso. Quizá la tuya también."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Lo resume así: «Están tan ocupadas haciendo cosas buenas que han perdido el camino para llegar a las cosas mejores»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Y propone cuatro verbos: reposar, refrescar, restaurar y recrearse. Sobre reposar, sugiere hacer algo que genere un descanso de verdad. Y si no sabes qué es, preguntarles a ellos. Cuatro verbos, para un solo día."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, cansado, a la defensiva] ¿Descansar? Los domingos tengo pendientes."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, directo] Yo descanso cuando nadie me está pidiendo nada. O sea, casi nunca."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: pregunta en la mesa qué les daría descanso de verdad como familia, y apunta lo que respondan. Sin juzgar las respuestas. Y si se puede, hazlo esta semana."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: una bendición no tiene que ser elocuente."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "descansó",
+   "texto": "¿Cuándo descansó tu familia de verdad?",
+   "visual": "Sillones vacíos frente a una ventana con luz de tarde"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "reposo",
+   "texto": "Día de reposo familiar",
+   "visual": "Calendario con un día en amarillo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "ocupadas",
+   "texto": "«Están tan ocupadas haciendo cosas buenas que han perdido el camino para llegar a las cosas mejores»",
+   "visual": "Tarjeta de cita: Jim Burns, Padres confiados"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "domingos",
+   "texto": "¿Descansar? Los domingos tengo pendientes.",
+   "visual": "Burbuja de papá"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "reposar",
+   "texto": "Reposar",
+   "visual": "Icono de cama o hamaca"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "refrescar",
+   "texto": "Refrescar",
+   "visual": "Icono de vaso con agua"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "restaurar",
+   "texto": "Restaurar",
+   "visual": "Icono de herramienta que repara una taza"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "recrearse",
+   "texto": "Recrearse",
+   "visual": "Icono de pelota o juego de mesa"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "nadie",
+   "texto": "Yo descanso cuando nadie me pide nada",
+   "visual": "Burbuja del adolescente"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "mesa",
+   "texto": "Para hoy: pregunta qué les daría descanso de verdad",
+   "visual": "Tarjeta «Para hoy» con mesa y libreta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "elocuente",
+   "texto": "Siguiente: la bendición no tiene que ser elocuente",
+   "visual": "Palabra «bendición» que se ilumina suave"
+  }
+ ],
+ "fuentes": [
+  "Google Books IziaUz5Qa6kC (vista previa), Burns: cuatro R del día de reposo (PT72); «Están tan ocupadas haciendo cosas buenas…»"
+ ]
+}

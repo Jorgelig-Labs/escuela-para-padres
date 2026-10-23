@@ -1,0 +1,189 @@
+{
+ "id": "resumen-limites-con-los-adolescentes",
+ "formato": "horizontal",
+ "libro_id": "limites-con-los-adolescentes",
+ "titulo": "Límites con los adolescentes",
+ "autor": "John Townsend",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Dices que no, pero ni me escuchas."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Límites con los adolescentes, de John Townsend. El subtítulo lo resume: cuándo decir sí, cómo decir no."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Entender a tu hijo no te quita el derecho de poner límites. Muchos papás sentimos que hay que escoger: o somos el amigo, o somos el que manda. Según su editorial, este libro propone las dos cosas a la vez: una guía para poner límites sanos, con consecuencias realistas."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: sé cariñoso y firme al mismo tiempo. La editorial lo describe como una guía para mostrar afecto mientras haces cumplir las reglas. El límite y el cariño no se pelean."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, firme, sin gritar] Entiendo que te enoje. Aun así, la respuesta es no."
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, resignado, bajando la guardia] Ok… pero al menos me escuchaste."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: consecuencias realistas. No se trata de castigos exagerados ni de amenazas que no vas a cumplir. Se trata de consecuencias que tengan sentido, y que puedas sostener. Por ejemplo: si llegas tarde otra vez, este fin de semana no hay salida. Y lo cumples. Eso es una consecuencia realista."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: los límites buscan que tu hijo asuma su propia responsabilidad. Las fichas del libro hablan de ayudar al adolescente a hacerse dueño de su conducta, sus valores y su vida. Es decir: poco a poco, la decisión pasa de tus manos a las suyas."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: actitudes difíciles. El libro aborda cómo responder a la actitud irrespetuosa y a los problemas, pequeños y grandes, con estrategias concretas. Aquí el libro baja a lo concreto."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: cariño y firmeza juntos, consecuencias que puedas sostener, y un hijo que aprende a hacerse cargo de su vida. No necesitas una regla nueva por día. Con un límite bien puesto, empiezas."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, elige un solo límite que de verdad importe. Exprésalo con calma, con una razón y su consecuencia. Y antes de ponerlo, reconoce lo que siente: entiendo que te enoja, y aun así la respuesta es no. Y si se lo toma mal, es normal. Un límite no necesita aplausos. Necesita constancia."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Límites con los adolescentes, de John Townsend, en español de Editorial Vida. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "ni me escuchas",
+   "texto": "Dices que no, pero ni me escuchas.",
+   "visual": "burbuja con signo de interrogación"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Límites con los adolescentes",
+   "texto": "Límites con los adolescentes · John Townsend",
+   "visual": "portada genérica de libro con cerca"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "porque",
+   "palabra": "límites sanos",
+   "texto": "Límites sanos + consecuencias realistas",
+   "visual": "cerca baja con puerta abierta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "cariñoso y firme",
+   "texto": "1 · Cariñoso y firme a la vez",
+   "visual": "ícono de corazón dentro de un escudo"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "afecto",
+   "texto": "Afecto mientras haces cumplir las reglas\nLímite y cariño no se pelean",
+   "visual": "balanza con un corazón y una regla"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "Entiendo",
+   "texto": "«Entiendo que te enoje. Aun así, la respuesta es no.»",
+   "visual": "ícono de palma abierta y signo de alto suave"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "consecuencias realistas",
+   "texto": "2 · Consecuencias realistas",
+   "visual": "ícono de reloj de arena"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "amenazas",
+   "texto": "Sin castigos exagerados\nSin amenazas que no cumplirás\nConsecuencias que puedas sostener",
+   "visual": "tres palomitas"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "responsabilidad",
+   "texto": "3 · Que asuma su responsabilidad",
+   "visual": "ícono de mochila que él mismo carga"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "dueño",
+   "texto": "Dueño de su conducta\nDueño de sus valores\nDueño de su vida",
+   "visual": "tres llaves"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "actitudes difíciles",
+   "texto": "4 · Actitudes difíciles",
+   "visual": "ícono de nube gris"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "un solo límite",
+   "texto": "Un solo límite que importe: con razón y consecuencia",
+   "visual": "ícono de cerca con un solo poste resaltado"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "reconoce lo que siente",
+   "texto": "Primero valida: «entiendo que te enoja»",
+   "visual": "burbuja con corazón"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "me escuchaste",
+   "texto": "«Ok… pero al menos me escuchaste.»",
+   "visual": "burbuja que se suaviza"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "cariño y firmeza",
+   "texto": "Cariño y firmeza\nConsecuencias sostenibles\nÉl se hace cargo\nUn límite bien puesto",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Límites con los adolescentes",
+   "texto": "Límites con los adolescentes\nJohn Townsend\nEditorial Vida\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Google Books MX (descripción de Editorial Vida).",
+  "Fichas de Goodreads y librerías (responsabilidad del adolescente, consecuencias realistas)."
+ ]
+}

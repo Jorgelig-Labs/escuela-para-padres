@@ -1,0 +1,139 @@
+{
+ "id": "serie-padres-confiados-3de3",
+ "formato": "vertical",
+ "libro_id": "padres-confiados",
+ "serie": "padres-confiados",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Padres confiados",
+ "autor": "Jim Burns",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Padres confiados",
+ "etiqueta": "Padres confiados · 3/3",
+ "tema": "Una bendición sencilla",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Cuándo fue la última vez que bendijiste a tu hijo con palabras?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Jim Burns propone cambiar el ambiente del hogar con tres cosas: afecto, calidez y estímulo. Tres palabras fáciles de recordar. Y dedica otra lección a la bendición."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Escribe: «No tienes que ser elocuente o tener tu vida bajo control para decir palabras de bendición». Para él, el amor es el único requisito. Es decir, no esperes el discurso perfecto."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Y agrega que, aunque las palabras no salgan de la manera correcta, tus hijos pueden entender el mensaje de tus emociones."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, emocionado, sencillo] Hijo, me da orgullo que seas tú. Que Dios te cuide."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, bajito, tímido] Aunque se le trabe, me gusta que me lo diga."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: antes de dormir, dile a tu hijo una frase de bendición. Sencilla, sin discurso, aunque no te salga perfecta."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Padres confiados, de Jim Burns, de Editorial Vida. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "bendijiste",
+   "texto": "¿Cuándo fue la última vez que lo bendijiste?",
+   "visual": "Mano abierta con luz amarilla que baja"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "afecto",
+   "texto": "Afecto",
+   "visual": "Corazón"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "calidez",
+   "texto": "Calidez",
+   "visual": "Sol pequeño"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "estímulo",
+   "texto": "Estímulo",
+   "visual": "Flecha hacia arriba"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "elocuente",
+   "texto": "«No tienes que ser elocuente o tener tu vida bajo control para decir palabras de bendición»",
+   "visual": "Tarjeta de cita: Jim Burns, Padres confiados"
+  },
+  {
+   "tipo": "titular",
+   "seg": "cita",
+   "palabra": "requisito",
+   "texto": "El amor es el único requisito",
+   "visual": "«amor» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "emociones",
+   "texto": "Entienden el mensaje de tus emociones",
+   "visual": "Onda de voz que se transforma en corazón"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "orgullo",
+   "texto": "Hijo, me da orgullo que seas tú.",
+   "visual": "Burbuja de papá, tono cálido"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "trabe",
+   "texto": "Aunque se le trabe, me gusta que me lo diga",
+   "visual": "Burbuja del adolescente, tono tímido"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "dormir",
+   "texto": "Para hoy: una frase de bendición antes de dormir",
+   "visual": "Tarjeta «Para hoy» con luna y estrellas"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Vida",
+   "texto": "Padres confiados · Jim Burns · Editorial Vida",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Google Books IziaUz5Qa6kC (vista previa), Burns: «No tienes que ser elocuente…» (PT124); ACE: afecto, calidez y estímulo (PT78)"
+ ]
+}

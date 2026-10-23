@@ -1,0 +1,119 @@
+{
+ "id": "resumen-prueba-16x9",
+ "formato": "horizontal",
+ "libro_id": "el-hogar-cristiano",
+ "titulo": "El hogar cristiano",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "presupuesto_caracteres": 1200,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Si me van a regañar, mejor me callo."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Le pasa a muchos adolescentes, justo en la edad que más fácil se descuida. Hoy te cuento dos ideas de El hogar cristiano, de Elena G. de White: consejos para la vida en familia, muy prácticos para papás de adolescentes."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Primera: sé su confidente. El libro dice: «Enseñadles a hacer de vosotros sus confidentes.» Y da una razón práctica: si en casa no encuentran simpatía, la buscarán afuera. La confianza no se exige. Se cultiva todos los días."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Segunda: lo pequeño para ti es grande para él. Elena de White pide paciencia con sus pruebas, que a los padres pueden parecerles pequeñas. Y tu reacción decide si volverá a contarte algo."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[firme, cálido, cierre] Esta semana, escucha primero y opina después. Estos consejos tienen más de un siglo y siguen funcionando. Descarga El hogar cristiano gratis en e ge doble u writings punto org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "callo",
+   "texto": "Si me van a regañar, mejor me callo",
+   "visual": "cuarto de adolescente visto de espaldas, sin rostro"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Hoy",
+   "texto": "El hogar cristiano · Elena G. de White",
+   "visual": "portada de libro"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "confidente",
+   "texto": "1 · Sé su confidente",
+   "visual": "número 1"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i1",
+   "palabra": "Enseñadles",
+   "texto": "«Enseñadles a hacer de vosotros sus confidentes.» — El hogar cristiano, cap. 30",
+   "visual": "comillas amarillas"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "simpatía",
+   "texto": "Sin simpatía en casa, la buscarán afuera\nLa confianza se cultiva todos los días",
+   "visual": "ícono de oído atento"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "Segunda",
+   "texto": "2 · Lo pequeño es grande para él",
+   "visual": "número 2"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i2",
+   "palabra": "paciencia",
+   "texto": "«Sed pacientes con ellos en sus pruebas, que pueden pareceros pequeñas pero son grandes para ellos.» — El hogar cristiano, cap. 71",
+   "visual": "comillas amarillas, GRANDES resaltado"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "reacción",
+   "texto": "Tu reacción decide\nSi vuelve a contarte algo",
+   "visual": "balanza con una piedra y una montaña"
+  },
+  {
+   "tipo": "accion",
+   "seg": "cierre",
+   "palabra": "escucha",
+   "texto": "Escucha primero. Opina después.",
+   "visual": "mesa con una taza; sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "cierre",
+   "palabra": "siglo",
+   "texto": "Más de un siglo, y siguen funcionando",
+   "visual": "reloj de arena"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Descarga",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "El hogar cristiano, cap. 30 p. 153 y cap. 71 p. 354 (texto oficial de egwwritings.org, citas verificadas en guiones.py del libro 1)."
+ ]
+}

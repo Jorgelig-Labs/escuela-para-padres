@@ -1,0 +1,132 @@
+{
+ "id": "serie-limites-con-los-adolescentes-1de3",
+ "formato": "vertical",
+ "libro_id": "limites-con-los-adolescentes",
+ "serie": "limites-con-los-adolescentes",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Límites con los adolescentes",
+ "autor": "John Townsend",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Límites con los adolescentes",
+ "etiqueta": "Límites con los adolescentes · 1/3",
+ "tema": "Tolera el enojo",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Te cuesta decirle que no a tu hijo? ¿Sobre todo cuando se enoja?"
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, enojado, directo] ¡Qué injusto eres!"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Límites con los adolescentes, de John Townsend, tiene un subtítulo que lo dice todo: cuándo decir sí, y cómo decir no. Y entre sus consejos está que, aun cuando tu hijo esté enojado contigo, procures seguir conectado con él."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y da una pauta incómoda: «Tolere el enojo de su adolescente». A menos que lo estés maltratando seriamente, déjalo enojarse y no te apartes."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Es decir: déjalo enojarse, no te apartes, escúchalo y entiende lo que te dice. Que se enoje porque dijiste que no, no significa que hayas fallado."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, tranquilo, firme] Entiendo que te enojes. Mi respuesta sigue siendo no."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: la próxima vez que digas que no, dilo con calma y deja que se enoje. Sin gritar, sin dar vueltas. No tienes que convencerlo de que está de acuerdo."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: libertad para elegir, y consecuencias reales."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "no",
+   "texto": "¿Te cuesta decir «no»?",
+   "visual": "La palabra «no» grande, con un temblor y luego firme"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "injusto",
+   "texto": "¡Qué injusto eres!",
+   "visual": "Burbuja de enojo del adolescente"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "subtítulo",
+   "texto": "Cuándo decir sí, cómo decir no",
+   "visual": "Dos botones: «sí» y «no», uno a cada lado"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "conectado",
+   "texto": "Conectado, aun enojado",
+   "visual": "Dos clavijas de enchufe que siguen unidas mientras una chispea"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "Tolere",
+   "texto": "«Tolere el enojo de su adolescente»",
+   "visual": "Tarjeta de cita: John Townsend, Límites con los adolescentes"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "fallado",
+   "texto": "Su enojo no es tu fracaso",
+   "visual": "Palomita amarilla sobre una burbuja de enojo"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "escúchalo",
+   "texto": "No te apartes: escúchalo",
+   "visual": "Oreja estilizada junto a una burbuja de enojo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "Entiendo",
+   "texto": "Entiendo que te enojes. Mi respuesta sigue siendo no.",
+   "visual": "Burbuja de papá, tono sereno"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "calma",
+   "texto": "Para hoy: di que no, con calma",
+   "visual": "Tarjeta «Para hoy» con una respiración"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "consecuencias",
+   "texto": "Siguiente: libertad y consecuencias reales",
+   "visual": "Dos flechas: «elijo» y «resultado»"
+  }
+ ],
+ "fuentes": [
+  "Google Books VtQchQUz2N4C (vista previa), Townsend: «Tolere el enojo de su adolescente» (PT387)"
+ ]
+}

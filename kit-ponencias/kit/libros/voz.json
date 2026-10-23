@@ -1,0 +1,12 @@
+{
+  "voice_id": "13VFWfJ7e20fmvmaqXWl",
+  "nombre": "Marisol",
+  "modelo": "eleven_v4",
+  "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35, "speed": 1.1},
+  "voces": {
+    "marisol": {"voice_id": "13VFWfJ7e20fmvmaqXWl", "rol": "narradora principal (siempre)", "perfil": "mujer joven, norte de México, conversacional"},
+    "mario":   {"voice_id": "gncXGfeB8V1Weu7l6QUg", "rol": "voz adulta: papá, frases de autoridad o de cierre", "perfil": "hombre adulto, acento norteño, enérgico"},
+    "rewe":    {"voice_id": "wbeaX2PFmdXlUj8sN0Jp", "rol": "voz joven: lo que dice o piensa el adolescente, ganchos", "perfil": "hombre joven, norteño, entusiasta"}
+  },
+  "notas": "Endpoint /v1/text-to-speech/{voice_id}/with-timestamps funciona con eleven_v4. Las etiquetas de tono entre corchetes al inicio ([cálido, cercano, ritmo ágil]) no se leen en voz alta. Ritmo medido: ~190 palabras/min con speed 1.1."
+}

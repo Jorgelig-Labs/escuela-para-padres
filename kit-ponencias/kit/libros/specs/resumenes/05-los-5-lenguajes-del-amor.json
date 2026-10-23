@@ -1,0 +1,185 @@
+{
+ "id": "resumen-los-5-lenguajes-del-amor",
+ "formato": "horizontal",
+ "libro_id": "los-5-lenguajes-del-amor",
+ "titulo": "Los 5 lenguajes del amor de los jóvenes",
+ "autor": "Gary Chapman",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Sé que me quieres. Pero no lo siento."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Los 5 lenguajes del amor de los jóvenes, de Gary Chapman. Adapta la famosa propuesta de los cinco lenguajes del amor a la vida de los adolescentes."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Muchos papás nos preguntamos: si amo a mi hijo, ¿por qué siente que no lo quiero? Según la editorial, los padres siguen teniendo la influencia más fuerte sobre sus adolescentes. Y el libro busca ayudarte a usarla bien. Esa influencia se puede usar bien, o desperdiciar."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: entiende su momento. El libro empieza describiendo cómo son los adolescentes de hoy y las presiones sociales, mentales y espirituales que enfrentan. Antes de las técnicas, te pide ponerte en su lugar. Por ejemplo: si pasa horas en el celular, antes de quitárselo pregúntate qué está buscando ahí."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: el amor se recibe en un idioma. Son cinco: palabras de afirmación, contacto físico, tiempo de calidad, actos de servicio y regalos. Tu hijo puede sentirse querido sobre todo en uno. Y por eso, a veces, lo que le das no le llega. Tú quizá demuestras amor con regalos. Él quizá necesita que lo mires a los ojos."
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, bajito, sincero] Es que a mí me hace falta tiempo contigo, no cosas."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: descubre el suyo. Observa cuándo se ilumina: cuando le dedicas tiempo, cuando lo reconoces, cuando le echas una mano. El libro incluye una prueba para adolescentes. Y algo clave: no supongas que su lenguaje es el tuyo."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: amar también cuando se complica. Chapman dedica capítulos al enojo, al deseo de independencia, a la responsabilidad y a cómo amar a tu hijo cuando falla."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: ponte en su lugar, aprende los cinco lenguajes, descubre el suyo, y no sueltes el cariño cuando falle."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, observa durante dos días cuándo se ve más contento contigo, y anótalo. Después prueba un gesto en su lenguaje probable: una frase de reconocimiento específica, diez minutos juntos, o un favor sencillo. Sin presión y sin examen. Solo observa."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Los 5 lenguajes del amor de los jóvenes, de Gary Chapman, en español de Editorial Unilit. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "no lo siento",
+   "texto": "Sé que me quieres. Pero no lo siento.",
+   "visual": "corazón con señal débil, sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Los 5 lenguajes del amor de los jóvenes",
+   "texto": "Los 5 lenguajes del amor de los jóvenes · Gary Chapman",
+   "visual": "cinco burbujas de diálogo de colores"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "porque",
+   "palabra": "por qué siente",
+   "texto": "Si amo a mi hijo, ¿por qué siente que no lo quiero?",
+   "visual": "dos burbujas que no se conectan"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "entiende su momento",
+   "texto": "1 · Entiende su momento",
+   "visual": "ícono de zapatos que se intercambian"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "presiones",
+   "texto": "Cómo viven hoy los adolescentes\nPresiones sociales, mentales y espirituales",
+   "visual": "ícono de mochila pesada"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "el amor se recibe",
+   "texto": "2 · El amor se recibe en un idioma",
+   "visual": "ícono de burbuja con corazón"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i2",
+   "palabra": "palabras de afirmación",
+   "texto": "Palabras de afirmación\nContacto físico\nTiempo de calidad\nActos de servicio\nRegalos",
+   "visual": "cinco íconos: globo, mano, reloj, herramienta, regalo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "tiempo contigo",
+   "texto": "«Me hace falta tiempo contigo.»",
+   "visual": "reloj con corazón"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "descubre el suyo",
+   "texto": "3 · Descubre el suyo",
+   "visual": "ícono de lupa sobre un corazón"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "se ilumina",
+   "texto": "Observa cuándo se ilumina\nIncluye una prueba para adolescentes\nEl suyo puede ser distinto al tuyo",
+   "visual": "foco que se enciende"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "cuando se complica",
+   "texto": "4 · Amar cuando se complica",
+   "visual": "ícono de camino con curvas"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i4",
+   "palabra": "enojo",
+   "texto": "El enojo\nLa independencia\nLa responsabilidad\nCuando falla",
+   "visual": "cuatro íconos pequeños en fila"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "anótalo",
+   "texto": "Observa 2 días cuándo se ve más contento contigo. Anótalo.",
+   "visual": "libreta con lápiz"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "un gesto",
+   "texto": "Un gesto en su lenguaje probable",
+   "visual": "mano ofreciendo un corazón"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "ponte en su lugar",
+   "texto": "Ponte en su lugar\nAprende los cinco lenguajes\nDescubre el suyo\nAma también cuando falla",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Los 5 lenguajes del amor de los jóvenes",
+   "texto": "Los 5 lenguajes del amor de los jóvenes\nGary Chapman\nEditorial Unilit\nEste video no sustituye la lectura del libro.",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Moody Publishers (descripción y tabla de contenido del original en inglés).",
+  "Google Books MX (descripción de la edición en español de Editorial Unilit).",
+  "Resumen de un departamento de orientación escolar (lenguaje principal y los cinco lenguajes)."
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "id": "serie-edad-de-oportunidades-1de3",
+ "formato": "vertical",
+ "libro_id": "edad-de-oportunidades",
+ "serie": "edad-de-oportunidades",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Edad de oportunidades",
+ "autor": "Paul David Tripp",
+ "donde": "P&R Publishing",
+ "derechos": true,
+ "titulo_corto": "Edad de oportunidades",
+ "etiqueta": "Edad de oportunidades · 1/3",
+ "tema": "No solo sobrevivir",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Estos años son para sobrevivir, o para aprovechar?"
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, cansado, resignado] Nomás aguantar tantito, y ya se le pasa."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, bajito] Siento que nomás me soportan."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Edad de oportunidades, Paul David Tripp invita a los papás de adolescentes a mirar esta etapa de otra manera. No como una etapa para solo aguantar, sino como años de oportunidades. Y eso cambia todo."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Lo dice así, en una frase que cambia el enfoque: «No son años solo para sobrevivir»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Tripp habla de tres puertas de oportunidad. Primera: su inseguridad. Segunda: su rebeldía. Tercera: su mundo, que cada vez es más grande. Por esas puertas puede entrar todo papá de un adolescente. Cada problema se puede volver una oportunidad de acercarte."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: la próxima vez que algo de tu hijo te irrite, pregúntate si es solo un fastidio, o una puerta para acercarte a él. Empieza por una."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: lo que revela nuestro enojo."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "sobrevivir",
+   "texto": "¿Sobrevivir o aprovechar?",
+   "visual": "Salvavidas a la izquierda, brújula a la derecha; la brújula se ilumina"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "aguantar",
+   "texto": "Nomás aguantar tantito...",
+   "visual": "Burbuja de papá con reloj de arena"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "soportan",
+   "texto": "Siento que nomás me soportan",
+   "visual": "Burbuja apagada del adolescente"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "oportunidades",
+   "texto": "Años de oportunidades",
+   "visual": "«oportunidades» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "sobrevivir",
+   "texto": "«No son años solo para sobrevivir»",
+   "visual": "Tarjeta de cita: Paul David Tripp, Edad de oportunidades"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "Primera",
+   "texto": "Puerta 1: su inseguridad",
+   "visual": "Puerta con candado de cristal que se abre"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "Segunda",
+   "texto": "Puerta 2: su rebeldía",
+   "visual": "Puerta con marcas de golpes que se abre"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "Tercera",
+   "texto": "Puerta 3: su mundo creciente",
+   "visual": "Puerta que se abre a un horizonte amplio"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "fastidio",
+   "texto": "Para hoy: ¿fastidio o puerta?",
+   "visual": "Tarjeta «Para hoy» con una puerta entreabierta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "enojo",
+   "texto": "Siguiente: lo que revela nuestro enojo",
+   "visual": "Palabra «enojo» con un espejo"
+  }
+ ],
+ "fuentes": [
+  "Muestra oficial P&R: storage.googleapis.com/prpbooks/documents/pdf/sample-chapters/9798887791036.pdf (cap. 1: tres puertas de oportunidad; «¡No son años solo para sobrevivir!»)"
+ ]
+}

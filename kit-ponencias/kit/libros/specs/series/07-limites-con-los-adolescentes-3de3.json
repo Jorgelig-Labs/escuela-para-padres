@@ -1,0 +1,120 @@
+{
+ "id": "serie-limites-con-los-adolescentes-3de3",
+ "formato": "vertical",
+ "libro_id": "limites-con-los-adolescentes",
+ "serie": "limites-con-los-adolescentes",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Límites con los adolescentes",
+ "autor": "John Townsend",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Límites con los adolescentes",
+ "etiqueta": "Límites con los adolescentes · 3/3",
+ "tema": "Revisa tu parte",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Si sientes lejos a tu hijo, a lo mejor conviene revisar tu parte."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Townsend plantea que, cuando te sientes desconectado de tu adolescente, el problema puede estar de tu lado y no del suyo. Vale la pena revisarlo primero."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y da una regla muy práctica para las salidas: «No irás hasta que hable con los padres»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Es decir, llama a los padres de la casa donde tu hijo quiere ir. Townsend cuenta que esa sencilla regla le ha ahorrado muchas penas, y que los demás padres aprecian la llamada. Además, te acerca a su mundo."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, tranquilo, amable] Buenas tardes. Mi hijo quiere ir a su casa. ¿Cuál es el plan?"
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: cuando tu hijo te pida permiso para salir, pregúntale con quién y dónde, con curiosidad y no con interrogatorio."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Límites con los adolescentes, de John Townsend, de Editorial Vida. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "parte",
+   "texto": "Revisa tu parte",
+   "visual": "Espejo pequeño con silueta, sin rostro"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "desconectado",
+   "texto": "Desconectado: ¿de qué lado está el problema?",
+   "visual": "Dos clavijas de enchufe separadas; una se acerca"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "irás",
+   "texto": "«No irás hasta que hable con los padres»",
+   "visual": "Tarjeta de cita: John Townsend, Límites con los adolescentes"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "llama",
+   "texto": "Llama a los padres de la casa",
+   "visual": "Celular con timbre y una casa al fondo"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "mundo",
+   "texto": "Y te acerca a su mundo",
+   "visual": "Puerta que se abre sobre un mapa pequeño"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "plan",
+   "texto": "¿Cuál es el plan?",
+   "visual": "Burbuja de papá amable"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "permiso",
+   "texto": "Para hoy: pregunta con quién y dónde",
+   "visual": "Tarjeta «Para hoy»"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "curiosidad",
+   "texto": "Con curiosidad, no con interrogatorio",
+   "visual": "Signo de interrogación suave junto a una lupa tachada"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Vida",
+   "texto": "Límites con los adolescentes · John Townsend · Editorial Vida",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Google Books VtQchQUz2N4C (vista previa), Townsend: «No irás hasta que hable con los padres» (PT338); problema «puede ser suyo» (PT274)"
+ ]
+}

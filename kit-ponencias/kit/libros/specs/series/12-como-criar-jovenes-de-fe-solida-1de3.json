@@ -1,0 +1,120 @@
+{
+ "id": "serie-como-criar-jovenes-de-fe-solida-1de3",
+ "formato": "vertical",
+ "libro_id": "como-criar-jovenes-de-fe-solida",
+ "serie": "como-criar-jovenes-de-fe-solida",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Cómo criar jóvenes de fe sólida",
+ "autor": "Kara Powell y Chap Clark",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Jóvenes de fe sólida",
+ "etiqueta": "Jóvenes de fe sólida · 1/3",
+ "tema": "Cinco adultos que invierten",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Cuántos adultos invierten en tu hijo, además de ti?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Cómo criar jóvenes de fe sólida, Kara Powell y Chap Clark proponen la idea de cinco a uno: cinco adultos que se ocupen de cada joven. Tu hijo no necesita cinco papás. Necesita adultos que se ocupen de él."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Aclaran que no se trata de cinco maestros ni de cinco líderes por grupo, ni de subcontratar adultos. La idea es construir un conjunto de relaciones, que puede nacer de un solo grupo unido. Empezar pequeño también cuenta."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, directo] Hay adultos que sí me escuchan. Y no son mis papás."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, pensativo, sincero] Qué bueno que los tiene. Yo también quiero conocerlos."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: escribe los nombres de los adultos que ya conocen y quieren a tu hijo. Y piensa quién podría ser el siguiente. Anota solo los que ya existen. Hoy, solo escribe."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: lo que tu hijo quizá no se atreve a decir."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "invierten",
+   "texto": "¿Cuántos adultos invierten en tu hijo?",
+   "visual": "Cinco sillas alrededor de una mesa, una ya ocupada; sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "cinco",
+   "texto": "Cinco a uno",
+   "visual": "«5:1» en tipografía grande, en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "subcontratar",
+   "texto": "No es subcontratar",
+   "visual": "Tarjeta de «contrato» tachada"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "relaciones",
+   "texto": "Un conjunto de relaciones",
+   "visual": "Red de cinco nodos que se conectan en un círculo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "escuchan",
+   "texto": "Hay adultos que sí me escuchan",
+   "visual": "Burbuja del adolescente"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "conocerlos",
+   "texto": "Yo también quiero conocerlos",
+   "visual": "Burbuja de papá"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "nombres",
+   "texto": "Para hoy: escribe los nombres",
+   "visual": "Tarjeta «Para hoy» con libreta y lápiz"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "siguiente",
+   "texto": "¿Quién podría ser el siguiente?",
+   "visual": "Una silla vacía que se ilumina"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "atreve",
+   "texto": "Siguiente: lo que no se atreve a decir",
+   "visual": "Globo de diálogo con puntos suspensivos"
+  }
+ ],
+ "fuentes": [
+  "Google Books 66axsvX7l1MC (vista previa), Powell y Clark: proporción 5:1 (PT86)"
+ ]
+}

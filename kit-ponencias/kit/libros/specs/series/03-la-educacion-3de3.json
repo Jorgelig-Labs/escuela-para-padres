@@ -1,0 +1,154 @@
+{
+ "id": "serie-la-educacion-3de3",
+ "formato": "vertical",
+ "libro_id": "la-educacion",
+ "serie": "la-educacion",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "La educación",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "La educación",
+ "etiqueta": "La educación · 3/3",
+ "tema": "Disciplina que forma",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Para qué sirve, en realidad, un castigo?"
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] En el capítulo «La disciplina», Elena G. de White lo dice así: «El propósito de la disciplina es educar al niño para que se gobierne solo»."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Explica que el niño debe ver que la obediencia es justa y razonable. Y advierte que quien solo obedece por control externo, cuando ese control desaparece, no sabe qué hacer con su libertad. Obedecer porque alguien vigila no es lo mismo que obedecer porque se entiende."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, apagado, casual] Yo obedezco nomás para que no me castiguen."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Una regla con razón se entiende. Una regla sin razón solo se aguanta. Agrega que es mejor pedir que ordenar, y que la sospecha constante desmoraliza."
+  ],
+  [
+   "papa1",
+   "mario",
+   "[papá, molesto, tajante] ¡Haz esto, ya!"
+  ],
+  [
+   "papa2",
+   "mario",
+   "[papá, cariñoso, tranquilo] ¿Me ayudas con esto?"
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: ante una regla, explícale la razón en dos frases. Y convierte una orden en una petición. Escucha la diferencia."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] La educación, de Elena G. de White. Descarga gratuita en egwwritings.org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "castigo",
+   "texto": "¿Para qué sirve un castigo?",
+   "visual": "Signo de pregunta que se transforma en una balanza"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "propósito",
+   "texto": "«El propósito de la disciplina es educar al niño para que se gobierne solo»",
+   "visual": "Tarjeta de cita: Elena G. de White, La educación, cap. 34"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "justa",
+   "texto": "Una obediencia justa y razonable",
+   "visual": "Balanza equilibrada con una regla y una razón"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "idea",
+   "palabra": "libertad",
+   "texto": "Sin control, ¿qué hace con su libertad?",
+   "visual": "Una correa suelta y una puerta abierta"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "castiguen",
+   "texto": "Obedezco nomás para que no me castiguen",
+   "visual": "Burbuja apagada del adolescente"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "razón",
+   "texto": "Regla con razón se entiende",
+   "visual": "Dos tarjetas de regla: una con «porque sí» tachado y otra con razón"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "pedir",
+   "texto": "Mejor pedir que ordenar",
+   "visual": "«pedir» sube y «ordenar» baja"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa1",
+   "palabra": "ya",
+   "texto": "¡Haz esto, ya!",
+   "visual": "Burbuja de papá fuerte"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa2",
+   "palabra": "ayudas",
+   "texto": "¿Me ayudas con esto?",
+   "visual": "Burbuja de papá suave"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "razón",
+   "texto": "Para hoy: explica la razón en dos frases",
+   "visual": "Tarjeta «Para hoy» con dos líneas de texto que aparecen"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "petición",
+   "texto": "Orden → petición",
+   "visual": "Signo de exclamación que se convierte en signo de pregunta"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "gratuita",
+   "texto": "La educación · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto"
+  }
+ ],
+ "fuentes": [
+  "La educación, E. G. de White, cap. 34 (cita) · egwwritings.org/es/book/188"
+ ],
+ "pronunciacion": {
+  "egwwritings.org": "E G W writings punto org"
+ }
+}

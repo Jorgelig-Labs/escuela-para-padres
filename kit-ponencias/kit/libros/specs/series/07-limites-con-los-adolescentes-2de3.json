@@ -1,0 +1,127 @@
+{
+ "id": "serie-limites-con-los-adolescentes-2de3",
+ "formato": "vertical",
+ "libro_id": "limites-con-los-adolescentes",
+ "serie": "limites-con-los-adolescentes",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Límites con los adolescentes",
+ "autor": "John Townsend",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Límites con los adolescentes",
+ "etiqueta": "Límites con los adolescentes · 2/3",
+ "tema": "Libertad y consecuencias",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Cuántas veces has intentado hacer que tu hijo saque buenas notas? ¿Y ha funcionado?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Townsend propone dejar de intentar hacer que tu hijo saque buenas notas, que te respete o que sea responsable. Y ofrece otro camino: más libertad de elección, y que viva las consecuencias."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] O sea, que tu hijo elija más cosas, y que le toque vivir el resultado de lo que elige. Así, dice el libro, aprenderá lo que es la responsabilidad."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, dudoso, preocupado] ¿Y si le va mal? Pero si no le insisto, no lo hace."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y propone esta regla: «Sea blando en cuanto a las preferencias y el estilo, pero duro con la falta de respeto y el egoísmo»."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: elige una decisión pequeña que hoy tomas tú por tu hijo, y devuélvesela. La ropa, la hora de hacer la tarea, qué desayunar. Una sola. Solo hoy."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: cuando la distancia también es cosa tuya."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "hacer",
+   "texto": "¿«Hacer» que...?",
+   "visual": "Palabra «hacer» tachada con trazo amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "libertad",
+   "texto": "Más libertad de elección",
+   "visual": "Candado que se abre"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "consecuencias",
+   "texto": "Vivir las consecuencias",
+   "visual": "Fichas de dominó que caen en cadena"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "responsabilidad",
+   "texto": "Así se aprende responsabilidad",
+   "visual": "«responsabilidad» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "mal",
+   "texto": "¿Y si le va mal?",
+   "visual": "Burbuja de papá con duda"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "blando",
+   "texto": "«Sea blando en cuanto a las preferencias y el estilo, pero duro con la falta de respeto y el egoísmo»",
+   "visual": "Tarjeta de cita: John Townsend, Límites con los adolescentes"
+  },
+  {
+   "tipo": "icono",
+   "seg": "cita",
+   "palabra": "preferencias",
+   "texto": "Blando: preferencias · Duro: respeto",
+   "visual": "Cojín a la izquierda, roca a la derecha"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "decisión",
+   "texto": "Para hoy: devuélvele una decisión pequeña",
+   "visual": "Tarjeta «Para hoy» con una llave que pasa de mano"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "ropa",
+   "texto": "La ropa · La tarea · El desayuno",
+   "visual": "Tres íconos que entran uno a uno"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "distancia",
+   "texto": "Siguiente: cuando la distancia también es tuya",
+   "visual": "Dos puntos separados que se acercan"
+  }
+ ],
+ "fuentes": [
+  "Google Books VtQchQUz2N4C (vista previa), Townsend: «Sea blando en cuanto a las preferencias…» (PA260)"
+ ]
+}

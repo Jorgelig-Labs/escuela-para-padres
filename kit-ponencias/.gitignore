@@ -1,0 +1,21 @@
+# Secretos y entornos locales
+.env
+.venv/
+__pycache__/
+.DS_Store
+
+# Binarios que compila instalar.command
+kit/swift/ocr
+kit/swift/ventanas
+
+# Trabajo y salidas de los generadores (caché de voz, proyectos, renders)
+**/_trabajo/
+**/gasto.csv
+*.mp4
+*.mkv
+*.wav
+
+# Material de referencia local (pipelines anteriores, textos extraídos de libros con derechos)
+borradores/
+kit/libros/specs/*/_fuente/fuentes/
+_respaldo-sesion/

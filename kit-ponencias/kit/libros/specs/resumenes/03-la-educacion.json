@@ -1,0 +1,207 @@
+{
+ "id": "resumen-la-educacion",
+ "formato": "horizontal",
+ "libro_id": "la-educacion",
+ "titulo": "La educación",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Ya no soy un niño. Confía en mí."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: La educación, de Elena G. de White. Un libro sobre formar personas completas, no solo alumnos. Nos fijamos en el capítulo sobre la disciplina, que habla a padres y a maestros."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Cuando un hijo crece, la pregunta cambia. Ya no es cómo lo hago obedecer, sino cómo lo ayudo a gobernarse solo. El libro lo dice así: «El propósito de la disciplina es educar al niño para que se gobierne solo.» Es una pregunta que vale oro con un adolescente."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: guía la voluntad, no la aplastes. La fuerza puede producir una sumisión aparente, pero muchas veces el resultado es una rebelión más decidida del corazón. Y cuando el control externo desaparece, el joven no sabe usar su libertad. Piénsalo: ¿qué pasa el día que ya no estás tú vigilando?"
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, desconfiado, tajante] ¿Con quién andas? ¿A dónde vas? ¡Enséñame ese celular!"
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, molesto, herido] ¿Es que no confías en mí?"
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: confianza, no sospecha. El libro dice que todos desean ser tratados con confianza y respeto. Y advierte: «La sospecha desmoraliza y produce los mismos males que trata de impedir.» Cuando un joven siente que confías en él, pocas veces deja de intentar merecerlo."
+  ],
+  [
+   "teen2",
+   "rewe",
+   "[adolescente, tranquilo, sincero] Cuando confían en mí, me dan más ganas de no fallarles."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: mejor pedir que ordenar. Así tu hijo tiene la oportunidad de mostrarse fiel a los principios, y su obediencia es decisión suya. Y las reglas: pocas, y bien pensadas."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: la crítica constante no reforma. Repetida sin parar, aturde, pero no cambia. Si te impacientas, el libro da un consejo sencillo: guarda silencio, porque en el silencio hay un poder maravilloso. Y lo resume con una imagen: «Las flores no se abren bajo el soplo del ventarrón.»"
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: guía sin aplastar, confía en vez de sospechar, pide en vez de ordenar, y cuando te desesperes, calla y respira."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana: convierte una orden en una petición. Por ejemplo: ¿me ayudas con esto antes de la cena? Y dile una frase de confianza concreta: en esto confío en ti."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] La educación, de Elena G. de White. Descarga gratuita en e ge doble u writings punto org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "Confía",
+   "texto": "Ya no soy un niño. Confía en mí.",
+   "visual": "ícono de llave entregada de una mano a otra"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "La educación",
+   "texto": "La educación · Elena G. de White",
+   "visual": "portada genérica de libro con birrete"
+  },
+  {
+   "tipo": "cita",
+   "seg": "porque",
+   "palabra": "El propósito de la disciplina",
+   "texto": "«El propósito de la disciplina es educar al niño para que se gobierne solo.» — La educación, cap. 34",
+   "visual": "timón de barco"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "guía la voluntad",
+   "texto": "1 · Guía la voluntad, no la aplastes",
+   "visual": "brote que crece contra una mano que lo presiona"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "sumisión aparente",
+   "texto": "Fuerza: sumisión aparente\nSin control externo, no sabe usar su libertad",
+   "visual": "jaula abierta"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "celular",
+   "texto": "«¡Enséñame ese celular!»",
+   "visual": "ícono de teléfono con ojo vigilante"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "confías",
+   "texto": "«¿Es que no confías en mí?»",
+   "visual": "burbuja de diálogo rota"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "confianza, no sospecha",
+   "texto": "2 · Confianza, no sospecha",
+   "visual": "ícono de apretón de manos"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i2",
+   "palabra": "La sospecha",
+   "texto": "«La sospecha desmoraliza y produce los mismos males que trata de impedir.» — La educación, cap. 34",
+   "visual": "ícono de lupa tachada"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "pedir que ordenar",
+   "texto": "3 · Mejor pedir que ordenar",
+   "visual": "mano abierta con signo de interrogación"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "pocas",
+   "texto": "Pedir da espacio para decidir bien\nPocas reglas, bien pensadas",
+   "visual": "lista corta con tres palomitas"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "crítica constante",
+   "texto": "4 · La crítica constante no reforma",
+   "visual": "ícono de viento fuerte"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i4",
+   "palabra": "Las flores",
+   "texto": "«Las flores no se abren bajo el soplo del ventarrón.» — La educación, cap. 34",
+   "visual": "flor cerrada bajo viento"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "petición",
+   "texto": "Orden → petición: «¿me ayudas con esto?»",
+   "visual": "flecha que convierte un signo de exclamación en interrogación"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "en esto confío en ti",
+   "texto": "Una frase de confianza concreta",
+   "visual": "ícono de corazón con palomita"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen2",
+   "palabra": "no fallarles",
+   "texto": "«Cuando confían en mí, me dan más ganas de no fallarles.»",
+   "visual": "ícono de corazón con palomita"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "guía",
+   "texto": "Guía sin aplastar\nConfía, no sospeches\nPide, no ordenes\nSilencio antes que crítica",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "La educación",
+   "texto": "La educación\nElena G. de White\nDescarga gratuita: egwwritings.org",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Texto del PDF oficial de egwwritings.org: cap. 33 (pp. 237-239) y cap. 34 (pp. 240-246)."
+ ]
+}

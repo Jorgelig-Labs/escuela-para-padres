@@ -1,0 +1,143 @@
+{
+ "id": "R02-que-experimenta-cuando-habla",
+ "formato": "vertical",
+ "tema": "Qué experimenta cuando decide hablar contigo",
+ "libros": [
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "crianza-llena-de-gracia",
+   "titulo": "Crianza llena de gracia",
+   "autor": "Tim Kimmel",
+   "donde": "Caribe-Betania / Grupo Nelson",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, vacilante, bajito] Le voy a contar. A ver cómo reacciona."
+  ],
+  [
+   "pregunta",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Solemos preguntar: ¿por qué no me habla? Cambia la pregunta: ¿qué vive cuando sí lo intenta? ¿Atención o prisa? ¿Comprensión o sermón? Cada vez que se anima, decide si vale la pena volver a hacerlo."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, distraído, apurado] Ajá. Dime rápido, que estoy ocupado."
+  ],
+  [
+   "cierra",
+   "rewe",
+   "[adolescente, apagado, bajito] Mejor luego. No era nada."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White, en El hogar cristiano, habla de los niños, pero el principio aplica: no hieras corazones sensibles tratando con indiferencia lo que para ellos tiene gran importancia. Y Tim Kimmel, en Crianza llena de gracia, propone que los hijos necesitan amor seguro, un propósito y una esperanza sólida."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: cuando te cuente algo, aunque parezca pequeño, deja lo que tengas en las manos, míralo y espera un segundo antes de responder."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "reacciona",
+   "texto": "¿Qué vive cuando decide hablar contigo?",
+   "visual": "pasillo de casa con una puerta entreabierta y luz cálida, sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "pregunta",
+   "palabra": "prisa",
+   "texto": "ATENCIÓN o PRISA",
+   "visual": "dos palabras, una se apaga y la otra se agranda"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "pregunta",
+   "palabra": "sermón",
+   "texto": "COMPRENSIÓN o SERMÓN",
+   "visual": "misma mecánica, whip lateral"
+  },
+  {
+   "tipo": "icono",
+   "seg": "pregunta",
+   "palabra": "volver",
+   "texto": "¿Vale la pena volver?",
+   "visual": "puerta entreabierta con un rayo de luz que se ensancha o se cierra"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "papa",
+   "palabra": "ocupado",
+   "texto": "Ajá. Dime rápido.",
+   "visual": "mesa con celular y reloj, manos ocupadas; sin rostros"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cierra",
+   "palabra": "nada",
+   "texto": "No era nada.",
+   "visual": "puerta que se cierra despacio"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Elena",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "indiferencia",
+   "texto": "No tratar con indiferencia lo que para ellos es importante",
+   "visual": "comillas amarillas, INDIFERENCIA tachada"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Kimmel",
+   "texto": "Crianza llena de gracia · Tim Kimmel · Caribe-Betania / Grupo Nelson",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "esperanza",
+   "texto": "Amor seguro · Propósito · Esperanza",
+   "visual": "tres iconos simples (candado de corazón, brújula, sol) que entran en secuencia"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "segundo",
+   "texto": "Deja lo que tengas en las manos. Míralo. Espera un segundo.",
+   "visual": "manos que sueltan un celular sobre la mesa; contador de un segundo"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "responder",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "HC cap. 30 «El compañerismo en la familia», sección «El estímulo y el elogio» (PDF oficial): «La madre no debe herir sus corazones sensibles tratando con indiferencia asuntos que, si bien son baladíes para ella, tienen gran importancia para ellos» (el texto habla de los niños; la cápsula lo dice como principio, no como cita)",
+  "Crianza llena de gracia: resumen de editorial y reseñas (Publishers Weekly; OverDrive; Google Books id 1E3hAwAAQBAJ): amor seguro, propósito significativo, esperanza sólida"
+ ]
+}

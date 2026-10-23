@@ -1,0 +1,127 @@
+{
+ "id": "serie-el-hogar-cristiano-2de3",
+ "formato": "vertical",
+ "libro_id": "el-hogar-cristiano",
+ "serie": "el-hogar-cristiano",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "El hogar cristiano",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "El hogar cristiano",
+ "etiqueta": "El hogar cristiano · 2/3",
+ "tema": "Sé compañero de tus hijos",
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Mi papá llega y se pone al celular."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Cuando llegas cansado, cualquier cosa parece mejor que convivir. Pero El hogar cristiano tiene un capítulo titulado «Sea compañero de sus hijos». Dice que, al volver del trabajo, el padre debe ver como un cambio agradable el pasar un rato con ellos."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] También pide algo difícil: bajar de la falsa dignidad. Simpatizar con las pequeñas dificultades de tus hijos, y unirlos a tu corazón con lazos fuertes de amor."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y da una pauta muy concreta: «Asociaos con ellos en sus trabajos y juegos, y ganad su confianza»."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, esperanzado] Con que se sentara a ver qué estoy jugando, ya sería algo."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: antes de abrir el celular, pregúntale en qué anda y súmate a lo que esté haciendo. Un videojuego, la cocina, un mandado. Sin sermón. Solamente estar."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: el tono de voz con el que dices todo lo demás."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "celular",
+   "texto": "Mi papá llega y se pone al celular",
+   "visual": "Burbuja de mensaje junto a un celular sobre la mesa; sin rostros"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "compañero",
+   "texto": "«Sea compañero de sus hijos»",
+   "visual": "Título del capítulo en tipografía grande, «compañero» en morado"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "cambio",
+   "texto": "Un cambio agradable",
+   "visual": "Maletín que se cierra y un sillón con espacio al lado"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "dignidad",
+   "texto": "Baja de la falsa dignidad",
+   "visual": "Corbata o saco que cae al piso"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "lazos",
+   "texto": "Lazos fuertes de amor",
+   "visual": "Dos hilos que se anudan en un lazo amarillo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "Asociaos",
+   "texto": "«Asociaos con ellos en sus trabajos y juegos, y ganad su confianza»",
+   "visual": "Tarjeta de cita: Elena G. de White, El hogar cristiano"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "jugando",
+   "texto": "Con que se sentara a ver qué estoy jugando, ya sería algo",
+   "visual": "Burbuja sobre un control de videojuego"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "celular",
+   "texto": "Para hoy: antes del celular, pregunta en qué anda y súmate",
+   "visual": "Tarjeta «Para hoy» con celular boca abajo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "videojuego",
+   "texto": "Videojuego · Cocina · Un mandado",
+   "visual": "Tres iconos que entran en cascada"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "tono",
+   "texto": "Siguiente: el tono de voz",
+   "visual": "Onda de sonido que baja de volumen"
+  }
+ ],
+ "fuentes": [
+  "El hogar cristiano, E. G. de White, cap. 36 (cita) · egwwritings.org/es/book/177"
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "R01",
+ "formato": "vertical",
+ "marca": "Entre nosotros",
+ "etiquetas_voz": {"rewe": "Adolescente", "mario": "Papá"},
+ "segmentos": [
+  {"nombre": "s1", "voz": "rewe", "texto": "[adolescente, casual, directo] No todo lo que pienso tengo que contarlo.", "pausa": 0.25},
+  {"nombre": "s2", "voz": "marisol", "texto": "[cálido, cercano, ritmo ágil] A veces es solo privacidad. Y eso es crecer. Pero otras veces, se está protegiendo. De una reacción que ya se imagina: un regaño, una crítica, una comparación, o una plática que termina mal.", "pausa": 0.45},
+  {"nombre": "s3", "voz": "mario", "texto": "[papá, molesto, tajante] ¿Otra vez con lo mismo? ¡Te lo he dicho mil veces!", "pausa": 0.5},
+  {"nombre": "s4", "voz": "rewe", "texto": "[adolescente, apagado, bajito] Mejor no le cuento nada.", "pausa": 0.45},
+  {"nombre": "s5", "voz": "marisol", "texto": "[cálido, cercano, ritmo ágil] Elena de White lo dice en El hogar cristiano: los hijos no se animan a confiar cuando saben que enseguida vendrán severas reprensiones. Y Gary Chapman habla de cómo amar a tu hijo y apoyarlo cuando falla.", "pausa": 0.35},
+  {"nombre": "s6", "voz": "marisol", "texto": "[firme, cálido, cierre] No buscamos culpables. Buscamos qué hacer diferente. Para hoy: elige una reacción que no vas a repetir esta semana."}
+ ],
+ "libros": [
+  {"titulo": "El hogar cristiano", "autor": "Elena G. de White", "donde": "Descarga gratuita: egwwritings.org", "derechos": true},
+  {"titulo": "Los 5 lenguajes del amor de los jóvenes", "autor": "Gary Chapman", "donde": "Editorial Unilit", "derechos": true}
+ ],
+ "beats": [
+  {"tipo": "titular", "ancla": 0, "ilustracion": "cuarto_adolescente", "entrada_visual": "quieta", "lineas": [{"t": "¿Por qué dejan|*de contarnos?*", "tam": 122, "efecto": "ninguno", "marca_color": "morado"}]},
+  {"tipo": "icono", "ancla": "s2", "desfase": -0.12, "icono": "candado", "circulo": true, "lineas": [{"t": "*PRIVACIDAD*", "tam": 134, "efecto": "letras", "marca_color": "morado", "ancla": "s2:privacidad", "desfase": 0}], "chip": {"texto": "es parte de crecer", "ancla": "s2:eso", "desfase": -0.1}},
+  {"tipo": "reaccion", "ancla": "s2:pero", "icono": "escudo", "entrada_visual": "derecha", "lineas": [{"t": "SE *PROTEGE*", "tam": 126, "efecto": "golpe", "ancla": "s2:protegiendo", "desfase": -0.15, "paso": 0.17, "sacudir": 0.6}]},
+  {"tipo": "lista", "ancla": "s2:reaccion", "desfase": -0.3, "panel": "navy", "puntos": true, "chip": {"texto": "que ya se imagina", "ancla": "s2:imagina", "desfase": -0.1}, "encabezado": {"t": "REACCIÓN", "tam": 124, "color": "blanco", "ancla": "s2:reaccion", "desfase": 0.1}, "items": [{"t": "REGAÑO", "tam": 150, "ancla": "s2:regaño"}, {"t": "CRÍTICA", "tam": 150, "ancla": "s2:crítica"}, {"t": "COMPARACIÓN", "tam": 112, "ancla": "s2:comparación"}, {"t": "PLÁTICA QUE|TERMINA MAL", "tam": 118, "ancla": "s2:plática"}]},
+  {"tipo": "reaccion", "ancla": "s3", "desfase": -0.1, "continua": true, "panel": "naranja", "salida": "puerta", "lineas": [{"t": "¿OTRA VEZ?", "tam": 140, "efecto": "golpe", "ancla": "s3:otra", "desfase": 0, "paso": 0.22}, {"t": "¡MIL VECES!", "tam": 150, "color": "blanco", "efecto": "golpe", "ancla": "s3:mil", "desfase": 0, "paso": 0.2, "sacudir": 0.4}]},
+  {"tipo": "ilustracion", "ancla": "s4", "desfase": -0.12, "ilustracion": "puerta", "visual_y": 210, "entrada_visual": "ninguna", "cerrar_en": "s4:nada"},
+  {"tipo": "cita", "ancla": "s5", "desfase": -0.1, "libro": 0, "libro_ancla": "s5:elena", "libro_desfase": -0.05, "comilla": true, "grupos": [{"lineas": [{"t": "NO_SE|ANIMAN|A *CONFIAR*", "tam": 132, "ancla": ["s5:animan", "s5:animan", "s5:confiar", "s5:confiar"], "desfase": [-0.35, -0.15, -0.2, -0.05]}]}, {"lineas": [{"t": "SEVERAS", "tam": 158, "efecto": "golpe", "ancla": "s5:severas", "desfase": -0.1, "sacudir": 0.45}, {"t": "*REPRENSIONES*", "tam": 100, "color": "morado", "ancla": "s5:severas", "desfase": 0.12}]}]},
+  {"tipo": "tarjeta_libro", "ancla": "s5:gary", "desfase": -0.45, "libro": 1, "decoracion": "corazon_fondo", "grupos": [{"lineas": [{"t": "AMAR Y|APOYAR", "tam": 150, "ancla": "s5:amar", "desfase": [-0.1, 0.1, 0.25]}]}, {"lineas": [{"t": "CUANDO|*FALLA*", "tam": 168, "color": "morado", "efecto": "golpe", "ancla": "s5:falla", "desfase": [-0.55, -0.15], "sacudir": 0.65}]}]},
+  {"tipo": "ilustracion", "ancla": "s6", "desfase": -0.1, "ilustracion": "mesa_tazas", "grupos": [{"salida": "arriba", "lineas": [{"t": "NO BUSCAMOS", "tam": 92, "ancla": "s6", "desfase": 0.02, "paso": 0.12}, {"t": "CULPABLES", "tam": 130, "color": "morado", "efecto": "golpe", "ancla": "s6:culpables", "desfase": -0.05, "tachar": 0.45}]}, {"lineas": [{"t": "QUÉ HACER", "tam": 110, "ancla": "s6:buscamos@ultima", "desfase": 0, "paso": 0.15}, {"t": "*DIFERENTE*", "tam": 118, "color": "morado", "efecto": "golpe", "ancla": "s6:diferente", "desfase": -0.1}]}]},
+  {"tipo": "accion_hoy", "ancla": "s6:hoy", "desfase": -0.4, "ilustracion": "sillon_atardecer", "tam_visual": 620, "lineas": [{"t": "*PARA_HOY*", "tam": 124, "ancla": "beat", "desfase": 0.2}, {"t": "ELIGE UNA|REACCIÓN", "tam": 104, "color": "morado", "ancla": ["s6:elige", "s6:una", "s6:una"], "desfase": [0, 0, 0.2]}]}
+ ],
+ "cierre": {"titulo": "Para leer más", "segundos": 5.0}
+}

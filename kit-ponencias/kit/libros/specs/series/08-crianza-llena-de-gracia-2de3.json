@@ -1,0 +1,130 @@
+{
+ "id": "serie-crianza-llena-de-gracia-2de3",
+ "formato": "vertical",
+ "libro_id": "crianza-llena-de-gracia",
+ "serie": "crianza-llena-de-gracia",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Crianza llena de gracia",
+ "autor": "Tim Kimmel",
+ "donde": "Caribe-Betania / Grupo Nelson",
+ "derechos": true,
+ "titulo_corto": "Crianza llena de gracia",
+ "etiqueta": "Crianza llena de gracia · 2/3",
+ "tema": "El miedo no forma",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Criar con miedo funciona? ¿Qué aprende un hijo ahí?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Kimmel contrasta la crianza llena de gracia con varios modelos típicos de la comunidad cristiana. El primero de su lista es el más discordante: la crianza basada en el temor."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y es muy directo: «La crianza basada en el temor es la manera más segura de criar hijos cristianos». Y lo explica: hijos indiferentes a las cosas de Dios, o rebeldes contra sus padres, su iglesia y el Señor."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, tajante, seco] En esta casa no se cuestiona."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Según Kimmel, en esas familias los hijos saben que su hogar es cualquier cosa menos el mejor lugar para mencionar preocupaciones sobre una religión arrogante o una espiritualidad inconsecuente."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, bajito, dudoso] Tengo una duda sobre Dios. Pero mejor no la digo en mi casa."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: si tu hijo te hace una pregunta difícil sobre la fe, agradécele que te la haya hecho. Aunque no tengas la respuesta. Sin sermón. Podrías decirle algo así."
+  ],
+  [
+   "accion2",
+   "mario",
+   "[papá, cálido, sincero] Gracias por preguntármelo. Si no sé la respuesta, la buscamos juntos."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: qué hacer cuando tu hijo se equivoca."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "miedo",
+   "texto": "¿Criar con miedo funciona?",
+   "visual": "Palabra «miedo» con una sombra grande"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "temor",
+   "texto": "Varios modelos. El primero: el temor",
+   "visual": "Varios caminos que salen de una bifurcación; el del temor se oscurece y el de la gracia se ilumina"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "temor",
+   "texto": "«La crianza basada en el temor es la manera más segura de criar hijos cristianos...»",
+   "visual": "Tarjeta de cita: Tim Kimmel, Crianza llena de gracia"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "cuestiona",
+   "texto": "En esta casa no se cuestiona",
+   "visual": "Burbuja de papá en tono seco"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "giro",
+   "palabra": "hogar",
+   "texto": "¿Dónde pueden hablar de sus dudas?",
+   "visual": "Casa con las ventanas cerradas y luz tenue"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "duda",
+   "texto": "Mejor no la digo en mi casa",
+   "visual": "Burbuja del adolescente, tenue"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "pregunta",
+   "texto": "Para hoy: agradece la pregunta difícil",
+   "visual": "Tarjeta «Para hoy» con signo de pregunta"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "accion2",
+   "palabra": "buscamos",
+   "texto": "Si no sé la respuesta, la buscamos juntos",
+   "visual": "Burbuja de papá con libro abierto"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "equivoca",
+   "texto": "Siguiente: cuando se equivoca",
+   "visual": "Lápiz con goma que se levanta"
+  }
+ ],
+ "fuentes": [
+  "Google Books 1E3hAwAAQBAJ (vista previa), Kimmel: «La crianza basada en el temor…» (PA14)"
+ ]
+}

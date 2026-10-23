@@ -1,0 +1,142 @@
+{
+ "id": "serie-conduccion-del-nino-3de3",
+ "formato": "vertical",
+ "libro_id": "conduccion-del-nino",
+ "serie": "conduccion-del-nino",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Conducción del niño",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "Conducción del niño",
+ "etiqueta": "Conducción del niño · 3/3",
+ "tema": "La censura no reforma",
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, resignado, bajito] Siempre me regañan por lo mismo. Siempre."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, molesto, tajante] ¡Otra vez! ¡Todos los días lo mismo!"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En el capítulo «Las reacciones de los hijos», Elena G. de White advierte contra criticar o censurar por faltas insignificantes. Los errores reales se corrigen con firmeza, pero sin dejar al hijo sin esperanza. Es decir: corregir, sí; aplastar, no."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y escribe: «La censura continua aturde, pero no reforma». Y también: «Las flores no se abren bajo el soplo del ventarrón»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Dice además que al niño que siempre es señalado por la misma falta, le termina pareciendo algo suyo, contra lo que es inútil luchar."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, apagado, bajito] Pues así soy yo. Para qué intentarlo."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: deja pasar una falta pequeña. Y en cambio, dile algo concreto que sí hizo bien. Que su día no se llene solo de correcciones. Hoy, nada más hoy."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Conducción del niño, de Elena G. de White. Descarga gratuita en egwwritings.org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "regañan",
+   "texto": "Siempre me regañan por lo mismo",
+   "visual": "Burbuja de chat repetida tres veces, cada vez más tenue"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "Otra",
+   "texto": "¡Otra vez! ¡Todos los días lo mismo!",
+   "visual": "Burbuja de papá en mayúsculas"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "insignificantes",
+   "texto": "No critiques lo insignificante",
+   "visual": "Lupa sobre una migaja pequeña, tachada"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "esperanza",
+   "texto": "Corregir sin quitar la esperanza",
+   "visual": "Un camino con una luz amarilla al fondo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "censura",
+   "texto": "«La censura continua aturde, pero no reforma»",
+   "visual": "Tarjeta de cita: Elena G. de White, Conducción del niño"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cita",
+   "palabra": "flores",
+   "texto": "«Las flores no se abren bajo el soplo del ventarrón»",
+   "visual": "Flor cerrada bajo viento fuerte; luego se abre con brisa suave"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "suyo",
+   "texto": "La falta repetida se vuelve identidad",
+   "visual": "Etiqueta que se pega sobre una silueta, sin rostro"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "así",
+   "texto": "Pues así soy yo",
+   "visual": "Burbuja apagada del adolescente"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "falta",
+   "texto": "Para hoy: deja pasar una falta pequeña",
+   "visual": "Tarjeta «Para hoy» con palomita"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "concreto",
+   "texto": "Dile algo concreto que sí hizo bien",
+   "visual": "Estrella amarilla que aparece sobre una burbuja de chat"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "gratuita",
+   "texto": "Conducción del niño · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto"
+  }
+ ],
+ "fuentes": [
+  "Conducción del niño, E. G. de White, cap. 48 (cita) · egwwritings.org/es/book/157"
+ ],
+ "pronunciacion": {
+  "egwwritings.org": "E G W writings punto org"
+ }
+}

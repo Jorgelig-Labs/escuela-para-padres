@@ -1,0 +1,123 @@
+{
+ "id": "serie-el-hogar-cristiano-3de3",
+ "formato": "vertical",
+ "libro_id": "el-hogar-cristiano",
+ "serie": "el-hogar-cristiano",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "El hogar cristiano",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "El hogar cristiano",
+ "etiqueta": "El hogar cristiano · 3/3",
+ "tema": "El tono de voz",
+ "segmentos": [
+  [
+   "gancho",
+   "mario",
+   "[papá, molesto, tajante] ¡Ya te dije que lo hagas ahorita!"
+  ],
+  [
+   "reaccion",
+   "rewe",
+   "[adolescente, apagado, bajito] Ya ni quiero contestar."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] A veces no es lo que dices. Es cómo lo dices. En el capítulo «El don del habla», Elena G. de White afirma que toda palabra de los padres influye en los hijos, para bien o para mal. Y da una instrucción muy concreta sobre la voz."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Dice: «Cultivad un tono de voz que sea suave y persuasivo, no duro ni autoritario»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] También pide paciencia con las pruebas de los hijos. Lo que a ti te parece pequeño, para ellos es grande. Y aclara que ser firmes no es lo mismo que ser duros."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: antes de contestar algo importante, respira y baja un poco la voz. Si te sale duro, no pasa nada: repítelo con el tono con el que te gustaría que te hablaran a ti."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] El hogar cristiano, de Elena G. de White. Descarga gratuita en egwwritings.org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "ahorita",
+   "texto": "¡Ya te dije que lo hagas ahorita!",
+   "visual": "Burbuja grande en mayúsculas que vibra; sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "reaccion",
+   "palabra": "contestar",
+   "texto": "Ya ni quiero contestar",
+   "visual": "Burbuja pequeña y apagada que se encoge"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "cómo",
+   "texto": "No es lo que dices. Es cómo lo dices.",
+   "visual": "Palabra «cómo» resaltada con pincelada amarilla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "influye",
+   "texto": "Cada palabra deja huella",
+   "visual": "Gota que cae en agua y forma ondas"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "Cultivad",
+   "texto": "«Cultivad un tono de voz que sea suave y persuasivo, no duro ni autoritario»",
+   "visual": "Tarjeta de cita: Elena G. de White, El hogar cristiano"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "pequeño",
+   "texto": "Lo pequeño para ti, es grande para él",
+   "visual": "Dos círculos: uno chico y otro grande, intercambian tamaño"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "firmes",
+   "texto": "Firme no es lo mismo que duro",
+   "visual": "Roca junto a un cojín, igual de estables"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "respira",
+   "texto": "Para hoy: respira y baja un poco la voz",
+   "visual": "Tarjeta «Para hoy» con perilla de volumen que baja"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "gratuita",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica del libro, sin foto"
+  }
+ ],
+ "fuentes": [
+  "El hogar cristiano, E. G. de White, cap. 71 (cita) · egwwritings.org/es/book/177"
+ ],
+ "pronunciacion": {
+  "egwwritings.org": "E G W writings punto org"
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "id": "serie-edad-de-oportunidades-2de3",
+ "formato": "vertical",
+ "libro_id": "edad-de-oportunidades",
+ "serie": "edad-de-oportunidades",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Edad de oportunidades",
+ "autor": "Paul David Tripp",
+ "donde": "P&R Publishing",
+ "derechos": true,
+ "titulo_corto": "Edad de oportunidades",
+ "etiqueta": "Edad de oportunidades · 2/3",
+ "tema": "Lo que revela tu enojo",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Te has enojado por una mala calificación? ¿Qué sentiste, de verdad?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Paul David Tripp cuenta de un papá tan enojado por la boleta de calificaciones de su hijo, que apenas podía ser educado. Fíjate qué le dijo."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, furioso, tajante] «¿Cómo te atreves a hacerme esto después de todo lo que he hecho por ti?»"
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Tripp observa que ese papá no estaba enojado porque su hijo hubiera pecado contra Dios. Estaba enojado por lo que sentía perdido: su reputación, el respeto que creía merecer y su tranquilidad. Es decir, su enojo hablaba más de lo que él perdía que de lo que su hijo hacía."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, apagado, bajito] Hasta ahí llegó la plática."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: la próxima vez que te enojes con tu hijo, haz una pausa y pregúntate: ¿me duele lo que él hizo, o lo que yo siento que perdí? Sin culparte. Solo observa."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: por qué estos años nos ponen al descubierto."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "calificación",
+   "texto": "¿Enojo por una calificación?",
+   "visual": "Boleta con números rojos sobre un escritorio; sin rostros"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "idea",
+   "palabra": "boleta",
+   "texto": "La boleta, sobre la mesa",
+   "visual": "Papel que avanza hacia el borde de la mesa"
+  },
+  {
+   "tipo": "cita",
+   "seg": "papa",
+   "palabra": "atreves",
+   "texto": "«¿Cómo te atreves a hacerme esto después de todo lo que he hecho por ti?»",
+   "visual": "Tarjeta de cita: palabras de un papá, relatadas por Paul David Tripp en Edad de oportunidades"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "reputación",
+   "texto": "Su reputación",
+   "visual": "Medalla que se resquebraja"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "respeto",
+   "texto": "Su respeto",
+   "visual": "Corona que se inclina"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "tranquilidad",
+   "texto": "Su tranquilidad",
+   "visual": "Taza de café que se derrama"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "plática",
+   "texto": "Hasta ahí llegó la plática",
+   "visual": "Burbuja apagada del adolescente que se desvanece"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "pausa",
+   "texto": "Para hoy: pausa y pregunta",
+   "visual": "Tarjeta «Para hoy» con símbolo de pausa"
+  },
+  {
+   "tipo": "titular",
+   "seg": "accion",
+   "palabra": "perdí",
+   "texto": "¿Me duele lo que él hizo, o lo que yo perdí?",
+   "visual": "Dos platillos de balanza con las dos preguntas"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "descubierto",
+   "texto": "Siguiente: años que nos ponen al descubierto",
+   "visual": "Cortina que se abre"
+  }
+ ],
+ "fuentes": [
+  "Muestra oficial P&R: storage.googleapis.com/prpbooks/documents/pdf/sample-chapters/9798887791036.pdf (cap. 1: el papá y la boleta de calificaciones)"
+ ]
+}

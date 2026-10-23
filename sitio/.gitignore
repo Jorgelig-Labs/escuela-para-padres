@@ -1,0 +1,30 @@
+node_modules/
+dist/
+.wrangler/
+.generated/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+artifacts/
+
+# Medios originales: se distribuyen desde R2, no desde el repositorio.
+/videos-junta/
+/videos-libros/
+/piloto/
+/libros/
+*.mp4
+
+# Coordinación, fuentes y revisiones internas: conservar solo en disco.
+/intervenciones-terceros.md
+/preguntas-ponente.md
+/errores-diapositivas.md
+/bibliografia.md
+/WORKFILE.md
+/COMUNICACION.md
+/AGENTS.md
+/REPORTE-VIDEOS.md
+/.agents/
+/.codex/
+/.aws/

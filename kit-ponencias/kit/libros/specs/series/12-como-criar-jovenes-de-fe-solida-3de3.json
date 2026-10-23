@@ -1,0 +1,120 @@
+{
+ "id": "serie-como-criar-jovenes-de-fe-solida-3de3",
+ "formato": "vertical",
+ "libro_id": "como-criar-jovenes-de-fe-solida",
+ "serie": "como-criar-jovenes-de-fe-solida",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Cómo criar jóvenes de fe sólida",
+ "autor": "Kara Powell y Chap Clark",
+ "donde": "Editorial Vida",
+ "derechos": true,
+ "titulo_corto": "Jóvenes de fe sólida",
+ "etiqueta": "Jóvenes de fe sólida · 3/3",
+ "tema": "Una fe que confía",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿La fe en tu casa es una lista de deberes?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Los autores observan que, cuando los hijos aprenden a vivir como cristianos, lo típico es que reciban una lista de lo que deben y no deben hacer: ir a la iglesia, leer la Biblia, orar, ofrendar, sacar buenas notas."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Los autores lo llaman el evangelio de la administración del pecado. Y advierten: «Los chicos no están captando este tipo de evangelio por sí solos, sino que lo están aprendiendo de nosotros»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Frente a eso, dicen que en el centro de una fe sólida hay una fe que confía en Dios, y que entiende la obediencia como respuesta a esa confianza."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, sincero, pausado] Yo confío en Dios, y por eso lo hago. No solo porque toca."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: cuéntale a tu hijo por qué tú confías en Dios, y no solo qué haces por obligación."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Cómo criar jóvenes de fe sólida, de Kara Powell y Chap Clark, de Editorial Vida. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "lista",
+   "texto": "¿Una lista de deberes?",
+   "visual": "Lista con casillas: iglesia, Biblia, oración, ofrenda, notas"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "iglesia",
+   "texto": "Ir · Leer · Orar · Ofrendar · Buenas notas",
+   "visual": "Cinco casillas que se marcan una por una"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "evangelio",
+   "texto": "«Los chicos no están captando este tipo de evangelio por sí solos, sino que lo están aprendiendo de nosotros»",
+   "visual": "Tarjeta de cita: Kara Powell y Chap Clark, Cómo criar jóvenes de fe sólida"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "confía",
+   "texto": "En el centro: una fe que confía en Dios",
+   "visual": "Círculo con «confianza» al centro; la lista alrededor, más pequeña"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "obediencia",
+   "texto": "La obediencia, como respuesta",
+   "visual": "Flecha que va de «confianza» a «obediencia»"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "toca",
+   "texto": "Yo confío en Dios, y por eso lo hago",
+   "visual": "Burbuja de papá"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "confías",
+   "texto": "Para hoy: cuéntale por qué tú confías en Dios",
+   "visual": "Tarjeta «Para hoy»"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "obligación",
+   "texto": "No solo qué haces por obligación",
+   "visual": "Casilla de «deber» que se transforma en corazón"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Vida",
+   "texto": "Cómo criar jóvenes de fe sólida · Kara Powell y Chap Clark · Editorial Vida",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Google Books 66axsvX7l1MC (vista previa), Powell y Clark: evangelio de la administración del pecado vs. confiar en Jesús (PT25/PT26); «Los chicos no están captando…»"
+ ]
+}

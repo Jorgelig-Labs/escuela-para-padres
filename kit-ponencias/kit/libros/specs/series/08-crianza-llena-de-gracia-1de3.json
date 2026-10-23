@@ -1,0 +1,137 @@
+{
+ "id": "serie-crianza-llena-de-gracia-1de3",
+ "formato": "vertical",
+ "libro_id": "crianza-llena-de-gracia",
+ "serie": "crianza-llena-de-gracia",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Crianza llena de gracia",
+ "autor": "Tim Kimmel",
+ "donde": "Caribe-Betania / Grupo Nelson",
+ "derechos": true,
+ "titulo_corto": "Crianza llena de gracia",
+ "etiqueta": "Crianza llena de gracia · 1/3",
+ "tema": "Seguro, significativo y fuerte",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Tu hijo se siente seguro, significativo y fuerte?"
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, bajito] Yo solo quiero sentir que valgo."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Crianza llena de gracia, Tim Kimmel plantea que los hijos necesitan sentirse seguros, significativos y fuertes. Y que nuestra tarea es ayudarles a cubrir esas necesidades con amor, propósito y esperanza."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y dice que, si cumplimos bien nuestra tarea, los hijos deberían dejar el hogar «con un amor que es seguro, un propósito que es significativo y una esperanza que es sólida»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Para Kimmel, la gracia no es tanto lo que hacemos como padres, sino cómo lo hacemos. Es el tono. Es la manera."
+  ],
+  [
+   "giro2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Seguro, con un amor que no se mueve. Significativo, con un propósito. Fuerte, con esperanza."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: elige una de las tres necesidades y pregúntate cómo se la estás cubriendo a tu hijo. Hoy, con una sola cosa concreta. Podría ser una frase como esta."
+  ],
+  [
+   "accion2",
+   "mario",
+   "[papá, cálido, sincero] Me da gusto que seas mi hijo. Y confío en lo que puedes hacer."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: qué pasa cuando criamos con miedo."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "seguro",
+   "texto": "Seguro · Significativo · Fuerte",
+   "visual": "Tres palabras que entran una por una; cada una con su color"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "valgo",
+   "texto": "Yo solo quiero sentir que valgo",
+   "visual": "Burbuja del adolescente"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "necesidades",
+   "texto": "Tres necesidades de todo hijo",
+   "visual": "Tres pilares: seguro, significativo, fuerte"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "amor",
+   "texto": "«Con un amor que es seguro, un propósito que es significativo y una esperanza que es sólida»",
+   "visual": "Tarjeta de cita: Tim Kimmel, Crianza llena de gracia"
+  },
+  {
+   "tipo": "icono",
+   "seg": "cita",
+   "palabra": "esperanza",
+   "texto": "Amor · Propósito · Esperanza",
+   "visual": "Corazón, brújula y ancla que se encienden en ese orden"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "cómo",
+   "texto": "La gracia es cómo lo haces",
+   "visual": "«cómo» resaltado con pincelada amarilla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro2",
+   "palabra": "propósito",
+   "texto": "Seguro · Significativo · Fuerte",
+   "visual": "Tres escudos: amor, propósito, esperanza"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "elige",
+   "texto": "Para hoy: elige una de las tres",
+   "visual": "Tarjeta «Para hoy» con tres botones y uno se enciende"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "accion2",
+   "palabra": "confío",
+   "texto": "Me da gusto que seas mi hijo. Y confío en lo que puedes hacer.",
+   "visual": "Burbuja de papá en tono cálido"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "miedo",
+   "texto": "Siguiente: criar con miedo",
+   "visual": "Palabra «miedo» con sombra que se encoge"
+  }
+ ],
+ "fuentes": [
+  "Google Books 1E3hAwAAQBAJ (vista previa), Kimmel: inventario de tres necesidades (ES p.163) y «con un amor que es seguro, un propósito que es significativo y una esperanza que es sólida» (PA26)"
+ ]
+}

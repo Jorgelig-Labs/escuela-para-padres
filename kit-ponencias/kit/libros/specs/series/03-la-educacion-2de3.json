@@ -1,0 +1,127 @@
+{
+ "id": "serie-la-educacion-2de3",
+ "formato": "vertical",
+ "libro_id": "la-educacion",
+ "serie": "la-educacion",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "La educación",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "La educación",
+ "etiqueta": "La educación · 2/3",
+ "tema": "El trabajo no degrada",
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, quejumbroso, casual] ¿Lavar los platos? ¡Pero si yo tengo tarea!"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Suena raro, ¿verdad? Pero piénsalo: ¿y si fuera parte de su educación? En el capítulo «La educación manual», Elena G. de White sostiene que el ejercicio más beneficioso para la juventud es el trabajo útil."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Escribe que educar la mano para la labor útil enseña al joven a asumir las responsabilidades de la vida, y ayuda a desarrollar la mente y el carácter. No es un castigo. Es formación."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Y aclara cuál es el verdadero enemigo: «Lo que degrada es la ociosidad y la dependencia egoísta»."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, cariñoso, tranquilo] Mira, no es por castigarte. Esto te toca a ti. Y lo digo porque confío en ti."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: dale una responsabilidad real en la casa, no como castigo sino como muestra de confianza. Y cuando la cumpla, agradécele con nombre y apellido: gracias por esto que hiciste."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: una disciplina que le enseñe a gobernarse solo."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "platos",
+   "texto": "¿Lavar los platos? ¡Si yo tengo tarea!",
+   "visual": "Burbuja de chat sobre una pila de platos"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "educación",
+   "texto": "¿Parte de su educación?",
+   "visual": "Plato que se convierte en libro"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "trabajo",
+   "texto": "El mejor ejercicio: el trabajo útil",
+   "visual": "«trabajo útil» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "responsabilidades",
+   "texto": "Responsabilidad: mente y carácter",
+   "visual": "Dos engranes: uno «mente», otro «carácter», que giran juntos"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "degrada",
+   "texto": "«Lo que degrada es la ociosidad y la dependencia egoísta»",
+   "visual": "Tarjeta de cita: Elena G. de White, La educación, cap. 24"
+  },
+  {
+   "tipo": "titular",
+   "seg": "cita",
+   "palabra": "ociosidad",
+   "texto": "Ociosidad ≠ trabajo",
+   "visual": "Hamaca vacía y una escoba, con signo de desigual"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "confío",
+   "texto": "Esto te toca a ti. Y confío en ti.",
+   "visual": "Burbuja de papá"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "responsabilidad",
+   "texto": "Para hoy: una responsabilidad real, como confianza",
+   "visual": "Tarjeta «Para hoy» con llave de casa entregada de una mano a otra"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "gracias",
+   "texto": "Gracias por esto que hiciste",
+   "visual": "Nota adhesiva amarilla pegada en la puerta del refrigerador"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "gobernarse",
+   "texto": "Siguiente: gobernarse solo",
+   "visual": "Volante que pasa de una mano a otra"
+  }
+ ],
+ "fuentes": [
+  "La educación, E. G. de White, cap. 24 (cita) · egwwritings.org/es/book/188"
+ ]
+}

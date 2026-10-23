@@ -1,0 +1,195 @@
+{
+ "id": "resumen-mente-caracter-y-personalidad",
+ "formato": "horizontal",
+ "libro_id": "mente-caracter-y-personalidad",
+ "titulo": "Mente, carácter y personalidad",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] ¿Puedo decidir yo, aunque sea una vez?"
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Mente, carácter y personalidad, de Elena G. de White. Una compilación en dos tomos. Aquí usamos el tomo uno, en los capítulos sobre la influencia de los padres y los problemas de los jóvenes. Es un libro para entender cómo se forma una mente joven."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Y hace una advertencia que cae directo en la adolescencia. Si no se les enseña a pensar y a actuar por su cuenta, y se les educa con demasiada severidad, escribe Elena de White: «Los niños educados de esta manera serán siempre deficientes en energía moral y responsabilidad individual.»"
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: educa para que piense. A la mente humana hay que enseñarle dominio propio, no solo controlarla desde fuera. Un hijo controlado en todo no desarrolla su propio juicio."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, molesto, tajante] ¡Aquí no se discute! Se hace lo que yo diga."
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, apagado, bajito] Entonces para qué pienso."
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: cuidado con las prohibiciones rígidas. El texto es directo: «No establezca prohibiciones rígidas para los jóvenes.» Observa que a veces empujan a hacer justo lo que se les prohíbe. Y pide que, al advertir o reprender, lo hagas como quien tiene un interés especial en ellos."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: que aprenda a decidir. El libro describe jóvenes que, bajo una regla férrea, no saben decidir cuando falta quien los dirija, y terminan guiados por el juicio de otros. La meta: que tu hijo desarrolle su propio criterio mientras todavía estás cerca."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: tu ánimo también educa. Cuando los padres están impacientes, dice el libro, piensan con demasiada frecuencia que la causa está en los hijos. Y propone una promesa personal: «No echaré a perder la felicidad de mis hijos con una sola palabra de irritación.»"
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: enséñale a pensar, evita las prohibiciones rígidas, deja que decida mientras estás cerca, y cuida tu paciencia."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana: deja que tu hijo decida algo pequeño que normalmente decides tú, y respeta su elección. Y si pierdes la paciencia, repara. Vuelve y dile: me exalté, perdón."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Mente, carácter y personalidad, tomos uno y dos, de Elena G. de White. Descarga gratuita en e ge doble u writings punto org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "decidir",
+   "texto": "¿Puedo decidir yo, aunque sea una vez?",
+   "visual": "ícono de bifurcación con una flecha elegida"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Mente, carácter y personalidad",
+   "texto": "Mente, carácter y personalidad · Elena G. de White",
+   "visual": "portada genérica de libro con engranes"
+  },
+  {
+   "tipo": "cita",
+   "seg": "porque",
+   "palabra": "Los niños educados",
+   "texto": "«Los niños educados de esta manera serán siempre deficientes en energía moral y responsabilidad individual.» — Mente, carácter y personalidad 1, cap. 31",
+   "visual": "ícono de batería baja"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "educa para que piense",
+   "texto": "1 · Educa para que piense",
+   "visual": "ícono de foco encendido"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i1",
+   "palabra": "dominio propio",
+   "texto": "Enseñar dominio propio\nControlar en todo no forma juicio propio",
+   "visual": "volante en manos de aprendiz, sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "no se discute",
+   "texto": "«¡Aquí no se discute!»",
+   "visual": "signo de alto"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "para qué pienso",
+   "texto": "«Entonces para qué pienso.»",
+   "visual": "burbuja de pensamiento que se desinfla"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "prohibiciones rígidas",
+   "texto": "2 · Cuidado con las prohibiciones rígidas",
+   "visual": "señal de prohibido con rebote"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i2",
+   "palabra": "No establezca",
+   "texto": "«No establezca prohibiciones rígidas para los jóvenes.» — Mente, carácter y personalidad 1, cap. 31",
+   "visual": "pelota que rebota en la pared"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "aprenda a decidir",
+   "texto": "3 · Que aprenda a decidir",
+   "visual": "ícono de balanza con dos opciones"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "regla férrea",
+   "texto": "Regla férrea: no saben decidir solos\nCriterio propio mientras aún estás cerca",
+   "visual": "ruedas de apoyo de bicicleta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "tu ánimo",
+   "texto": "4 · Tu ánimo también educa",
+   "visual": "ícono de clima soleado y nublado"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i4",
+   "palabra": "No echaré a perder",
+   "texto": "«No echaré a perder la felicidad de mis hijos con una sola palabra de irritación.» — Mente, carácter y personalidad 1, cap. 19",
+   "visual": "ícono de promesa: mano en el pecho"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "decida algo pequeño",
+   "texto": "Que decida algo pequeño, y respétalo",
+   "visual": "ícono de palomita sobre una elección"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "repara",
+   "texto": "Si te exaltas: «me exalté, perdón»",
+   "visual": "curita sobre burbuja de diálogo"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "enséñale a pensar",
+   "texto": "Enséñale a pensar\nSin prohibiciones rígidas\nQue decida contigo cerca\nCuida tu paciencia",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Mente, carácter y personalidad",
+   "texto": "Mente, carácter y personalidad\nElena G. de White\nDescarga gratuita: egwwritings.org",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Texto del PDF oficial de egwwritings.org, tomo 1 (ed. 2007): cap. 19 (pp. 192-193) y cap. 31 (pp. 306-309)."
+ ]
+}

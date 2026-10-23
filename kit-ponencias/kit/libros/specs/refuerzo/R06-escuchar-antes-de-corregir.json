@@ -1,0 +1,158 @@
+{
+ "id": "R06-escuchar-antes-de-corregir",
+ "formato": "vertical",
+ "tema": "Clave 1: escuchar antes de corregir",
+ "libros": [
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "la-educacion",
+   "titulo": "La educación",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "edad-de-oportunidades",
+   "titulo": "Edad de oportunidades",
+   "autor": "Paul David Tripp",
+   "donde": "P&R Publishing",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, frustrado, rápido] ¡Ni me dejó terminar!"
+  ],
+  [
+   "clave",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Clave uno: escuchar antes de corregir. Si corregimos demasiado pronto, el mensaje es otro: hablar contigo termina en regaño."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, molesto, interrumpiendo] A ver, espérate. Eso está mal. Déjame decirte."
+  ],
+  [
+   "pausa",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Primero escucha. La corrección puede esperar un minuto."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White, en El hogar cristiano, anima a que los hijos presenten a sus padres las penas de su corazón y sus pequeñas molestias diarias. Y en La educación escribe que la censura repetida aturde, pero no reforma: «Las flores no se abren bajo el soplo del ventarrón.» Paul David Tripp, en Edad de oportunidades, ve la adolescencia como una época de conversaciones nuevas."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: cuenta hasta tres antes de responder. Deja que termine su idea. Sin corregir y sin aconsejar. Solo escucha."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "terminar",
+   "texto": "Clave 1 · Escuchar antes de corregir",
+   "visual": "globo de diálogo cortado a la mitad por una línea roja"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "pronto",
+   "texto": "DEMASIADO PRONTO",
+   "visual": "reloj que se adelanta, palabra con sacudida"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "regaño",
+   "texto": "HABLAR = REGAÑO",
+   "visual": "la palabra REGAÑO sustituye a CONVERSAR con un whip"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "espérate",
+   "texto": "¡ESPÉRATE!",
+   "visual": "mano levantada que corta un globo de diálogo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "pausa",
+   "palabra": "esperar",
+   "texto": "LA CORRECCIÓN PUEDE ESPERAR",
+   "visual": "manecilla de reloj que se detiene"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Elena",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "penas",
+   "texto": "Las penas de su corazón",
+   "visual": "corazón pequeño en las manos de un adulto; sin rostros"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "educación",
+   "texto": "La educación · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "flores",
+   "texto": "«Las flores no se abren bajo el soplo del ventarrón.»",
+   "visual": "flor que se cierra bajo viento fuerte, comillas amarillas"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Tripp",
+   "texto": "Edad de oportunidades · Paul David Tripp · P&R Publishing",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "oportunidades",
+   "texto": "Una época de conversaciones nuevas",
+   "visual": "puerta que se abre sobre un camino"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "tres",
+   "texto": "Cuenta hasta tres. Deja que termine. Solo escucha.",
+   "visual": "cuenta 1-2-3 y una oreja grande"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "escucha",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "HC cap. 30 «El compañerismo en la familia», sección «Los padres deben ser los confidentes del niño» (PDF oficial): «animar a sus hijos a confiar en ellos, a presentarles las penas de su corazón, sus pequeñas molestias y pruebas diarias»",
+  "ED cap. 34 «La disciplina», sección «La censura no reforma» (PDF oficial): «Esta, si se repite incesantemente, aturde, pero no reforma… Las flores no se abren bajo el soplo del ventarrón»",
+  "Edad de oportunidades: página de la editorial P&R (prpbooks.com/book/edad-de-oportunidades): «Para los padres, la adolescencia es una época de oportunidades sin precedentes»; preguntas y nuevas conversaciones"
+ ]
+}

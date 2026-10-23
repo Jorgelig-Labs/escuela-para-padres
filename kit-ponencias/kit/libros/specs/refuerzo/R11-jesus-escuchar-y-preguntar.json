@@ -1,0 +1,144 @@
+{
+ "id": "R11-jesus-escuchar-y-preguntar",
+ "formato": "vertical",
+ "tema": "Jesús sabía escuchar y preguntar antes de orientar",
+ "libros": [
+  {
+   "libro_id": "la-educacion",
+   "titulo": "La educación",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "como-criar-jovenes-de-fe-solida",
+   "titulo": "Cómo criar jóvenes de fe sólida",
+   "autor": "Kara Powell y Chap Clark",
+   "donde": "Editorial Vida",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[cálido, pausado, directo] Jesús no empezaba con un sermón. Empezaba con una persona."
+  ],
+  [
+   "clave",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Escuchar. Preguntar. Y después, orientar. Ese es el orden. Cambia el «¿por qué hiciste eso?» por una pregunta abierta."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, tranquilo, curioso] ¿Cómo te sentiste con lo que pasó?"
+  ],
+  [
+   "pausa",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Las preguntas abren. Los sermones cierran."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En La educación, Elena de White cuenta que Jesús no dejó a Pedro solo con su angustia. Lo probó con una pregunta repetida tres veces: «¿Me amas?». Y Kara Powell y Chap Clark, en Cómo criar jóvenes de fe sólida, dedican un capítulo a las conversaciones sobre la fe, con investigación del Fuller Youth Institute."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: haz una pregunta abierta sobre lo que siente tu hijo, y escucha la respuesta completa antes de decir lo que tú crees."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "sermón",
+   "texto": "Jesús sabía escuchar y preguntar",
+   "visual": "orilla de un lago al amanecer, ilustración suave, sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "Escuchar",
+   "texto": "ESCUCHAR",
+   "visual": "palabra que entra desde la izquierda"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "Preguntar",
+   "texto": "PREGUNTAR",
+   "visual": "palabra que entra desde la derecha"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "orientar",
+   "texto": "DESPUÉS, ORIENTAR",
+   "visual": "tres escalones que suben"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "sentiste",
+   "texto": "¿CÓMO TE SENTISTE?",
+   "visual": "signo de pregunta abierto sobre una mesa; sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "pausa",
+   "palabra": "abren",
+   "texto": "LAS PREGUNTAS ABREN",
+   "visual": "puerta que se abre; el sermón es una puerta que se cierra"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "educación",
+   "texto": "La educación · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "amas",
+   "texto": "«¿Me amas?»",
+   "visual": "comillas amarillas y la pregunta repetida tres veces"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Powell",
+   "texto": "Cómo criar jóvenes de fe sólida · Kara Powell y Chap Clark · Editorial Vida",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "conversaciones",
+   "texto": "Conversaciones sobre la fe",
+   "visual": "dos globos de diálogo con una pequeña luz adentro"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "completa",
+   "texto": "Una pregunta abierta. La respuesta completa.",
+   "visual": "signo de pregunta que se abre como una puerta"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "crees",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "ED cap. 9 «Una ilustración de los métodos de Cristo» (PDF oficial): «Pedro, probado con la pregunta repetida tres veces: “¿Me amas?” recuperó el lugar que ocupaba entre los doce»; contexto: «El que en ese momento no podía evitar la angustia de su discípulo, no lo dejó librado a la amargura»",
+  "Cómo criar jóvenes de fe sólida: Google Books (id 66axsvX7l1MC): capítulo «Conversaciones sobre la fe sólida»; descripción de editorial: investigación del Fuller Youth Institute",
+  "La frase de Mario es una pregunta abierta de ejemplo."
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "id": "R08-pedir-permiso-para-aconsejar",
+ "formato": "vertical",
+ "tema": "Clave 3: pedir permiso para aconsejar",
+ "libros": [
+  {
+   "libro_id": "la-educacion",
+   "titulo": "La educación",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "mario",
+   "[papá, calmado, genuino] ¿Quieres un consejo, o solo quieres que te escuche?"
+  ],
+  [
+   "clave",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Clave tres: pedir permiso para aconsejar. Con una sola pregunta le dices que su voz importa, y que él decide cómo quiere que lo acompañes. No impones: invitas."
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, aliviado, tranquilo] Solo escúchame, por favor."
+  ],
+  [
+   "papa2",
+   "mario",
+   "[papá, paciente, cálido] Está bien. Aquí estoy."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En La educación, Elena de White escribe: «Es mejor pedir que ordenar», porque así la obediencia es resultado de la propia decisión. Y en El hogar cristiano desea que los hijos acudan a sus padres a pedirles consejo cuando están perplejos. Ese es el destino: que ellos te lo pidan."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: haz la pregunta una vez. Si te dice que solo quiere que lo escuches, respétalo, y vuelve a ofrecer otro día."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "escuche",
+   "texto": "¿Consejo o solo escucharte?",
+   "visual": "dos globos de diálogo, uno con «consejo» y otro con «escucha»"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "permiso",
+   "texto": "PEDIR PERMISO",
+   "visual": "candado que se abre con una llave pequeña"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "decide",
+   "texto": "ÉL DECIDE",
+   "visual": "volante en manos del adolescente; sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "escúchame",
+   "texto": "SOLO ESCÚCHAME",
+   "visual": "palabra suave que entra y se queda"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "educación",
+   "texto": "La educación · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "pedir",
+   "texto": "«Es mejor pedir que ordenar.»",
+   "visual": "dos palabras PEDIR y ORDENAR, la segunda tachada"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "hogar",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "destino",
+   "texto": "Que ellos te lo pidan",
+   "visual": "camino que termina en una puerta abierta"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "vez",
+   "texto": "Haz la pregunta una vez. Respeta su respuesta.",
+   "visual": "un dedo levantado (uno) y una palomita"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "día",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "ED cap. 34 «La disciplina», sección «Es mejor pedir que ordenar» (PDF oficial): «es mejor pedir que ordenar; así se da oportunidad a la persona… Su obediencia es más bien resultado de su propia decisión»",
+  "HC cap. 30 «El compañerismo en la familia», sección «Los padres deben ser los confidentes del niño»: «pedirles consejo cuando se hallan perplejos acerca de qué conducta es la buena» (PDF oficial)"
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "id": "serie-los-5-lenguajes-del-amor-2de3",
+ "formato": "vertical",
+ "libro_id": "los-5-lenguajes-del-amor",
+ "serie": "los-5-lenguajes-del-amor",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Los 5 lenguajes del amor de los jóvenes",
+ "autor": "Gary Chapman",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "titulo_corto": "Los 5 lenguajes del amor",
+ "etiqueta": "Los 5 lenguajes del amor · 2/3",
+ "tema": "Sus quejas, una pista",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Qué es lo que más te reclama tu hijo? Piensa en la última semana."
+  ],
+  [
+   "joven1",
+   "rewe",
+   "[adolescente, molesto, directo] ¡Nunca me escuchas!"
+  ],
+  [
+   "joven2",
+   "rewe",
+   "[adolescente, molesto, directo] ¡Siempre me estás criticando!"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Chapman sugiere prestar atención a las quejas de tu hijo. Y no para defenderte. Lo que parece pura inconformidad puede estar señalando cómo necesita recibir amor."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Sobre las quejas, escribe: «Cuando varias de estas caen dentro de la misma categoría, es probable que revelen el lenguaje primario de amor del joven». Es decir, no una queja aislada, sino las que se repiten."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Ahora, ¿qué lenguajes hay? El libro habla de cinco: palabras de afirmación, toque físico, tiempo de calidad, actos de servicio y regalos. Uno de ellos es el primario."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: anota las últimas tres quejas que tu hijo te ha hecho, y fíjate si se parecen entre sí. No para discutirlas. Solo para entender. Sin defenderte."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: qué decirle cuando hizo algo a medias."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "reclama",
+   "texto": "¿Qué te reclama más?",
+   "visual": "Burbujas de queja que suben y se apilan"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven1",
+   "palabra": "escuchas",
+   "texto": "¡Nunca me escuchas!",
+   "visual": "Burbuja de queja del adolescente"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven2",
+   "palabra": "criticando",
+   "texto": "¡Siempre me estás criticando!",
+   "visual": "Segunda burbuja de queja, se apila sobre la primera"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "quejas",
+   "texto": "Sus quejas: una pista",
+   "visual": "Lupa sobre una burbuja de queja que revela un corazón"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "categoría",
+   "texto": "«Cuando varias de estas caen dentro de la misma categoría, es probable que revelen el lenguaje primario de amor del joven»",
+   "visual": "Tarjeta de cita: Gary Chapman, Los 5 lenguajes del amor de los jóvenes"
+  },
+  {
+   "tipo": "icono",
+   "seg": "cita",
+   "palabra": "lenguaje",
+   "texto": "Lenguaje primario de amor",
+   "visual": "Tres burbujas de queja caen en un mismo cajón"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "afirmación",
+   "texto": "Afirmación",
+   "visual": "Icono de globo de diálogo con estrella"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "toque",
+   "texto": "Toque físico",
+   "visual": "Icono de dos manos que chocan"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "tiempo",
+   "texto": "Tiempo de calidad",
+   "visual": "Icono de reloj con corazón"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "servicio",
+   "texto": "Actos de servicio",
+   "visual": "Icono de delantal y cuchara"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "regalos",
+   "texto": "Regalos",
+   "visual": "Icono de caja de regalo"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "quejas",
+   "texto": "Para hoy: anota sus últimas tres quejas",
+   "visual": "Tarjeta «Para hoy» con tres líneas que se llenan"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "medias",
+   "texto": "Siguiente: cuando lo hizo a medias",
+   "visual": "Un hilo de tejido sin terminar"
+  }
+ ],
+ "fuentes": [
+  "Google Books GFqGDwAAQBAJ (vista previa), Chapman: «Cuando varias de estas caen dentro de la misma categoría…» (PT119)",
+  "Los cinco lenguajes: ficha oficial 5lovelanguages.com"
+ ]
+}

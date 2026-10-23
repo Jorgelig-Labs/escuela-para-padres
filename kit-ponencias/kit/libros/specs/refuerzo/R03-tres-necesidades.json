@@ -1,0 +1,137 @@
+{
+ "id": "R03-tres-necesidades",
+ "formato": "vertical",
+ "tema": "Tres necesidades: autonomía, privacidad y seguridad emocional",
+ "libros": [
+  {
+   "libro_id": "la-educacion",
+   "titulo": "La educación",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Quiero decidir yo. No todo te lo cuento. Y necesito saber cómo vas a reaccionar."
+  ],
+  [
+   "tres",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Son tres necesidades. Autonomía: decidir por sí mismo. Privacidad: no todo se cuenta. Y seguridad emocional: saber cómo vas a reaccionar. Casi siempre, lo que sabemos de un hijo es lo que él decide contarnos."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, invasivo, apurado] ¿Con quién hablabas? ¡A ver, enséñame ese celular!"
+  ],
+  [
+   "cierra",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Así se aprieta, a la vez, la autonomía, la privacidad y la seguridad. Y la puerta se va cerrando."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White, en La educación: «Hágase sentir a los jóvenes que se les tiene confianza, y pocos serán los que no traten de mostrarse dignos de ella.» Y El hogar cristiano dedica todo un capítulo a «La seguridad mediante el amor»."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: elige una decisión pequeña, como su ropa o el orden de su tarea, y déjala en sus manos."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "decidir",
+   "texto": "Tres necesidades que debemos comprender",
+   "visual": "tres círculos vacíos que se van llenando, sobre fondo crema"
+  },
+  {
+   "tipo": "icono",
+   "seg": "tres",
+   "palabra": "Autonomía",
+   "texto": "1 · AUTONOMÍA",
+   "visual": "volante o timón que gira solo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "tres",
+   "palabra": "Privacidad",
+   "texto": "2 · PRIVACIDAD",
+   "visual": "candado y cortina que se cierra"
+  },
+  {
+   "tipo": "icono",
+   "seg": "tres",
+   "palabra": "emocional",
+   "texto": "3 · SEGURIDAD EMOCIONAL",
+   "visual": "paraguas sobre un corazón"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "celular",
+   "texto": "¡ENSÉÑAME EL CELULAR!",
+   "visual": "pantalla de celular que se aleja de una mano que intenta agarrarla"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cierra",
+   "palabra": "puerta",
+   "texto": "Y la puerta se va cerrando",
+   "visual": "puerta que se cierra despacio, luz que se reduce"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "educación",
+   "texto": "La educación · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "cita",
+   "seg": "libros",
+   "palabra": "confianza",
+   "texto": "«Hágase sentir a los jóvenes que se les tiene confianza»",
+   "visual": "comillas grandes amarillas, CONFIANZA en morado"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "hogar",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "seguridad",
+   "texto": "La seguridad mediante el amor",
+   "visual": "título de capítulo sobre una casa con luz en la ventana"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "decisión",
+   "texto": "Deja que decida él una cosa pequeña.",
+   "visual": "mano que entrega unas llaves o un control; sin rostros"
+  }
+ ],
+ "fuentes": [
+  "ED cap. 34 «La disciplina» (PDF oficial): «Hágase sentir a los jóvenes que se les tiene confianza y pocos serán los que no traten de mostrarse dignos de ella» (21 palabras)",
+  "HC cap. 31 «La seguridad mediante el amor» (título de capítulo, PDF oficial)",
+  "Afirmación general «lo que sabemos de un hijo es lo que él decide contarnos»: planteamiento del tema; se quitó la atribución a investigadores concretos por no estar verificada en fuente de libro."
+ ]
+}

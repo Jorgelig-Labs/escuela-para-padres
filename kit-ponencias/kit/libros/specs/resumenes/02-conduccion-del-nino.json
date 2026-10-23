@@ -1,0 +1,195 @@
+{
+ "id": "resumen-conduccion-del-nino",
+ "formato": "horizontal",
+ "libro_id": "conduccion-del-nino",
+ "titulo": "Conducción del niño",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] No me grites. Solo dime qué hice."
+  ],
+  [
+   "intro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Hoy: Conducción del niño, de Elena G. de White. Un libro práctico sobre disciplina, dominio propio y carácter. Con un adolescente es fácil irse a un extremo: mandar más fuerte, o soltar las riendas."
+  ],
+  [
+   "porque",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Este libro propone otro camino. Dice que hay dos formas de tratar a los hijos, muy distintas en su principio y en sus resultados. Una: fidelidad y amor, con sabiduría y firmeza. La otra: descuido y complacencia necia."
+  ],
+  [
+   "i1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea uno: el amor y el deber van juntos. Elena de White escribe: «El amor tiene un hermano gemelo que es el deber.» Solo amor, sin deber, produce hijos voluntariosos y egoístas. Solo deber, sin amor, termina parecido."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, exaltado, a gritos] ¡Porque yo lo digo y punto!"
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, a la defensiva] ¿Y yo qué? ¿Mi opinión no cuenta?"
+  ],
+  [
+   "i2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea dos: corrige sin tormenta. Pide exigir obediencia con bondad y amor, no con una tormenta de palabras. Y añade algo que muchos necesitamos oír: «La ira no es necesaria para conseguir una pronta obediencia.» Antes de corregir, revisa tu tono de voz."
+  ],
+  [
+   "i3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea tres: estudia a cada hijo. El libro insiste en conocer el temperamento de cada uno. La misma restricción que le sirve a uno puede aplastar a otro. Si tienes varios hijos, no uses el mismo molde para todos. Por ejemplo: uno responde a una mirada firme. Otro necesita una conversación a solas."
+  ],
+  [
+   "i4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Idea cuatro: a veces el problema empieza en nosotros. Hay un pasaje muy honesto sobre padres que hablan con irritación, culpan a los hijos y piensan que son los peores del mundo, cuando la dificultad está en ellos mismos. Reconocerlo es el primer paso para reparar."
+  ],
+  [
+   "resumen",
+   "marisol",
+   "[firme, cálido, resumen] En resumen: amor y deber juntos, corrección sin tormenta, un molde distinto para cada hijo, y la humildad de empezar por uno mismo."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, práctico] Esta semana, dos cosas. Una: elige un tema donde sueles reaccionar con prisa, y decide de antemano cómo responderás: con calma y en voz baja. Dos: si te equivocas con un tono o una palabra, vuelve con tu hijo y repáralo. Una disculpa sencilla vale mucho."
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[cálido, sereno, cierre] Conducción del niño, de Elena G. de White. Descarga gratuita en e ge doble u writings punto org."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "grites",
+   "texto": "No me grites. Solo dime qué hice.",
+   "visual": "burbuja de diálogo con signo de silencio"
+  },
+  {
+   "tipo": "titular",
+   "seg": "intro",
+   "palabra": "Conducción del niño",
+   "texto": "Conducción del niño · Elena G. de White",
+   "visual": "portada genérica de libro con brújula"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "porque",
+   "palabra": "dos formas",
+   "texto": "Camino 1: amor + sabiduría + firmeza\nCamino 2: descuido y complacencia",
+   "visual": "bifurcación de camino con dos flechas"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i1",
+   "palabra": "el amor y el deber",
+   "texto": "1 · El amor y el deber van juntos",
+   "visual": "dos engranes entrelazados"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i1",
+   "palabra": "hermano gemelo",
+   "texto": "«El amor tiene un hermano gemelo que es el deber.» — Conducción del niño, cap. 45",
+   "visual": "dos siluetas de manos entrelazadas, sin rostros"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "yo lo digo",
+   "texto": "«¡Porque yo lo digo y punto!»",
+   "visual": "megáfono estilizado"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "teen",
+   "palabra": "opinión",
+   "texto": "«¿Mi opinión no cuenta?»",
+   "visual": "burbuja con signo de interrogación"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i2",
+   "palabra": "corrige sin tormenta",
+   "texto": "2 · Corrige sin tormenta",
+   "visual": "nube de tormenta que se despeja"
+  },
+  {
+   "tipo": "cita",
+   "seg": "i2",
+   "palabra": "La ira no es necesaria",
+   "texto": "«La ira no es necesaria para conseguir una pronta obediencia.» — Conducción del niño, cap. 45",
+   "visual": "ícono de volumen bajando"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i3",
+   "palabra": "estudia a cada hijo",
+   "texto": "3 · Estudia a cada hijo",
+   "visual": "tres llaves distintas"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i3",
+   "palabra": "temperamento",
+   "texto": "Conoce su temperamento\nLo que ayuda a uno, aplasta a otro\nNo uses el mismo molde",
+   "visual": "moldes de galleta distintos"
+  },
+  {
+   "tipo": "titular",
+   "seg": "i4",
+   "palabra": "empieza en nosotros",
+   "texto": "4 · A veces empieza en nosotros",
+   "visual": "espejo con una flecha que regresa"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "i4",
+   "palabra": "irritación",
+   "texto": "Hablar con irritación\nCulpar al hijo\nReconocerlo: primer paso para reparar",
+   "visual": "curita sobre un corazón"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "reaccionar con prisa",
+   "texto": "Decide hoy cómo responderás: con calma y en voz baja",
+   "visual": "ícono de respiración"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "repáralo",
+   "texto": "Si te equivocas: vuelve y repara",
+   "visual": "puente que une dos orillas"
+  },
+  {
+   "tipo": "ideas",
+   "seg": "resumen",
+   "palabra": "amor y deber",
+   "texto": "Amor + deber\nSin tormenta\nUn molde por hijo\nEmpezar por uno",
+   "visual": "cuatro íconos en fila"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "cierre",
+   "palabra": "Conducción del niño",
+   "texto": "Conducción del niño\nElena G. de White\nDescarga gratuita: egwwritings.org",
+   "visual": "portada genérica de libro"
+  }
+ ],
+ "fuentes": [
+  "Texto del PDF oficial de egwwritings.org: cap. 38 (pp. 163-166) y cap. 45 (pp. 207-210)."
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "id": "serie-los-5-lenguajes-del-amor-1de3",
+ "formato": "vertical",
+ "libro_id": "los-5-lenguajes-del-amor",
+ "serie": "los-5-lenguajes-del-amor",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Los 5 lenguajes del amor de los jóvenes",
+ "autor": "Gary Chapman",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "titulo_corto": "Los 5 lenguajes del amor",
+ "etiqueta": "Los 5 lenguajes del amor · 1/3",
+ "tema": "El tanque de amor",
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, casual, directo] Sé que me quieren. Pero no lo siento."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Los cinco lenguajes del amor de los jóvenes, Gary Chapman propone que todo joven tiene un tanque emocional que necesita llenarse. Piénsalo como el tanque de un carro: sin gasolina, no avanza. Y cuando está vacío, ese vacío afecta en gran medida su comportamiento."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Lo dice así: «En la raíz de los malos comportamientos de muchos jóvenes está un tanque vacío de amor»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Y eso cambia la pregunta. Ojo. Chapman no sugiere que los papás no amen a sus hijos. Se refiere a que miles de jóvenes no sienten ese amor. Una cosa es amar. Otra, que el otro lo reciba."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, confundido, dolido] ¡Pero si yo todo lo hago por ti!"
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: busca un momento sin pantallas y dile una cosa concreta que valoras de tu hijo. Sin sermón, sin pedirle nada a cambio."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: cómo descubrir cuál es su lenguaje primario de amor."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "reaccion",
+   "seg": "gancho",
+   "palabra": "quieren",
+   "texto": "Sé que me quieren. Pero no lo siento.",
+   "visual": "Burbuja de chat del adolescente sobre un fondo oscuro; sin rostros"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "tanque",
+   "texto": "El tanque emocional",
+   "visual": "Tanque de gasolina vacío con aguja en rojo y un corazón al centro"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "comportamiento",
+   "texto": "Tanque vacío, conducta afectada",
+   "visual": "Aguja que sube y baja; la palabra «conducta» tiembla"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "raíz",
+   "texto": "«En la raíz de los malos comportamientos de muchos jóvenes está un tanque vacío de amor»",
+   "visual": "Tarjeta de cita: Gary Chapman, Los 5 lenguajes del amor de los jóvenes"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "sienten",
+   "texto": "Amar ≠ que lo sienta",
+   "visual": "Dos flechas: una sale del corazón del papá, otra llega a un tanque"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "hago",
+   "texto": "¡Pero si yo todo lo hago por ti!",
+   "visual": "Burbuja de papá"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "valoras",
+   "texto": "Para hoy: dile una cosa concreta que valoras de él",
+   "visual": "Tarjeta «Para hoy» con corazón"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "pantallas",
+   "texto": "Sin pantallas, sin sermón, sin pedir nada",
+   "visual": "Celular boca abajo sobre la mesa"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "primario",
+   "texto": "Siguiente: su lenguaje primario de amor",
+   "visual": "Cinco globos de diálogo, uno se ilumina"
+  }
+ ],
+ "fuentes": [
+  "Google Books GFqGDwAAQBAJ (vista previa), Chapman: «En la raíz de los malos comportamientos…» (PT7)"
+ ]
+}

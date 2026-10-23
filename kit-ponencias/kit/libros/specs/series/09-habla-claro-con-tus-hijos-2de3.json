@@ -1,0 +1,120 @@
+{
+ "id": "serie-habla-claro-con-tus-hijos-2de3",
+ "formato": "vertical",
+ "libro_id": "habla-claro-con-tus-hijos",
+ "serie": "habla-claro-con-tus-hijos",
+ "episodio": 2,
+ "de": 3,
+ "titulo": "Habla claro con tus hijos sobre el sexo",
+ "autor": "Josh y Dottie McDowell",
+ "donde": "Editorial Unilit",
+ "derechos": true,
+ "titulo_corto": "Habla claro con tus hijos",
+ "etiqueta": "Habla claro con tus hijos · 2/3",
+ "tema": "Si tú no hablas, otros sí",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Si tú no hablas con ellos de este tema, alguien más ya lo hizo."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Los McDowell escriben que, si tus hijos ya tienen más de siete años y apenas vas a empezar, lo más probable es que ya hayan recibido su educación sobre el tema de la cultura de afuera, y que sea distinta de la que tú esperabas."
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, casual, bajito] Eso lo aprendí por ahí. En mi casa nunca se habló."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Por eso insisten en empezar desde muy pequeños, mientras todavía hay tiempo de llegar antes que la cultura. Y si ya es tarde, la propuesta es volver a presentarles el tema con una base distinta. No esperes el momento perfecto."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, honesto, humilde] Se me hizo tarde. Pero todavía puedo empezar."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: sin dramatizar, piensa cómo empezarías esta conversación, con tus propias palabras. No tiene que quedar perfecta. Hoy no hace falta hablar. Solo pensar."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: tres pasos para empezar bien."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "ya",
+   "texto": "Alguien más ya habló con ellos",
+   "visual": "Globo de diálogo ocupado por una silueta de pantalla"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "siete",
+   "texto": "Más de siete años: la cultura ya les enseñó",
+   "visual": "Pizarrón con un «7» y marcas de borrador"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "aprendí",
+   "texto": "Eso lo aprendí por ahí",
+   "visual": "Burbuja del adolescente"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "pequeños",
+   "texto": "Empieza muy temprano",
+   "visual": "Un reloj que retrocede a la mañana"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "tarde",
+   "texto": "Si ya es tarde: volver a presentarlo",
+   "visual": "Puerta que se abre otra vez, con luz"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "empezar",
+   "texto": "Se me hizo tarde. Pero todavía puedo empezar.",
+   "visual": "Burbuja de papá, tono humilde"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "empezarías",
+   "texto": "Para hoy: piensa cómo empezarías",
+   "visual": "Tarjeta «Para hoy» con un lápiz"
+  },
+  {
+   "tipo": "icono",
+   "seg": "accion",
+   "palabra": "perfecta",
+   "texto": "No tiene que quedar perfecta",
+   "visual": "Hoja con tachones y una palomita"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "pasos",
+   "texto": "Siguiente: tres pasos",
+   "visual": "Tres escalones que aparecen uno a uno"
+  }
+ ],
+ "fuentes": [
+  "Extracto oficial Harvest House (Straight Talk with Your Kids About Sex, intro. al cap. 1, en inglés; parafraseado, sin citas)"
+ ]
+}

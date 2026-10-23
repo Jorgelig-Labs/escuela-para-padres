@@ -1,0 +1,142 @@
+{
+ "id": "R07-validar-sin-estar-de-acuerdo",
+ "formato": "vertical",
+ "tema": "Clave 2: validar sin necesariamente estar de acuerdo",
+ "libros": [
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "manten-encendido-tu-amor",
+   "titulo": "Mantén encendido tu amor",
+   "autor": "Danny Silk",
+   "donde": "Loving on Purpose (ed. en español)",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "rewe",
+   "[adolescente, dolido, directo] Solo quiero que entiendas cómo me siento."
+  ],
+  [
+   "clave",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Clave dos: validar sin estar de acuerdo. Reconocer lo que siente no es aprobar lo que hizo, ni quitar el límite. Son dos cosas distintas, y caben en la misma conversación."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, sereno, comprensivo] Tiene sentido que te sientas así. Y aun así, esto no puede repetirse."
+  ],
+  [
+   "teen",
+   "rewe",
+   "[adolescente, sorprendido, suave] Gracias por escucharme."
+  ],
+  [
+   "orden",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Primero la emoción. Después, la conducta."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Elena de White, en El hogar cristiano, pide a los padres entender los gustos y disposiciones de sus hijos, compartir sus sentimientos y descubrir lo que embarga sus corazones. Y Danny Silk, en Mantén encendido tu amor, habla de límites sanos, comunicación con amor y proteger la conexión."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: antes de opinar, di: «Tiene sentido que te sientas así.» Si hace falta, después hablas del límite."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "entiendas",
+   "texto": "Clave 2 · Validar sin estar de acuerdo",
+   "visual": "dos globos de diálogo que se acercan"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "aprobar",
+   "texto": "VALIDAR ≠ APROBAR",
+   "visual": "signo igual tachado entre dos palabras"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "límite",
+   "texto": "SIGUE HABIENDO LÍMITE",
+   "visual": "una línea firme que permanece mientras el resto se suaviza"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "sentido",
+   "texto": "TIENE SENTIDO QUE TE SIENTAS ASÍ",
+   "visual": "frase en morado, luego «aun así» en azul marino"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "orden",
+   "palabra": "emoción",
+   "texto": "PRIMERO LA EMOCIÓN · DESPUÉS LA CONDUCTA",
+   "visual": "dos escalones numerados 1 y 2"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Elena",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "sentimientos",
+   "texto": "Compartir sus sentimientos",
+   "visual": "dos corazones que laten al mismo ritmo"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Silk",
+   "texto": "Mantén encendido tu amor · Danny Silk · Loving on Purpose (ed. en español)",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "conexión",
+   "texto": "Límites sanos · Comunicación · Conexión",
+   "visual": "tres iconos que se enlazan en cadena"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "opinar",
+   "texto": "Antes de opinar: «Tiene sentido que te sientas así.»",
+   "visual": "globo de diálogo grande con la frase"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "límite",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "HC cap. 30 «El compañerismo en la familia», sección «Los padres deben familiarizarse con sus hijos» (PDF oficial): «procuren entender sus gustos y disposiciones; compartan sus sentimientos, y descubran lo que embarga sus corazones»",
+  "Mantén encendido tu amor: subtítulo «Conexión, comunicación y límites» (bibliografia.md) y descripción de editorial (christianbook.com): «draw healthy boundaries, communicate in love, and ultimately protect your connections»",
+  "La frase de Mario es un ejemplo ilustrativo."
+ ]
+}

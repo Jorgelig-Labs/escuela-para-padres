@@ -1,0 +1,229 @@
+{
+ "id": "R00-reto-7-dias",
+ "formato": "vertical",
+ "tema": "El reto familiar de siete días",
+ "libros": [
+  {
+   "libro_id": "el-hogar-cristiano",
+   "titulo": "El hogar cristiano",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "conduccion-del-nino",
+   "titulo": "Conducción del niño",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "los-5-lenguajes-del-amor",
+   "titulo": "Los 5 lenguajes del amor de los jóvenes",
+   "autor": "Gary Chapman",
+   "donde": "Editorial Unilit",
+   "derechos": true
+  },
+  {
+   "libro_id": "edad-de-oportunidades",
+   "titulo": "Edad de oportunidades",
+   "autor": "Paul David Tripp",
+   "donde": "P&R Publishing",
+   "derechos": true
+  },
+  {
+   "libro_id": "manten-encendido-tu-amor",
+   "titulo": "Mantén encendido tu amor",
+   "autor": "Danny Silk",
+   "donde": "Loving on Purpose (ed. en español)",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[cálido, enérgico, ritmo ágil] Siete días. Siete pasos pequeños para acercarte a tu adolescente. Un día a la vez."
+  ],
+  [
+   "d1",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Día uno: escucha una conversación completa, sin interrumpir."
+  ],
+  [
+   "d2",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Día dos: pregunta por algo que de verdad le interese."
+  ],
+  [
+   "d3",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Día tres: reconoce algo positivo de tu adolescente."
+  ],
+  [
+   "d4",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Día cuatro: compartan una actividad sin pantallas."
+  ],
+  [
+   "d5",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Día cinco: valida una emoción antes de aconsejar."
+  ],
+  [
+   "d6",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Día seis: reconoce un error tuyo y ofrece una disculpa, si corresponde."
+  ],
+  [
+   "d6m",
+   "mario",
+   "[papá, sincero, bajito] Me equivoqué. Perdóname."
+  ],
+  [
+   "d7",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Día siete: pregúntale qué podrías hacer para escucharlo mejor."
+  ],
+  [
+   "d7m",
+   "mario",
+   "[papá, abierto, tranquilo] ¿Qué puedo hacer para escucharte mejor?"
+  ],
+  [
+   "cierre",
+   "marisol",
+   "[firme, cálido, cierre] Si un día no sale como esperabas, no pasa nada: sigue con el siguiente. Guarda este video y compártelo con tu familia."
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Estos libros te acompañan: El hogar cristiano, Conducción del niño, Los 5 lenguajes del amor de los jóvenes, Edad de oportunidades y Mantén encendido tu amor."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "Siete",
+   "texto": "El reto familiar de siete días",
+   "visual": "siete círculos que se encienden uno a uno sobre fondo crema"
+  },
+  {
+   "tipo": "dia",
+   "seg": "d1",
+   "palabra": "uno",
+   "texto": "Día 1 · Escucha una conversación completa, sin interrumpir.",
+   "visual": "número 1 grande, icono de oreja; etiqueta de libro: El hogar cristiano, cap. 30",
+   "libro_id": "el-hogar-cristiano"
+  },
+  {
+   "tipo": "dia",
+   "seg": "d2",
+   "palabra": "dos",
+   "texto": "Día 2 · Pregunta por algo que realmente le interese.",
+   "visual": "número 2, icono de signo de pregunta; etiqueta de libro: Edad de oportunidades · Tripp",
+   "libro_id": "edad-de-oportunidades"
+  },
+  {
+   "tipo": "dia",
+   "seg": "d3",
+   "palabra": "tres",
+   "texto": "Día 3 · Reconoce algo positivo de tu adolescente.",
+   "visual": "número 3, icono de estrella; etiqueta de libro: Los 5 lenguajes del amor de los jóvenes · Chapman",
+   "libro_id": "los-5-lenguajes-del-amor"
+  },
+  {
+   "tipo": "dia",
+   "seg": "d4",
+   "palabra": "cuatro",
+   "texto": "Día 4 · Compartan una actividad sin pantallas.",
+   "visual": "número 4, celular tachado y mesa de juego de mesa; etiqueta de libro: El hogar cristiano, cap. 30",
+   "libro_id": "el-hogar-cristiano"
+  },
+  {
+   "tipo": "dia",
+   "seg": "d5",
+   "palabra": "cinco",
+   "texto": "Día 5 · Valida una emoción antes de aconsejar.",
+   "visual": "número 5, icono de corazón con globo de diálogo; etiqueta de libro: Mantén encendido tu amor · Silk",
+   "libro_id": "manten-encendido-tu-amor"
+  },
+  {
+   "tipo": "dia",
+   "seg": "d6",
+   "palabra": "seis",
+   "texto": "Día 6 · Reconoce un error tuyo y ofrece una disculpa, si corresponde.",
+   "visual": "número 6, icono de mano tendida; etiqueta de libro: Conducción del niño",
+   "libro_id": "conduccion-del-nino"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "d6m",
+   "palabra": "perdóname",
+   "texto": "Perdóname.",
+   "visual": "palabra grande que entra de golpe, tono suave"
+  },
+  {
+   "tipo": "dia",
+   "seg": "d7",
+   "palabra": "siete",
+   "texto": "Día 7 · Pregúntale qué podrías hacer para escucharlo mejor.",
+   "visual": "número 7, icono de oreja con signo de pregunta; etiqueta de libro: El hogar cristiano, cap. 30",
+   "libro_id": "el-hogar-cristiano"
+  },
+  {
+   "tipo": "accion",
+   "seg": "cierre",
+   "palabra": "siguiente",
+   "texto": "Si un día no sale como esperabas, sigue con el siguiente.",
+   "visual": "siete círculos, uno vacío que se vuelve a llenar"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "hogar",
+   "texto": "El hogar cristiano · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Conducción",
+   "texto": "Conducción del niño · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "lenguajes",
+   "texto": "Los 5 lenguajes del amor de los jóvenes · Gary Chapman · Editorial Unilit",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Edad",
+   "texto": "Edad de oportunidades · Paul David Tripp · P&R Publishing",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Mantén",
+   "texto": "Mantén encendido tu amor · Danny Silk · Loving on Purpose (ed. en español)",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "amor",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "Días 1–7: el reto familiar de siete días (tema propio del canal; siete pasos prácticos, sin afirmaciones de libros).",
+  "Etiqueta de libro por día, sin afirmaciones nuevas: El hogar cristiano cap. 30 «El compañerismo en la familia» (PDF oficial egwwritings); Conducción del niño (cap. 48 «Las reacciones de los hijos» y sección «La confesión puede ser necesaria», PDF oficial); Edad de oportunidades (editorial P&R); Los 5 lenguajes del amor de los jóvenes (reseña de editorial, cinco lenguajes); Mantén encendido tu amor (descripción de editorial)."
+ ]
+}

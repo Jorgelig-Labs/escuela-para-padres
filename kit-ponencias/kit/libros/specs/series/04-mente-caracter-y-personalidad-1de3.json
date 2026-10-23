@@ -1,0 +1,144 @@
+{
+ "id": "serie-mente-caracter-y-personalidad-1de3",
+ "formato": "vertical",
+ "libro_id": "mente-caracter-y-personalidad",
+ "serie": "mente-caracter-y-personalidad",
+ "episodio": 1,
+ "de": 3,
+ "titulo": "Mente, carácter y personalidad",
+ "autor": "Elena G. de White",
+ "donde": "Descarga gratuita: egwwritings.org",
+ "derechos": false,
+ "titulo_corto": "Mente, carácter y personalidad",
+ "etiqueta": "Mente, carácter y personalidad · 1/3",
+ "tema": "Que sepa que crees en él",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] ¿Tu hijo sabe que crees en él?"
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, apagado, bajito] A veces siento que mi papá no cree que yo pueda."
+  ],
+  [
+   "papa",
+   "mario",
+   "[papá, impaciente, seco] A ver, ¿y ahora qué hiciste?"
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Mente, carácter y personalidad, el capítulo sobre la autoestima recoge una idea de Elena G. de White: nuestro éxito con las personas depende de que ellas crean que nosotros creemos en ellas."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Lo dice así: «dependerá de que ellas crean que nosotros creemos en ellas y las apreciamos». Es decir, no basta con creerlo por dentro. Él tiene que notarlo."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] También dice que el respeto que se muestra por quien está luchando es un camino seguro para restaurar su respeto propio."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: dile una frase que muestre confianza y que incluya un hecho. Una frase corta. Un hecho real. Nada de exagerar. Algo así."
+  ],
+  [
+   "accion2",
+   "mario",
+   "[papá, cariñoso, sincero] Sé que puedes con eso. La semana pasada lo lograste."
+  ],
+  [
+   "siguiente",
+   "marisol",
+   "[sereno, cierre] Siguiente: cómo ayudarle a enfrentar lo difícil, sin quedarse en la lástima."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "crees",
+   "texto": "¿Sabe que crees en él?",
+   "visual": "«crees» en morado con subrayado amarillo"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "pueda",
+   "texto": "Mi papá no cree que yo pueda",
+   "visual": "Burbuja apagada del adolescente"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa",
+   "palabra": "hiciste",
+   "texto": "¿Y ahora qué hiciste?",
+   "visual": "Burbuja seca de papá"
+  },
+  {
+   "tipo": "titular",
+   "seg": "idea",
+   "palabra": "autoestima",
+   "texto": "Autoestima",
+   "visual": "Palabra con un pequeño brote que crece"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "éxito",
+   "texto": "Tu éxito depende de que crean que crees",
+   "visual": "Flecha de ida y vuelta entre dos siluetas, sin rostros"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "dependerá",
+   "texto": "«Dependerá de que ellas crean que nosotros creemos en ellas y las apreciamos»",
+   "visual": "Tarjeta de cita: Elena G. de White, Mente, carácter y personalidad, t. 1, cap. 28"
+  },
+  {
+   "tipo": "icono",
+   "seg": "giro",
+   "palabra": "respeto",
+   "texto": "Respeto hacia quien lucha",
+   "visual": "Mano que ayuda a levantar a una silueta"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "restaurar",
+   "texto": "Restaura el respeto propio",
+   "visual": "Cristal roto que se une con una línea amarilla"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "frase",
+   "texto": "Para hoy: una frase de confianza, con un hecho",
+   "visual": "Tarjeta «Para hoy»"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "accion2",
+   "palabra": "lograste",
+   "texto": "Sé que puedes con eso. La semana pasada lo lograste.",
+   "visual": "Burbuja de papá con palomita amarilla"
+  },
+  {
+   "tipo": "titular",
+   "seg": "siguiente",
+   "palabra": "lástima",
+   "texto": "Siguiente: sin quedarse en la lástima",
+   "visual": "Ancla que se suelta y sube"
+  }
+ ],
+ "fuentes": [
+  "Mente, carácter y personalidad, t. 1, cap. 28 (cita) · egwwritings.org/es/book/1770"
+ ]
+}

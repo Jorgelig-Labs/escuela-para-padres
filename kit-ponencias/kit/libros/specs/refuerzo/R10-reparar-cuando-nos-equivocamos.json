@@ -1,0 +1,122 @@
+{
+ "id": "R10-reparar-cuando-nos-equivocamos",
+ "formato": "vertical",
+ "tema": "Clave 5: reparar cuando nos equivocamos",
+ "libros": [
+  {
+   "libro_id": "conduccion-del-nino",
+   "titulo": "Conducción del niño",
+   "autor": "Elena G. de White",
+   "donde": "Descarga gratuita: egwwritings.org",
+   "derechos": false
+  },
+  {
+   "libro_id": "manten-encendido-tu-amor",
+   "titulo": "Mantén encendido tu amor",
+   "autor": "Danny Silk",
+   "donde": "Loving on Purpose (ed. en español)",
+   "derechos": true
+  }
+ ],
+ "segmentos": [
+  [
+   "gancho",
+   "mario",
+   "[papá, arrepentido, bajito] Me equivoqué. Perdóname."
+  ],
+  [
+   "clave",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Clave cinco: reparar. Todos nos equivocamos con el tono, con la palabra, con el momento. Pero la corrección no debe destruir la conexión. Colosenses 3:21: «Padres, no exasperéis a vuestros hijos, para que no se desalienten.»"
+  ],
+  [
+   "libros",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Conducción del niño, Elena de White pide pensar cuán sensibles somos nosotros a las palabras duras, y cómo se sentirán los hijos al recibirlas. Y si has fallado en tu deber con tu familia, aconseja ir primero ante Dios, y luego reunir a tus hijos, reconocer tu descuido y pedirles ayuda para mejorar el hogar. Danny Silk, en Mantén encendido tu amor, habla de mantener el amor aun frente a los errores."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: si esta semana levantaste la voz, busca a tu hijo y dile: «Me equivoqué en cómo te hablé. Perdóname.» Sin «pero». Sin explicaciones."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "Perdóname",
+   "texto": "Clave 5 · Reparar",
+   "visual": "taza rota que se junta pieza por pieza (kintsugi dorado), fondo crema"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "tono",
+   "texto": "EL TONO · LA PALABRA · EL MOMENTO",
+   "visual": "tres palabras que entran en cascada"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "clave",
+   "palabra": "destruir",
+   "texto": "LA CORRECCIÓN NO DEBE DESTRUIR LA CONEXIÓN",
+   "visual": "hilo que se tensa pero no se rompe"
+  },
+  {
+   "tipo": "cita",
+   "seg": "clave",
+   "palabra": "exasperéis",
+   "texto": "«No exasperéis a vuestros hijos, para que no se desalienten.» · Colosenses 3:21",
+   "visual": "versículo sobre un fondo suave, comillas amarillas"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Conducción",
+   "texto": "Conducción del niño · Elena G. de White · Descarga gratuita: egwwritings.org",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "sensibles",
+   "texto": "Pensar cómo se sienten ellos",
+   "visual": "dos siluetas de manos, una grande y una pequeña, que se acercan"
+  },
+  {
+   "tipo": "icono",
+   "seg": "libros",
+   "palabra": "descuido",
+   "texto": "Reconocer · Pedir ayuda · Mejorar el hogar",
+   "visual": "tres pasos con una casa al final"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "libros",
+   "palabra": "Silk",
+   "texto": "Mantén encendido tu amor · Danny Silk · Loving on Purpose (ed. en español)",
+   "visual": "tarjeta de libro con portada tipográfica (sin foto), título, autor y dónde conseguirlo"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "Perdóname",
+   "texto": "«Me equivoqué en cómo te hablé. Perdóname.» Sin «pero».",
+   "visual": "la palabra PERO tachada"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "accion",
+   "palabra": "explicaciones",
+   "texto": "Este video no sustituye la lectura del libro.",
+   "visual": "línea final de la tarjeta de cierre"
+  }
+ ],
+ "fuentes": [
+  "CN cap. 48 «Las reacciones de los hijos» (PDF oficial): «¿Habéis pensado cuán sensibles sois a las palabras de censura o de condenación?… Pensad pues cómo deben sentirse vuestros hijos cuando les dirigís palabras ásperas y cortantes»",
+  "CN, sección «La confesión puede ser necesaria» (Manuscrito 22, 1904; PDF oficial): «Si habéis fallado en vuestro deber para vuestra familia, confesad vuestros pecados delante de Dios. Reunid a vuestros hijos en torno de vosotros y reconoced vuestro descuido. Decidles que deseáis realizar una reforma en el hogar y pedidles que os ayuden a hacer del hogar lo que debiera ser.» (se presenta como paráfrasis fiel a ese contexto)",
+  "NO se usa la cita «presentad a vuestros hijos una confesión sincera» (Carta 66, 1910): en el original es una confesión «por haberles permitido seguir en la senda de la vanidad»; se sustituyó por el pasaje anterior, que sí aplica a haber fallado en el deber con la familia.",
+  "Mantén encendido tu amor: descripción de editorial (christianbook.com): amor que permanece «in the face of mistakes, pain, and fear»",
+  "Colosenses 3:21 (RVR1960)."
+ ]
+}

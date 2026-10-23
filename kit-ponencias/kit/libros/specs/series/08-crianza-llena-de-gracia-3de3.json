@@ -1,0 +1,137 @@
+{
+ "id": "serie-crianza-llena-de-gracia-3de3",
+ "formato": "vertical",
+ "libro_id": "crianza-llena-de-gracia",
+ "serie": "crianza-llena-de-gracia",
+ "episodio": 3,
+ "de": 3,
+ "titulo": "Crianza llena de gracia",
+ "autor": "Tim Kimmel",
+ "donde": "Caribe-Betania / Grupo Nelson",
+ "derechos": true,
+ "titulo_corto": "Crianza llena de gracia",
+ "etiqueta": "Crianza llena de gracia · 3/3",
+ "tema": "Caminar con él",
+ "segmentos": [
+  [
+   "gancho",
+   "marisol",
+   "[curioso, intriga, ritmo ágil] Tu hijo se equivocó. ¿Lo condenas, o lo acompañas?"
+  ],
+  [
+   "papa1",
+   "mario",
+   "[papá, molesto, tajante] ¿Cómo pudiste hacer eso?"
+  ],
+  [
+   "joven",
+   "rewe",
+   "[adolescente, bajito, avergonzado] Ya sé que la regué. Solo quiero que no me dejes solo."
+  ],
+  [
+   "idea",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] En Crianza llena de gracia, Tim Kimmel escribe que una respuesta de gracia al pecado de los hijos es evitar la condena. Y que muchas veces la condena solo empeora la situación."
+  ],
+  [
+   "cita",
+   "marisol",
+   "[firme, cálido, pausado] Su alternativa: comprometerte a «caminar con ellos a través de su error con amor y gracia»."
+  ],
+  [
+   "giro",
+   "marisol",
+   "[cálido, cercano, ritmo ágil] Kimmel habla de hijos que crecen en hogares donde son libres para ser diferentes, vulnerables, ingenuos, y también para equivocarse."
+  ],
+  [
+   "papa2",
+   "mario",
+   "[papá, cariñoso, firme] Estoy contigo. Ya hablaremos de lo que pasó."
+  ],
+  [
+   "accion",
+   "marisol",
+   "[firme, cálido, cierre] Para hoy: la próxima vez que tu hijo se equivoque, dile primero que estás con él. La conversación sobre lo que pasó puede venir después. Primero, la relación."
+  ],
+  [
+   "tarjeta",
+   "marisol",
+   "[sereno, cierre] Crianza llena de gracia, de Tim Kimmel, de Caribe-Betania y Grupo Nelson. Este video no sustituye la lectura del libro."
+  ]
+ ],
+ "beats": [
+  {
+   "tipo": "titular",
+   "seg": "gancho",
+   "palabra": "acompañas",
+   "texto": "¿Condenas o acompañas?",
+   "visual": "Dos caminos: un dedo señalando y una mano extendida"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa1",
+   "palabra": "pudiste",
+   "texto": "¿Cómo pudiste hacer eso?",
+   "visual": "Burbuja de papá en tono duro"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "joven",
+   "palabra": "regué",
+   "texto": "Ya sé que la regué. No me dejes solo.",
+   "visual": "Burbuja del adolescente, tenue"
+  },
+  {
+   "tipo": "icono",
+   "seg": "idea",
+   "palabra": "condena",
+   "texto": "La condena empeora la situación",
+   "visual": "Nube de tormenta sobre una casa pequeña"
+  },
+  {
+   "tipo": "cita",
+   "seg": "cita",
+   "palabra": "caminar",
+   "texto": "«Caminar con ellos a través de su error con amor y gracia»",
+   "visual": "Tarjeta de cita: Tim Kimmel, Crianza llena de gracia"
+  },
+  {
+   "tipo": "ilustracion",
+   "seg": "cita",
+   "palabra": "alternativa",
+   "texto": "Dos pares de pies caminando juntos",
+   "visual": "Huellas de dos tamaños sobre un camino"
+  },
+  {
+   "tipo": "titular",
+   "seg": "giro",
+   "palabra": "equivocarse",
+   "texto": "Libres para equivocarse",
+   "visual": "Lápiz con goma; la palabra «equivocarse» se corrige y queda en pie"
+  },
+  {
+   "tipo": "reaccion",
+   "seg": "papa2",
+   "palabra": "contigo",
+   "texto": "Estoy contigo. Ya hablaremos de lo que pasó.",
+   "visual": "Burbuja de papá en tono cálido"
+  },
+  {
+   "tipo": "accion",
+   "seg": "accion",
+   "palabra": "primero",
+   "texto": "Para hoy: primero, «estoy contigo»",
+   "visual": "Tarjeta «Para hoy» con una mano sobre un hombro (silueta)"
+  },
+  {
+   "tipo": "tarjeta_libro",
+   "seg": "tarjeta",
+   "palabra": "Grupo Nelson",
+   "texto": "Crianza llena de gracia · Tim Kimmel · Caribe-Betania / Grupo Nelson",
+   "visual": "Tarjeta de cierre estándar de la serie: portada tipográfica, sin foto; leyenda «Este video no sustituye la lectura del libro»"
+  }
+ ],
+ "fuentes": [
+  "Google Books 1E3hAwAAQBAJ (vista previa), Kimmel: «caminar con ellos a través de su error…» (ES p.233/PA233)"
+ ]
+}

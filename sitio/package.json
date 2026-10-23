@@ -1,0 +1,27 @@
+{
+  "name": "entre-nosotros-biblioteca",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview:file": "node scripts/preview.mjs",
+    "test": "node scripts/build.mjs && node --test --test-concurrency=1 tests/*.test.mjs",
+    "cf:check": "node scripts/cloudflare.mjs check",
+    "cf:login": "node scripts/cloudflare.mjs login",
+    "cf:check:oauth": "node scripts/cloudflare.mjs check --oauth",
+    "deploy:oauth": "node scripts/cloudflare.mjs deploy --oauth",
+    "media:upload": "node scripts/cloudflare.mjs upload",
+    "books:backup": "node scripts/cloudflare.mjs backup",
+    "books:backup:oauth": "node scripts/cloudflare.mjs backup --oauth",
+    "deploy": "node scripts/cloudflare.mjs deploy"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3",
+    "wrangler": "^4.152.0"
+  }
+}
