@@ -93,6 +93,12 @@ export async function build() {
   await rm(dist, { recursive: true, force: true });
   await mkdir(dist, { recursive: true });
   await cp(path.join(root, 'public'), dist, { recursive: true });
+  const pdfjs = path.join(root, 'node_modules/pdfjs-dist');
+  const vendor = path.join(dist, 'vendor/pdfjs');
+  await mkdir(vendor, { recursive:true });
+  for (const file of ['pdf.min.mjs', 'pdf.worker.min.mjs']) await cp(path.join(pdfjs, 'legacy/build', file), path.join(vendor, file));
+  for (const directory of ['cmaps', 'standard_fonts']) await cp(path.join(pdfjs, directory), path.join(vendor, directory), { recursive:true });
+  await cp(path.join(pdfjs, 'LICENSE'), path.join(vendor, 'LICENSE'));
   await writeFile(path.join(dist, 'catalog.json'), JSON.stringify(catalog, null, 2) + '\n');
   return catalog;
 }

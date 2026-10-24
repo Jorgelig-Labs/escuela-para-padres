@@ -7,7 +7,7 @@ import { build, dist, root } from './build.mjs';
 import { parseRange } from './range.mjs';
 
 let catalog = await build();
-const types = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.md':'text/markdown; charset=utf-8', '.jpg':'image/jpeg', '.svg':'image/svg+xml', '.mp4':'video/mp4', '.pdf':'application/pdf' };
+const types = { '.html':'text/html; charset=utf-8', '.css':'text/css; charset=utf-8', '.js':'text/javascript; charset=utf-8', '.mjs':'text/javascript; charset=utf-8', '.json':'application/json; charset=utf-8', '.md':'text/markdown; charset=utf-8', '.jpg':'image/jpeg', '.svg':'image/svg+xml', '.mp4':'video/mp4', '.pdf':'application/pdf' };
 const server = createServer(async (request, response) => {
   try {
     if (!['GET','HEAD'].includes(request.method)) { response.writeHead(405, { Allow:'GET, HEAD' }).end(); return; }

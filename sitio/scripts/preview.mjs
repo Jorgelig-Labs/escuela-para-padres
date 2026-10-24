@@ -1,4 +1,4 @@
-import { readFile, mkdir, writeFile } from 'node:fs/promises';
+import { cp, readFile, mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { build, root } from './build.mjs';
 
@@ -26,7 +26,8 @@ await writeFile(path.join(root, 'artifacts/preview.html'), preview);
 console.log('Vista previa local: artifacts/preview.html (datos integrados, videos originales locales).');
 
 const [readerHTML, readerCSS, readerSource] = await Promise.all(['leer.html','reader.css','reader.js'].map(file => readFile(path.join(root, 'public', file), 'utf8')));
-const readerCode = readerSource.replace("await fetch('/catalog.json')", 'new Response(JSON.stringify(window.__previewCatalog))').replace("'/?type=book#referencias'", "'preview.html?type=book#referencias'");
+await cp(path.join(root, 'public/pdf-reader.js'), path.join(root, 'artifacts/pdf-reader.js'));
+const readerCode = readerSource.replace("await fetch('/catalog.json')", 'new Response(JSON.stringify(window.__previewCatalog))').replaceAll("/?type=book&recurso=", "preview.html?type=book&recurso=");
 const reader = readerHTML.replace('<link rel="stylesheet" href="/styles.css">', () => `<style>${css}</style>`)
   .replace('<link rel="stylesheet" href="/reader.css">', () => `<style>${readerCSS}</style>`)
   .replace('href="/assets/favicon.svg"', 'href="../public/assets/favicon.svg"')

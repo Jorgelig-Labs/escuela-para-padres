@@ -347,6 +347,10 @@ test('libro y videos se enlazan en ambos sentidos sin perder el foco original', 
   assert.equal($('.related-videos [data-open="private-episode"]'), null);
   assert.equal($('.related-videos [data-open="other-series"]'), null);
   $('.related-videos [data-open="episode-1"]').click();
+  assert.ok($('.book-context-nav [data-open="el-hogar-cristiano"]'));
+  assert.match($('.book-context-nav a').href, /leer.html\?libro=el-hogar-cristiano/);
+  $('.book-context-nav [data-open="summary"]').click();
+  assert.equal(new URL(w.location.href).searchParams.get('recurso'), 'summary');
   $('#dialog-content [data-open="el-hogar-cristiano"]').click();
   assert.equal($('#dialog-title').textContent, 'El hogar cristiano');
   $('#close-dialog').click();

@@ -271,3 +271,16 @@ dialog { width:min(760px,calc(100% - 32px));max-height:92dvh;padding:0;border:0;
   .vertical-dialog .video-error { grid-column:1/-1; }
   .vertical-dialog .dialog-body { padding-top:54px; }
 }
+
+/* Accesos al libro siempre visibles durante la reproducción. */
+.book-context-nav { display:flex;align-items:center;gap:8px;position:sticky;top:0;z-index:2;background:var(--paper);padding:10px 58px 10px 12px;border-bottom:1px solid var(--line); }
+.book-context-nav a,.book-context-nav button { display:flex;align-items:center;justify-content:center;min-height:44px;padding:6px 10px;font-size:13px;line-height:1.3;background:var(--soft);border-radius:6px;text-align:center; }
+.book-summary-actions { display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px; }
+.book-summary-actions a { display:inline-flex;align-items:center;min-height:44px;font-size:13px;text-decoration:underline; }
+@media(max-width:600px) { .book-context-nav { gap:5px; } .book-context-nav a,.book-context-nav button { flex:1;padding:6px;font-size:12px; } .book-summary-actions .button { width:100%; } }
+
+@media(max-height:520px) and (orientation:landscape) {
+  .vertical-dialog .book-context-nav { grid-column:1/-1; }
+  .vertical-dialog .dialog-video.vertical { height:calc(100dvh - 64px);max-height:calc(100dvh - 64px);top:64px; }
+  .vertical-dialog .dialog-body { padding-top:20px; }
+}

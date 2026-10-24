@@ -267,7 +267,20 @@ function externalLink(link, primary = false) {
 }
 
 function readerURL(book, document = book.documents?.[0]) {
-  return `/leer.html?libro=${encodeURIComponent(book.id)}&edicion=${encodeURIComponent(document.id)}`;
+  return `/leer.html?libro=${encodeURIComponent(book.id)}${document ? `&edicion=${encodeURIComponent(document.id)}` : ""}`;
+}
+
+function bookSummaryAction(book) {
+  const summary = relatedVideos(book).find(video => video.group === 'resumen');
+  if (!summary) return '';
+  return `<nav class="book-summary-actions" aria-label="Explorar el libro"><button class="button secondary" data-open="${summary.id}">${icon('play')} Ver resumen del libro</button><a href="${readerURL(book)}&vista=videos">Resumen y todos sus videos →</a></nav>`;
+}
+
+function videoBookNavigation(video) {
+  const book = catalog.books.find(book => book.id === video.book);
+  if (!book) return '';
+  const summary = relatedVideos(book).find(item => item.group === 'resumen');
+  return `<nav class="book-context-nav" aria-label="Libro y videos"><button data-open="${book.id}">← Ficha del libro</button>${book.documents?.length ? `<a href="${readerURL(book)}">Leer libro</a>` : ''}${summary && summary.id !== video.id ? `<button data-open="${summary.id}">Ver resumen</button>` : `<a href="${readerURL(book)}&vista=videos">Más videos</a>`}</nav>`;
 }
 
 function bookDetails(item) {
@@ -290,7 +303,7 @@ function bookDetails(item) {
     return `<a href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)}</a>`;
   }).join('');
   const stores = purchaseLinks.map(link => `<a data-purchase href="${escape(link.url)}" target="_blank" rel="noopener noreferrer">${new URL(link.url).hostname.endsWith('amazon.com.mx') ? 'Amazon México' : escape(link.label)}</a>`).join(' · ');
-  return `<div class="dialog-book-hero palette-${item.palette}">${cover(item)}<div><span class="eyebrow">REFERENCIA · ${escape(item.topic)}</span><h2 id="dialog-title">${escape(item.title)}</h2><p>${escape(item.author)}</p></div></div><div class="dialog-body"><p>${escape(item.description)}</p><div class="dialog-meta"><span>${escape(item.publisher)}</span><span>Edición ${escape(item.year)}</span>${item.pages ? `<span>${item.pages} páginas</span>` : '<span>2 tomos · 2 ediciones</span>'}</div><span class="access-badge ${item.access}">${accessLabels[item.access]}</span>${reading}${sources ? `<div class="download-links">${sources}</div>` : ''}<p class="dialog-note">${documents.length ? 'PDF originales de Ellen G. White Estate. Puedes leerlos aquí o abrirlos en el visor de tu dispositivo.' : 'Las muestras, cuando están disponibles, son parciales.'}</p>${stores ? `<p class="purchase-reference">Referencia comercial: ${stores}</p>` : ''}${bookVideos(item)}${dialogActions(item)}</div>`;
+  return `<div class="dialog-book-hero palette-${item.palette}">${cover(item)}<div><span class="eyebrow">REFERENCIA · ${escape(item.topic)}</span><h2 id="dialog-title">${escape(item.title)}</h2><p>${escape(item.author)}</p></div></div><div class="dialog-body">${bookSummaryAction(item)}<p>${escape(item.description)}</p><div class="dialog-meta"><span>${escape(item.publisher)}</span><span>Edición ${escape(item.year)}</span>${item.pages ? `<span>${item.pages} páginas</span>` : '<span>2 tomos · 2 ediciones</span>'}</div><span class="access-badge ${item.access}">${accessLabels[item.access]}</span>${reading}${sources ? `<div class="download-links">${sources}</div>` : ''}<p class="dialog-note">${documents.length ? 'PDF originales de Ellen G. White Estate. Puedes leerlos aquí o abrirlos en el visor de tu dispositivo.' : 'Las muestras, cuando están disponibles, son parciales.'}</p>${stores ? `<p class="purchase-reference">Referencia comercial: ${stores}</p>` : ''}${bookVideos(item)}${dialogActions(item)}</div>`;
 }
 
 function seriesEpisodes(item) {
@@ -308,7 +321,7 @@ function seriesNavigation(item) {
 }
 
 function videoDetails(item) {
-  return `<video class="dialog-video ${item.orientation === 'vertical' ? 'vertical' : ''}" controls playsinline preload="metadata" poster="${escape(item.poster)}" aria-label="${escape(item.title)}"><source src="/media/${videoPath(item)}" type="video/mp4">Tu navegador no puede reproducir este video.</video><p class="video-error" hidden>No se pudo cargar el video. Puedes <a href="/media/${videoPath(item)}" target="_blank" rel="noopener">abrir el archivo directamente</a> o volver a intentarlo más tarde.</p><div class="dialog-body"><span class="eyebrow">${escape(item.label || groupLabels[item.group] || 'Video')} · ${duration(item.duration)}</span><h2 id="dialog-title">${escape(item.title)}</h2>${seriesNavigation(item)}<p>${escape(item.description)}</p><p class="dialog-note">${escape(item.author)}${item.note ? ` · ${escape(item.note)}` : ''}</p><button class="text-button" id="fullscreen-video">Ver a pantalla completa ${icon('play')}</button>${item.book ? `<button class="text-button" data-open="${item.book}">${icon('book')} Ver libro de referencia</button>` : ''}${dialogActions(item)}</div>`;
+  return `${videoBookNavigation(item)}<video class="dialog-video ${item.orientation === 'vertical' ? 'vertical' : ''}" controls playsinline preload="metadata" poster="${escape(item.poster)}" aria-label="${escape(item.title)}"><source src="/media/${videoPath(item)}" type="video/mp4">Tu navegador no puede reproducir este video.</video><p class="video-error" hidden>No se pudo cargar el video. Puedes <a href="/media/${videoPath(item)}" target="_blank" rel="noopener">abrir el archivo directamente</a> o volver a intentarlo más tarde.</p><div class="dialog-body"><span class="eyebrow">${escape(item.label || groupLabels[item.group] || 'Video')} · ${duration(item.duration)}</span><h2 id="dialog-title">${escape(item.title)}</h2>${seriesNavigation(item)}<p>${escape(item.description)}</p><p class="dialog-note">${escape(item.author)}${item.note ? ` · ${escape(item.note)}` : ''}</p><button class="text-button" id="fullscreen-video">Ver a pantalla completa ${icon('play')}</button>${item.book ? `<button class="text-button" data-open="${item.book}">${icon('book')} Ver libro de referencia</button>` : ''}${dialogActions(item)}</div>`;
 }
 
 function stopDialogVideo() {

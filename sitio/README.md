@@ -85,7 +85,11 @@ Los metadatos incluyen `id`, `title`, `author`, `topic`, `description`, `publish
 
 `access` distingue `complete` (libro completo), `sample` (muestra parcial) y `purchase` (referencia sin lectura gratuita). Los enlaces comerciales aparecen como referencias secundarias, nunca como la acción principal.
 
-Para un PDF disponible, `documents` contiene `id`, `label`, `file` y `source`. La fuente debe pertenecer a uno de los proveedores oficiales admitidos por el generador. El botón **Leer libro** abre el lector con selector de tomo o edición. En móviles, dispositivos táctiles y navegadores sin visor PDF integrado, **Leer PDF a pantalla completa** abre el documento en la misma pestaña, sin incrustarlo; el botón Atrás permite regresar. También se puede descargar el tomo seleccionado. En escritorio se conserva el visor incrustado y **Abrir PDF** ofrece acceso directo. Los originales de las lecturas disponibles se respaldan sin modificaciones.
+Para un PDF disponible, `documents` contiene `id`, `label`, `file` y `source`. La fuente debe pertenecer a uno de los proveedores oficiales admitidos por el generador. **Leer libro** abre la lectura integrada con PDF.js servido desde el mismo sitio: página anterior/siguiente, salto de página, zoom y **Texto cómodo** con el texto extraído del original. Se dibuja una sola página cada vez y se limita el tamaño del canvas para cuidar la memoria móvil. La última página se recuerda por tomo en este navegador; `pagina` en la URL permite compartir una posición.
+
+La barra **Leer / Videos / Ficha** conserva la lectura al cambiar de sección. Videos presenta primero el resumen, después las ideas prácticas y los episodios publicados de ese libro, sin reproducción automática. Al regresar a Leer o Ficha se pausa el video. Los reproductores del catálogo ofrecen accesos visibles a la ficha, la lectura y el resumen. Los libros sin PDF conservan videos y ficha. Abrir y descargar el PDF original quedan como alternativas; los documentos no se modifican.
+
+El build copia el motor, su worker, fuentes, mapas de caracteres y licencia desde la versión fijada de `pdfjs-dist` a `dist/vendor/pdfjs/`. La vista previa `file://` permite abrir el original; para comprobar el lector integrado usa `npm run dev`.
 
 ## Cloudflare
 

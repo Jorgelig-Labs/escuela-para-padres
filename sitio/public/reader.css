@@ -1,39 +1,63 @@
 .reader-page { background:#e7e9e3; }
-.reader-header { background:var(--paper);padding:20px 28px;border-bottom:1px solid var(--line); }
-.reader-back { display:inline-block;font-size:12px;color:var(--muted);padding:6px 0;margin-bottom:14px; }
-.reader-heading { display:flex;align-items:center;justify-content:space-between;gap:24px; }
-.reader-heading h1 { font:400 28px/1.2 var(--serif);margin:6px 0; }
-#reader-author { font-size:12px;color:var(--muted); }
-.reader-controls { display:flex;gap:10px;align-items:center;flex-wrap:wrap; }
-.reader-controls label { font-size:11px; }
-.reader-controls select { max-width:200px;min-height:44px;background:white; }
-.reader-controls .button { min-height:44px; }
-.reader-launch { margin:16px 0 0; }
-.reader-actions { display:flex;gap:10px;flex-wrap:wrap; }
-.reader-actions .button { min-height:48px; }
-.reader-direct .reader-launch { max-width:560px;margin:24px auto;padding:24px;background:var(--paper);border:1px solid var(--line);border-radius:14px; }
-.reader-direct .reader-launch h2 { font:28px/1.2 var(--serif);margin-bottom:14px; }
-.reader-direct .reader-launch p { font-size:16px;line-height:1.6;color:var(--muted); }
-.reader-direct .reader-actions { margin-top:24px;flex-direction:column; }
-.reader-direct .reader-actions .button { width:100%;min-height:52px;font-size:16px; }
-.reader-direct .reader-launch .reader-return { margin-top:20px;font-size:13px; }
-.reader-main { max-width:none;padding:0 24px 16px; }
-.reader-hint { font-size:12px;line-height:1.6;padding:13px 0;color:#536459; }
-.reader-hint a,.reader-source a { text-decoration:underline;text-underline-offset:3px; }
-#pdf-frame { width:100%;height:calc(100dvh - 280px);min-height:480px;border:1px solid #c9cfc3;border-radius:7px;background:white; }
-.reader-status { padding:26px;text-align:center;font-size:14px; }
-.reader-error { margin:24px auto;padding:36px;max-width:650px;background:var(--paper);border:1px solid var(--line);border-radius:8px; }
-.reader-error h2 { font:28px var(--serif);margin-bottom:15px; }
-.reader-error p { font-size:14px;line-height:1.7;color:var(--muted); }
-.reader-error>div { display:flex;gap:12px;flex-wrap:wrap;margin-top:20px; }
-.reader-source { font-size:11px;color:var(--muted);padding:12px 0 0; }
-@media(max-width:850px) { .reader-heading { flex-direction:column;align-items:stretch;gap:16px; } .reader-heading h1 { font-size:25px; } .reader-controls { gap:8px; } #pdf-frame { height:calc(100dvh - 275px); } }
-@media(max-width:480px) { .reader-header { padding:15px; } .reader-main { padding:0 10px 12px; } .reader-heading h1 { font-size:23px; } .reader-controls label { width:100%; } .reader-controls select { flex:1;max-width:100%; } .reader-controls .button { flex:1;white-space:nowrap;padding:10px 12px; } .reader-error { padding:25px; } }
+.reader-header { padding:14px 24px 18px;background:var(--paper); }
+.reader-header h1 { font:400 28px/1.15 var(--serif);margin:6px 0; }
+.reader-back { display:inline-flex;align-items:center;min-height:44px;font-size:13px;color:var(--muted); }
+#reader-author { font-size:13px;color:var(--muted); }
+.book-nav { display:flex;position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line);padding:0 16px; }
+.book-nav button { flex:1;min-height:52px;max-width:240px;background:none;font-size:15px;border-bottom:3px solid transparent; }
+.book-nav button[aria-current] { border-color:var(--green);font-weight:700; }
+.book-nav button:disabled { opacity:.45; }
+.reader-main { max-width:1100px;padding:0 20px 32px; }
+.edition-controls { display:flex;align-items:center;gap:12px;padding:14px 0; }
+.edition-controls label { font-size:13px; }
+.edition-controls select { min-height:44px;max-width:100%;font-size:16px;background:var(--paper); }
+.reader-status { padding:14px;text-align:center;font-size:14px; }
+.reader-error { margin:20px 0;padding:24px;background:var(--paper);border-radius:12px; }
+.reader-error h2 { font:26px/1.2 var(--serif);margin-bottom:12px; }
+.reader-error p { line-height:1.6;margin-bottom:16px; }
+.pdf-toolbar { position:sticky;top:52px;z-index:4;background:var(--paper);border-bottom:1px solid var(--line);padding:8px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap; }
+.page-controls,.view-controls,#page-form { display:flex;align-items:center;gap:8px; }
+.pdf-toolbar button { min-width:44px;min-height:44px;background:var(--soft);border-radius:6px;font-size:16px; }
+.pdf-toolbar button:disabled { opacity:.4; }
+#page-form { font-size:13px; }
+#page-number { width:62px;min-height:44px;padding:6px;border:1px solid var(--line);border-radius:5px;font-size:16px;text-align:center; }
+.view-controls select { min-height:44px;font-size:14px;max-width:100%;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:6px; }
+.pdf-page { overflow-x:auto;padding:8px 0;min-height:160px;scroll-margin-top:170px; }
+.pdf-page canvas { display:block;margin:auto;background:white;box-shadow:0 2px 8px #0001; }
+.pdf-page[aria-busy=true] { opacity:.6; }
+.pdf-text { padding:24px;max-width:720px;margin:auto;background:var(--paper);font:20px/1.8 Georgia,serif;white-space:pre-line;overflow-wrap:anywhere; }
+.reading-note { font-size:13px;line-height:1.6;padding:12px 4px;color:var(--muted); }
+.reader-actions { display:flex;flex-wrap:wrap;gap:10px 24px;padding:12px 0; }
+.reader-actions a,#catalog-details { display:inline-flex;align-items:center;min-height:44px;font-size:13px;text-decoration:underline;text-underline-offset:3px; }
+#videos-panel,#details-panel { padding:24px 0;max-width:850px;margin:auto; }
+#videos-panel h2,#details-panel h2 { font:32px/1.2 var(--serif);margin:8px 0 16px; }
+.panel-intro,#detail-description { font-size:16px;line-height:1.7;margin-bottom:22px; }
+#book-player { background:var(--paper);padding:16px;border-radius:12px;margin-bottom:24px; }
+#reader-video { display:block;width:100%;max-height:55dvh;background:#142d28;border-radius:8px; }
+#reader-video-title { font:24px/1.2 var(--serif);margin:16px 0 12px; }
+#reader-video-description { font-size:14px;line-height:1.6;margin-bottom:16px; }
+#book-video-list h3 { font-size:16px;margin:24px 0 12px; }
+.reader-video-item { display:flex;gap:14px;align-items:center;width:100%;min-height:76px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px;margin-bottom:10px;text-align:left; }
+.reader-video-item[aria-current=true] { border-color:var(--green);box-shadow:inset 0 0 0 1px var(--green); }
+.reader-video-item img { width:76px;height:60px;object-fit:contain;background:var(--green);border-radius:6px; }
+.reader-video-item strong { display:block;font-size:15px;line-height:1.4; }
+.reader-video-item small { display:block;font-size:12px;color:var(--muted);margin-top:6px; }
+#detail-meta { display:grid;grid-template-columns:auto 1fr;gap:12px 20px;margin:24px 0;font-size:14px; }
+#detail-meta dt { color:var(--muted); }
+#detail-meta dd { margin:0; }
+.detail-actions { display:flex;gap:12px;flex-wrap:wrap; }
 @media(max-width:600px) {
-  .reader-back { min-height:44px;display:flex;align-items:center;font-size:13px;margin-bottom:8px; }
-  .reader-controls select { font-size:16px;min-height:46px; }
-  .reader-controls .button { min-height:46px;font-size:14px; }
-  .reader-hint { font-size:13px; }
-  #pdf-frame { min-height:55dvh; }
-  .reader-source { font-size:12px;padding-bottom:env(safe-area-inset-bottom); }
+  .reader-header { padding:8px 16px 14px; }
+  .reader-header h1 { font-size:24px; }
+  .reader-main { padding:0 10px max(20px,env(safe-area-inset-bottom)); }
+  .book-nav { padding:0 6px; }
+  .pdf-toolbar { gap:6px; }
+  .page-controls { width:100%;justify-content:space-between;gap:4px; }
+  .view-controls { width:100%; }
+  .view-controls select { flex:1;min-width:0;font-size:16px; }
+  .edition-controls { flex-wrap:wrap;gap:6px; }
+  .edition-controls select { width:100%; }
+  .pdf-text { padding:20px 16px;font-size:20px; }
+  #videos-panel,#details-panel { padding:20px 6px; }
+  .detail-actions .button { width:100%; }
 }

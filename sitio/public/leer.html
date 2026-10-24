@@ -3,27 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#163d37">
-  <title>Leer una referencia · Entre nosotros</title>
+  <meta name="theme-color" content="#203e38">
+  <title>Leer y explorar un libro · Entre nosotros</title>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/reader.css">
   <script type="module" src="/reader.js"></script>
 </head>
 <body class="reader-page">
-  <header class="reader-header"><a id="reader-back" class="reader-back" href="/#biblioteca">← Volver a los videos y referencias</a><div class="reader-heading"><div><p class="eyebrow">LECTURA · PDF ORIGINAL</p><h1 id="reader-title">Preparando tu lectura…</h1><p id="reader-author"></p></div><div class="reader-controls" id="reader-controls" hidden><label id="edition-label" for="edition">Tomo o edición</label><select id="edition"></select></div></div></header>
+  <header class="reader-header">
+    <a id="reader-back" class="reader-back" href="/?type=book#referencias">← Volver a la biblioteca</a>
+    <h1 id="reader-title">Preparando tu libro…</h1><p id="reader-author"></p>
+  </header>
+  <nav class="book-nav" id="book-nav" aria-label="Explorar este libro" hidden>
+    <button data-view="read" aria-current="page">Leer</button><button data-view="videos">Videos <span id="video-count"></span></button><button data-view="details">Ficha</button>
+  </nav>
   <main class="reader-main">
-    <section class="reader-launch" id="reader-launch" aria-label="Abrir el libro" hidden>
-      <div id="reader-mobile-note" hidden><h2>Tu libro, a pantalla completa.</h2><p>Abre el PDF para ampliar el texto y recorrer sus páginas con los controles de tu dispositivo.</p></div>
-      <div class="reader-actions"><a class="button primary" id="open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a><a class="button secondary" id="download-pdf" download>Descargar</a></div>
-      <p class="reader-return" id="reader-return" hidden>Para regresar a los libros, usa el botón Atrás de tu navegador. Si el PDF no abre en esta app, descárgalo o abre esta página en Safari o Chrome.</p>
+    <section id="read-panel" aria-label="Lectura del libro">
+      <div class="edition-controls" id="reader-controls" hidden><label for="edition">Tomo o edición</label><select id="edition"></select></div>
+      <div class="reader-status" id="reader-status" role="status" aria-live="polite">Cargando el libro…</div>
+      <div class="reader-error" id="reader-error" hidden><h2>No pudimos mostrar esta página.</h2><p id="reader-error-message"></p><button class="button secondary" id="retry-pdf">Volver a intentar</button></div>
+      <div id="pdf-reader" hidden>
+        <div class="pdf-toolbar" aria-label="Controles de lectura">
+          <div class="page-controls"><button id="previous-page" aria-label="Página anterior">←</button><form id="page-form"><label for="page-number">Página</label><input id="page-number" type="number" inputmode="numeric" min="1" value="1" required><span id="page-total"></span><button type="submit">Ir</button></form><button id="next-page" aria-label="Página siguiente">→</button></div>
+          <div class="view-controls"><label class="sr-only" for="reading-mode">Modo de lectura</label><select id="reading-mode"><option value="original">Página original</option><option value="text">Texto cómodo</option></select><label class="sr-only" for="zoom">Ampliación</label><select id="zoom"><option value="1">Ajustar ancho</option><option value="1.5">Ampliar 150%</option><option value="2">Ampliar 200%</option></select></div>
+        </div>
+        <div id="pdf-page" class="pdf-page" aria-busy="false" tabindex="0" aria-label="Página del libro"></div>
+        <p class="reading-note">Tu página se recuerda en este navegador. Cambia a «Texto cómodo» para leer con letras más grandes.</p>
+      </div>
+      <div class="reader-actions" id="reader-actions" hidden><a id="open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF original ↗</a><a id="download-pdf" download>Descargar PDF</a><a id="official-source" target="_blank" rel="noopener noreferrer">Fuente oficial ↗</a></div>
     </section>
-    <p class="reader-hint" id="reader-hint" hidden>Lee con los controles del visor. Si en tu celular o tablet no se muestra bien, usa <a id="hint-open-pdf" target="_blank" rel="noopener noreferrer">Abrir PDF en otra pestaña</a>.</p>
-    <div class="reader-status" id="reader-status" role="status" aria-live="polite">Cargando el libro…</div>
-    <div class="reader-error" id="reader-error" hidden><h2>No pudimos abrir el PDF aquí.</h2><p id="reader-error-message">Puedes intentar otra vez o abrir el PDF desde la fuente oficial.</p><div><button class="button secondary" id="retry-pdf">Volver a intentar</button><a class="button primary" id="error-official" target="_blank" rel="noopener noreferrer" hidden>Abrir PDF oficial</a></div></div>
-    <iframe id="pdf-frame" title="Lector del PDF original" hidden></iframe>
-    <p class="reader-source" id="reader-source" hidden><a id="official-source" target="_blank" rel="noopener noreferrer">PDF en la fuente oficial</a><span> · Documento original, sin modificaciones.</span></p>
+    <section id="videos-panel" aria-label="Videos de este libro" hidden>
+      <h2>El libro en video</h2><p class="panel-intro">Empieza con el resumen o elige un episodio. Puedes volver a tu lectura en cualquier momento.</p>
+      <div id="book-player" hidden><video id="reader-video" controls playsinline preload="metadata"></video><h3 id="reader-video-title"></h3><p id="reader-video-description"></p><p id="video-error" hidden>No pudimos reproducirlo. <a id="video-direct" target="_blank" rel="noopener">Abrir video</a></p><button id="resume-reading" class="button secondary">Volver a mi lectura</button></div>
+      <div id="book-video-list"></div>
+    </section>
+    <section id="details-panel" aria-label="Ficha del libro" hidden><p class="eyebrow">ACERCA DE ESTE LIBRO</p><h2 id="detail-title"></h2><p id="detail-description"></p><dl id="detail-meta"></dl><div class="detail-actions"><button class="button primary" data-view="read">Seguir leyendo</button><button class="button secondary" data-view="videos">Ver resumen y videos</button><a id="catalog-details">Ficha en la biblioteca →</a></div></section>
   </main>
-  <noscript>Necesitas JavaScript para seleccionar el libro. <a href="/">Volver al catálogo</a>.</noscript>
+  <noscript>Necesitas JavaScript para el lector. <a href="/?type=book">Volver a los libros</a>.</noscript>
 </body>
 </html>
